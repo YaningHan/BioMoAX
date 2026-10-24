@@ -1,5 +1,20 @@
 # Reproduction and source mapping
 
+## Model and objectives
+
+The image backbone is a 12-block ViT with width 384, six attention heads and 16-pixel patches. Inputs are five-channel 128×128 crops. The expression backbone maps 12,328 features through widths 1,024 and 512. Each modality has compound and MOA projection heads producing normalized 256-dimensional vectors.
+
+The training objective is:
+
+```
+L = 2 L_compound + 1.7 L_image_MOA + 3 L_expression_MOA
+    + 2 L_cross_modal_MOA + L_gene_image
+```
+
+Expression embeddings are detached in the cross-modal MOA term. Genetic and chemical images share the image backbone and image MOA head. CRISPR-to-expression training is disabled. Use `biomoax train` to apply these settings.
+
+Model error bars describe variation between checkpoint means. Baseline retrieval intervals describe query-bootstrap uncertainty; batch-mixing baseline errors use paired jackknife standard errors. See [result table conventions](../results/paper/README.md) for task-specific details.
+
 ## Source layers
 
 `src/biomoax/model.py` contains the model definitions. `metrics.py`, `baselines.py`, `inference.py` and `cli.py` provide the public interfaces. `legacy/` contains the training implementation used by `biomoax train`.

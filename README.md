@@ -20,7 +20,9 @@ Repository: https://github.com/YaningHan/BioMoAX. Download source data from the 
 - `configs/` and `splits/`: paper configuration and fixed genetic split.
 - `manifests/`: core drug partitions, processed image/expression row mappings and MOA query/gallery lists.
 - `examples/` and `tests/`: synthetic example and CPU tests.
+- `scripts/`: Bash entry points for preprocessing, training, encoding, and evaluation.
 - `pipelines/`: [Cellpose, CellProfiler and DeepProfiler commands](pipelines/README.md), with explicit route scope and external dependencies.
+- `environments/`: dependency lists for the core package and preprocessing tools.
 - `results/paper/`: current manuscript numerical tables and selected MOA color mappings; see its README for column conventions.
 - `docs/`: data sources, preprocessing, input specifications, and reproduction notes.
 
@@ -31,6 +33,8 @@ See [environment setup](environments/README.md) for module-specific dependencies
 Use Python 3.10 or newer in a fresh environment. Install a CUDA-compatible PyTorch build for GPU training, then install this package:
 
 ```bash
+git clone https://github.com/YaningHan/BioMoAX.git
+cd BioMoAX
 python -m pip install -e .
 python -m biomoax.cli --help
 ```
@@ -47,18 +51,13 @@ python -m unittest discover -s tests -v
 
 The synthetic example demonstrates the retrieval interface and positive/exclusion masks without downloading research data.
 
-## Model and objectives
+## Data and workflow
 
-The image backbone is a 12-block ViT with width 384, six attention heads and 16-pixel patches. Inputs are five-channel 128×128 crops. The expression backbone maps 12,328 features through widths 1,024 and 512. Each modality has compound and MOA projection heads producing normalized 256-dimensional vectors.
+1. Download inputs from the providers listed in [data sources](docs/DATA_SOURCES.md).
+2. Follow [preprocessing](docs/PREPROCESSING.md) and the [input specifications](docs/DATA.md) to prepare images, expression profiles, and metadata.
+3. Use the [shell workflow](docs/SHELL_WORKFLOW.md) to train, encode profiles, and evaluate retrieval. CSV templates are in [examples/inputs](examples/inputs/README.md).
 
-The paper objective is:
-
-```
-L = 2 L_compound + 1.7 L_image_MOA + 3 L_expression_MOA
-    + 2 L_cross_modal_MOA + L_gene_image
-```
-
-Expression embeddings are detached in the cross-modal MOA term. Genetic and chemical images share the image backbone and image MOA head. The paper recipe disables the CRISPR-to-expression loss. Use `biomoax train` to apply these training settings.
+Model architecture, loss weights, and task-specific evaluation rules are described in [method and evaluation details](docs/REPRODUCTION.md).
 
 ## Training
 
@@ -103,8 +102,6 @@ Use `scripts/13_ridge_predict.sh` to map queries and target-gallery profiles bef
 ## Paper results and scope
 
 Paper result tables are in `results/paper/`; see its README for column definitions and uncertainty conventions. Run settings and checkpoint mappings are recorded in `configs/paper.json`.
-
-Model error bars describe variation between checkpoint means. Baseline retrieval intervals describe query-bootstrap uncertainty; batch-mixing baseline errors use paired jackknife standard errors. These are different sources of uncertainty.
 
 To visualize the current paper A549 identity summary and CRISPR curves without raw images:
 
