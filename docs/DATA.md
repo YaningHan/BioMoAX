@@ -55,7 +55,7 @@ data/processed/
       meta_cpg0000_cpd_U2OS.csv
 ```
 
-This list is the required input contract, not a bundled dataset. The archived loaders validate additional source columns and identities; preserve original processed metadata rather than fabricating it. The training program hashes `complete.json` for provenance, and may materialize the gene split and temporary cache information under the supplied root.
+Retain the complete metadata fields and identifier mappings required by the loaders. The training program hashes `complete.json` and may write gene partitions and temporary cache information under the supplied root.
 
 ## Shapes and identifiers
 

@@ -8,7 +8,7 @@ Download data directly from the original providers. This repository does not mir
 | LINCS / Connectivity Map | https://clue.io/data | L1000 expression profiles and compound annotations |
 | CellPainting-CNN weights | https://zenodo.org/records/7114558 | External pretrained model for the DeepProfiler baseline; not BioMoAX weights |
 | DeepProfiler | https://github.com/cytomining/DeepProfiler | Upstream software and profiling documentation |
-| Cellpose | https://github.com/MouseLand/cellpose | Upstream segmentation software; use the compatible historical model/API, not an unverified replacement |
+| Cellpose | https://github.com/MouseLand/cellpose | Segmentation software; pipeline version and model are specified in the preprocessing guide |
 
 The local source records identify these Gallery prefixes:
 
@@ -45,6 +45,6 @@ Use the [CMap 2020 data page](https://clue.io/data/CMap2020) to locate these fil
 | `compoundinfo_beta.txt` | Compound, target and MOA annotations |
 | `geneinfo_beta.txt` | Gene annotations; matrix column order comes from GCTX gene IDs |
 
-The extraction command reads sample IDs from `instinfo_beta.txt` and gene order from the GCTX itself; see [expression processing](L1000_PROVENANCE.md). File names identify the source inputs, not a verified reconstruction of every archived paper array. Preserve explicit sample selections when generating new arrays.
+The extraction command reads sample IDs from `instinfo_beta.txt` and gene order from the GCTX itself; see [expression processing](L1000_PROVENANCE.md). These files provide the source data; reproducing a processed array also requires its sample selection and aggregation settings. Retain sample IDs when generating arrays.
 
 Retain sample identifiers, plate/well/site information, compound/gene mappings, channel order, train/evaluation splits, and checksums alongside downloaded files. These small metadata artifacts are distinct from the raw data and are required for faithful reproduction. The included genetic split is under `splits/`; the complete input contract is in [DATA.md](DATA.md).

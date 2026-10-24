@@ -11,7 +11,7 @@ bash scripts/08_extract_expression.sh --cell U2OS --records compounds.csv \
   --output runs/expression_u2os
 ```
 
-Change `--cell` and the compound CSV for other cell types. The command averages same-cell compound instances without dose/time or QC filtering. It preserves input record order and the GCTX gene order, and saves `expression.npy`, availability flags, and sample mappings. Missing profiles are marked NaN, not measured zeros. Use a new output directory and retain the accompanying identifiers for downstream alignment. This is a fresh extraction entry point, not an automatic replacement for archived paper inputs.
+Change `--cell` and the compound CSV for other cell types. The command averages same-cell compound instances without dose/time or QC filtering. It preserves input record order and the GCTX gene order, and saves `expression.npy`, availability flags, and sample mappings. Missing profiles are marked NaN, not measured zeros. Use a new output directory and retain the identifiers for downstream alignment. Check sample selections and numerical compatibility before using new arrays with the paper's processed inputs.
 
 Test with `python pipelines/test_expression.py -v`.
 
@@ -31,15 +31,15 @@ Run these commands from the repository root. All output directories must be new.
 
 ## 1. Cellpose
 
-Use `cellpose==4.0.9` with NumPy, SciPy, h5py, Pillow and tifffile in a compatible PyTorch environment. This is the pinned reconstruction version, not a claim about every historical extraction. Supply the downloaded `cpsam` weights explicitly; the script rejects a fallback model.
+This pipeline uses `cellpose==4.0.9` with NumPy, SciPy, h5py, Pillow and tifffile in a compatible PyTorch environment. Supply the downloaded `cpsam` weights explicitly; the script rejects a fallback model.
 
 ```bash
 python pipelines/segment.py --manifest sites.csv --weights /path/to/cpsam --output runs/segmented --gpu
 ```
 
-The CSV needs `plate,well,site,kind,label` plus `DNA,ER,RNA,AGP,Mito` and `illum_DNA,illum_ER,illum_RNA,illum_AGP,illum_Mito`. Image/illumination fields are paths relative to the CSV or absolute paths. Use one row per site. `kind` is `crispr` or `compound`; integer `label` must match your condition metadata. Include a separate manifest per cell/source when plate/well/site identifiers could collide. No example CSV is presented as the actual paper sample list.
+The CSV needs `plate,well,site,kind,label` plus `DNA,ER,RNA,AGP,Mito` and `illum_DNA,illum_ER,illum_RNA,illum_AGP,illum_Mito`. Image/illumination fields are paths relative to the CSV or absolute paths. Use one row per site. `kind` is `crispr` or `compound`; integer `label` must match your condition metadata. Include a separate manifest per cell/source when plate/well/site identifiers could collide.
 
-CRISPR correction divides by illumination; compound correction also multiplies by the illumination median, matching the inspected reconstruction. DNA is percentile-normalized for segmentation; diameter is 40 for CRISPR and automatic for compound images. Crops retain uint16 intensities after clipping, use integer-truncated mask centroids, and exclude boundary-crossing windows. Output channels are DNA, ER, RNA, AGP, Mito. Zero-crop sites remain recorded and require review.
+CRISPR correction divides by illumination; compound correction also multiplies by the illumination median. DNA is percentile-normalized for segmentation; diameter is 40 for CRISPR and automatic for compound images. Crops retain uint16 intensities after clipping, use integer-truncated mask centroids, and exclude boundary-crossing windows. Output channels are DNA, ER, RNA, AGP, Mito. Zero-crop sites remain recorded and require review.
 
 This command does not implement all earlier multicell `nuclei` routes or the separate expansion-PNG route. Already illumination-corrected images must not be fed through correction a second time.
 
@@ -51,7 +51,7 @@ The wrapper requires NumPy, pandas, h5py and tifffile. The external measurement 
 python pipelines/cellprofiler.py --input runs/segmented/crops.h5 --executable /path/to/cellprofiler --output runs/cp
 ```
 
-The included `assets/crop.cppipe` and `assets/cp_columns.txt` are unchanged copies of the project's measurement pipeline and feature list. Their source hashes are in `assets/provenance.json`. The wrapper supplies an explicit load-data CSV and output folder, overriding the pipeline's historical default locations. Auxiliary brightfield names point to AGP for pipeline compatibility; the selected output feature list is the original five-channel list.
+`assets/crop.cppipe` defines the measurement pipeline and `assets/cp_columns.txt` selects the output features. The wrapper supplies the load-data CSV and output folder. Auxiliary brightfield names point to AGP for pipeline compatibility; output features use the five fluorescence channels.
 
 `features.npy` preserves every input crop row. `nuclei_counts.npy` and `valid_rows.npy` flag measurement failures/nonfinite features; invalid rows are not silently zero-filled. Keep the same valid rows across compared methods. TIFFs and measurement CSVs are retained under batch directories for inspection, so plan disk space accordingly. No imputation or native-profile aggregation is implied by this crop command.
 
@@ -63,7 +63,7 @@ The tested model environment uses TensorFlow 2.13.1 and `efficientnet==1.1.1` wi
 python pipelines/deepprofiler.py --input runs/segmented/crops.h5 --weights /path/to/Cell_Painting_CNN_v1.hdf5 --output runs/dp
 ```
 
-The extractor checks all 309 backbone tensors for names, shapes, finite values and exact loaded values. Missing or incompatible weights fail the run. Crops are reordered from DNA, ER, RNA, AGP, Mito to DNA, RNA, ER, AGP, Mito, then min–max scaled per crop/channel. Features are not automatically averaged or L2-normalized; downstream condition aggregation must match the intended task. This is not a substitute for historical percentile-scaled feature tables.
+The extractor validates backbone weights and rejects missing or incompatible tensors. Crops are reordered from DNA, ER, RNA, AGP, Mito to DNA, RNA, ER, AGP, Mito, then min–max scaled per crop/channel. Features are not automatically averaged or L2-normalized; downstream condition aggregation must match the intended task. Min–max-scaled features are not interchangeable with percentile-scaled features.
 
 ## Validation and provenance
 

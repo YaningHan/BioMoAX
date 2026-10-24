@@ -1,0 +1,2 @@
+plate,well,site,kind,label,DNA,ER,RNA,AGP,Mito,illum_DNA,illum_ER,illum_RNA,illum_AGP,illum_Mito
+example_plate,A01,1,compound,0,images/DNA.tiff,images/ER.tiff,images/RNA.tiff,images/AGP.tiff,images/Mito.tiff,illum/DNA.npy,illum/ER.npy,illum/RNA.npy,illum/AGP.npy,illum/Mito.npy

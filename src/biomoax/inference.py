@@ -22,9 +22,11 @@ def load_models(path, device="cpu", head="moa"):
 
 
 @torch.no_grad()
-def encode_condition(models, values, modality, device="cpu", batch_size=16):
+def encode_condition(models, values, modality, device="cpu", batch_size=16, per_crop=False):
     if batch_size < 1:
         raise ValueError("batch_size must be positive")
+    if per_crop and modality != "image":
+        raise ValueError("per_crop is only supported for image inputs")
     x = np.asarray(values)
     if len(x) == 0 or not np.isfinite(x).all():
         raise ValueError("Empty or nonfinite input")
@@ -44,6 +46,6 @@ def encode_condition(models, values, modality, device="cpu", batch_size=16):
         else:
             raise ValueError("modality must be image or expression")
     z = torch.cat(parts)
-    if modality == "image":
+    if modality == "image" and not per_crop:
         z = F.normalize(z.mean(0, keepdim=True), dim=-1)
     return z.cpu().numpy()

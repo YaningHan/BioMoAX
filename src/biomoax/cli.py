@@ -20,6 +20,12 @@ def main():
     r = sub.add_parser("ridge-fit", help="Fit both directions using training pairs only")
     r.add_argument("--input", type=Path, required=True)
     r.add_argument("--output", type=Path, required=True)
+    rp = sub.add_parser("ridge-predict", help="Map query and gallery features into the fitted target space")
+    rp.add_argument("--model", type=Path, required=True, help="Trusted ridge-fit joblib file")
+    rp.add_argument("--query", type=Path, required=True)
+    rp.add_argument("--gallery", type=Path, required=True)
+    rp.add_argument("--direction", choices=["i2e", "e2i"], required=True)
+    rp.add_argument("--output", type=Path, required=True, help="New directory for mapped .npy files")
     en = sub.add_parser("encode", help="Encode crops of one condition, or expression rows")
     en.add_argument("--checkpoint", type=Path, required=True)
     en.add_argument("--input", type=Path, required=True)
@@ -28,12 +34,15 @@ def main():
     en.add_argument("--head", choices=["moa","compound"], default="moa")
     en.add_argument("--device", default="cpu")
     en.add_argument("--batch-size", type=int, default=16)
-    t = sub.add_parser("train", help="Run the archived five-loss paper training recipe")
+    en.add_argument("--per-crop", action="store_true", help="Image inputs: preserve one embedding per crop instead of averaging")
+    t = sub.add_parser("train", help="Run the five-loss paper training recipe")
     t.add_argument("--project-root", type=Path, required=True, help="Root containing data/processed")
     t.add_argument("--output", type=Path, required=True, help="New training output directory")
     t.add_argument("--seed", type=int, default=43)
     t.add_argument("--preflight", action="store_true", help="Two updates with reduced caches")
     args = p.parse_args()
+    if args.command == "encode" and args.per_crop and args.modality != "image":
+        p.error("--per-crop requires --modality image")
     if args.command == "check-data":
         from .data import check_inputs
         result=check_inputs(args.project_root)
@@ -62,11 +71,27 @@ def main():
         with np.load(args.input, allow_pickle=False) as d:
             model = CrossModalRidge().fit(d["image"], d["expression"])
         joblib.dump(model, args.output)
+    elif args.command == "ridge-predict":
+        import joblib
+        model = joblib.load(args.model)
+        query = np.load(args.query, allow_pickle=False)
+        gallery = np.load(args.gallery, allow_pickle=False)
+        for name, values in (("query", query), ("gallery", gallery)):
+            if values.ndim != 2 or not len(values) or not np.isfinite(values).all():
+                raise ValueError(f"{name} must be a nonempty finite feature matrix")
+        query = model.predict(query, args.direction)
+        gallery = model.gallery(gallery, "expression" if args.direction == "i2e" else "image")
+        for values in (query, gallery):
+            if not np.isfinite(values).all() or np.any(np.linalg.norm(values, axis=1) == 0):
+                raise ValueError("Mapped features must be finite and nonzero")
+        args.output.mkdir(exist_ok=False)
+        np.save(args.output / "query.npy", query)
+        np.save(args.output / "gallery.npy", gallery)
     elif args.command == "encode":
         from .inference import load_models, encode_condition
         models = load_models(args.checkpoint, args.device, args.head)
         z = encode_condition(models, np.load(args.input,allow_pickle=False),
-                             args.modality,args.device,args.batch_size)
+                             args.modality,args.device,args.batch_size,per_crop=args.per_crop)
         with args.output.open("wb") as handle: np.save(handle,z)
 
 

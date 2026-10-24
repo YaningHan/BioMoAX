@@ -67,5 +67,27 @@ class ConditionTests(unittest.TestCase):
     def test_normalized_mean(self):
         np.testing.assert_allclose(aggregate([[2,0],[0,5]],'normalized-mean'),[2**-.5,2**-.5])
 
+    def test_external_crop_labels(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); a=self.fixture(root)
+            a.crop_labels=root/'labels.csv'
+            pd.DataFrame({'source_row':[3,0,2,1], 'label':[20,10,10,20]}).to_csv(a.crop_labels,index=False)
+            with h5py.File(a.crops,'a') as h: del h['labels']
+            build(a)
+            np.testing.assert_array_equal(np.load(a.output/'features.npy'), [[0,4],[3,0]])
+
+    def test_external_crop_labels_reject_bad_mapping(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); a=self.fixture(root)
+            a.crop_labels=root/'labels.csv'
+            for rows, labels, message in [
+                ([0,1,2,2],[10,20,10,20],'exactly once'),
+                ([0,1,2],[10,20,10],'exactly once'),
+                ([0,1,2,3],[20,10,10,20],'disagree'),
+                ([0,1,2,3],[10,20,10,20.5],'finite integers')]:
+                pd.DataFrame({'source_row':rows,'label':labels}).to_csv(a.crop_labels,index=False)
+                with self.assertRaisesRegex(ValueError,message): build(a)
+            self.assertFalse(a.output.exists())
+
 
 if __name__=='__main__': unittest.main()

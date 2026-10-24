@@ -7,8 +7,9 @@ BioMoAX learns representations of Cell Painting images and L1000 expression prof
 - Image and expression encoders, four projection heads, contrastive losses, and image normalization.
 - A training entry point with the paper's fixed data splits and evaluation settings.
 - Checkpoint loading, profile encoding, cosine retrieval, and bidirectional ridge baselines.
-- Summary tables underlying the main retrieval figures, checkpoint configuration, source hashes, and a synthetic runnable example.
+- Summary tables underlying the main retrieval figures, run configuration, and a synthetic runnable example.
 - [Data specifications](docs/DATA.md), [pipeline instructions](docs/SHELL_WORKFLOW.md), and [reproduction notes](docs/REPRODUCTION.md).
+- [Native CellProfiler profile alignment](docs/PREPROCESSING.md#native-cellprofiler-profile-tables), with fixed feature order and coverage masks.
 
 Repository: https://github.com/YaningHan/BioMoAX. Download source data from the original providers listed in [data sources](docs/DATA_SOURCES.md); raw images and large processed arrays are not redistributed here. See [preprocessing](docs/PREPROCESSING.md) for processing instructions.
 
@@ -57,7 +58,7 @@ L = 2 L_compound + 1.7 L_image_MOA + 3 L_expression_MOA
     + 2 L_cross_modal_MOA + L_gene_image
 ```
 
-Expression embeddings are detached in the cross-modal MOA term. Genetic and chemical images share the image backbone and image MOA head. The paper recipe disables the CRISPR-to-expression loss. The legacy modules contain historical defaults that are overridden by the training entry point; use `biomoax train`, not individual legacy scripts.
+Expression embeddings are detached in the cross-modal MOA term. Genetic and chemical images share the image backbone and image MOA head. The paper recipe disables the CRISPR-to-expression loss. Use `biomoax train` to apply these training settings.
 
 ## Training
 
@@ -85,6 +86,8 @@ biomoax encode --checkpoint /path/to/model.pt --input one_condition_crops.npy --
 
 Crop input has shape `[N,5,128,128]` with uint16 intensities. For multiple conditions, use the [batch encoding command](docs/SHELL_WORKFLOW.md#condition-features). Expression input has shape `[N,12328]` and produces one embedding per row. Load checkpoints only from trusted sources.
 
+For identity retrieval, use `--head compound --per-crop` to export one image embedding per crop, preserving input order. See [the identity workflow](docs/SHELL_WORKFLOW.md#drug-identity) for the subsequent crop splits and evaluation.
+
 `biomoax evaluate` accepts an NPZ containing `query`, `gallery`, boolean `positive`, and optional boolean `excluded`. Construct positives and same-record exclusions from metadata before calling it. See `docs/DATA.md` for shapes and conventions. This explicit interface also supports CRISPR-to-drug retrieval using the paper's target/MOA positive definitions.
 
 ## Ridge baseline
@@ -94,6 +97,8 @@ biomoax ridge-fit --input training_pairs.npz --output runs/ridge.joblib
 ```
 
 The input has `image` and `expression` matrices containing training pairs only. The two directions are fitted independently with alpha 1, an intercept, and training-fitted StandardScaler transformations. MOA labels are not used for fitting. The caller supplies the documented CellProfiler or DeepProfiler input profiles, paired rows, and missing-feature handling.
+
+Use `scripts/13_ridge_predict.sh` to map queries and target-gallery profiles before retrieval. `scripts/14_identity_retrieval.sh` implements repeated disjoint crop splits for drug identity. Commands are in [the shell workflow](docs/SHELL_WORKFLOW.md#retrieval), with CSV schemas in [input templates](examples/inputs/README.md).
 
 ## Paper results and scope
 
@@ -107,7 +112,7 @@ To visualize the current paper A549 identity summary and CRISPR curves without r
 python scripts/plot_result_tables.py --output runs/table_plots
 ```
 
-These compact plots check the tables and do not regenerate the composed manuscript figures.
+This command produces standalone plots from the result tables.
 
 ## Distribution and licensing
 

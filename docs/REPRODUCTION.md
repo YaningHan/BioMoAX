@@ -36,3 +36,21 @@ For each condition the original evaluation samples up to 100 crops, projects eac
 
 Results are aggregated across three checkpoints after averaging crop draws within each checkpoint. Table columns and uncertainty conventions are described in `results/paper/README.md`.
 
+## Baseline feature units
+
+Crop-level features and native condition profiles serve different tasks. A shared method name does not imply identical input crops or aggregation across panels.
+
+| Evaluation | CellProfiler inputs and calculation |
+|---|---|
+| Fig2A, drug identity | Matched crop features; five disjoint 20/80 query/gallery splits per drug. Aggregate each side by feature-wise median, replace nonfinite aggregate values using gallery medians (zero if no finite gallery value), L2-normalize, then rank by cosine similarity. |
+| Fig2B and Fig4, image-to-image MOA retrieval | Native condition-level profiles with source-specific aggregation and the common feature columns; rank by cosine similarity. |
+| Fig2B and Fig4, cross-modal retrieval | Raw native CP profiles paired with expression. Fit independent image-to-expression and expression-to-image ridge models with training-only standardization, alpha 1 and an intercept. |
+| Fig3, cross-batch retrieval | Native cpg0030/cpg0012 profile baseline. Crop-level spatial displays are separate from this retrieval calculation. |
+| Fig5A, CRISPR-to-drug retrieval | Align gene and drug profiles on shared CP columns. Fit RobustScaler to the full native drug gallery and apply it to both sides, then rank normalized profiles using the common eligible CP/DP gallery and target/MOA positives. |
+
+For native U2OS CP profiles, compute per-well medians from cell measurements, then per-compound medians across wells; fill missing compound-feature values using the column median. The supplied [aggregation and alignment commands](PREPROCESSING.md#native-cellprofiler-profile-tables) start from well-level or condition-level tables. Native U2OS/A549 matrix reconstruction uses RobustScaler fitted to the supplied condition rows, including recorded zero placeholders. This transform is distinct from the training-only StandardScaler used by ridge baselines.
+
+Auxiliary-cell native CP profiles use finite single-cell vectors averaged within each compound and plate, followed by an equal-weight average across available plates. This is not a crop-level median or a cell-count-weighted average across plates. Native DP profiles use source-specific mean aggregation; the generic crop extractor and aggregator should not be treated as an interchangeable replacement for those inputs.
+
+Use crop-level CP/DP commands for matched-crop comparisons and spatial displays. Native-profile evaluations require their condition-level inputs and identifier mappings. Preserve explicit missing-feature masks rather than treating placeholder rows as measured profiles.
+

@@ -1,6 +1,6 @@
 # Core drug records and MOA tasks
 
-`drug_records.csv` links 1,978 processed drug/cell records to the original crop HDF5 label and expression row. It contains actual compound identifiers when present in source metadata, MOA sets, split assignments, crop counts and expression availability. It is not a raw L1000 signature manifest: the release still needs exact source signature IDs and release-file mapping for rebuilding the expression arrays from public downloads.
+`drug_records.csv` links 1,978 processed drug/cell records to crop HDF5 labels and expression rows, with compound identifiers, MOA sets, split assignments, crop counts and expression availability. It describes processed records, not raw L1000 sample selections; generating expression arrays requires explicit source sample IDs and aggregation settings.
 
 Partitions follow the shipped training implementation. The pure MOA split function is extracted from that source without importing or executing training. U2OS excludes Tocris records from training/query selection, while retaining them as gallery candidates. The 473 U2OS training labels are independently compared with the saved site split. A549 uses its original `int_label` for crop lookup and `new_int_label`/row index for expression lookup; these must not be conflated.
 
@@ -12,7 +12,7 @@ Partitions follow the shipped training implementation. The pure MOA split functi
 | MCF7 | 79 | 6 | 0 |
 | HT29 | 0 | 78 | 0 |
 
-`record_provenance.json` records metadata hashes. Paths in the CSV are relative to `PROJECT_ROOT/data/processed`. The `local_cpg0016` source name deliberately preserves an unresolved local accession mapping; it does not assert a verified external plate mapping.
+Paths in the CSV are relative to `PROJECT_ROOT/data/processed`. For the `local_cpg0016` inputs, `image_plate_sources.csv` lists 11 public image directories and their local cell labels. Exact well/crop selections and external cell annotations require separate alignment.
 
 ## Task lists
 
@@ -36,12 +36,12 @@ Identity retrieval uses crop-level splitting, so these drug-level task files mus
 - `cross_batch_shared`: 32 held-out shared-compound queries against the same gallery (474 MOA-positive pairs). This is a separate task, not an identity-retrieval positive definition.
 - `crispr_a549`: 29 eligible held-out genes against 1,038 drug records (341 positive pairs).
 
-`cross_batch_crop_rows.csv` maps each cross-batch query to the rows in `crops_cpg0030_u2os.h5`. Query IDs follow alphabetical compound ordering within each match group, as in the archived evaluator. Use those IDs when preparing embedding pools.
+`cross_batch_crop_rows.csv` maps each cross-batch query to the rows in `crops_cpg0030_u2os.h5`. Query IDs follow alphabetical compound ordering within each match group. Use those IDs when preparing embedding pools.
 
 CRISPR query metadata includes its source HDF5 gene label. `positive_evidence.csv` records direct-target membership, shared MOA labels and contributing anchor drug IDs. Anchors are defined against the full 1,039-row A549 collection; one-hop MOA expansion occurs before applying the frozen common-baseline gallery mask. Do not recompute expansion only after dropping gallery records. `heldout_coverage.csv` retains all 40 held-out genes, including those without positives.
 
-`crispr_a549_gallery_keys.json` preserves the actual finite/nonzero common-baseline selection from the archived full-gallery evaluation. `full:N` refers to expression/source row N in A549, not a crop HDF5 label. This is an exported experimental coverage mask, not a newly recomputed feature-quality check. Its source is `logs/rebuilt_crispr_fullgallery_aligned_20260926/A549_valid_gallery_keys.json`; its hash is recorded in `external_tasks/external_task_provenance.json`.
+`crispr_a549_gallery_keys.json` defines the finite/nonzero common-baseline gallery mask used for CRISPR evaluation. `full:N` refers to expression/source row N in A549, not a crop HDF5 label.
 
-The 40 held-out genes' positive counts were independently compared with the archived coverage table. Dataset and annotation source hashes are recorded in the external provenance file. Exact raw L1000 download/signature reconstruction remains outside these task exports.
+`heldout_coverage.csv` reports positive counts for all 40 held-out genes. These task files define retrieval pairs; they do not specify raw L1000 sample selections.
 
 Rebuild from the processed inputs with `bash scripts/07_prepare_tasks.sh /absolute/path/config.env`. This requires those inputs; existing bundled CSVs can be used without rerunning the export. It does not download or regenerate the underlying image or expression arrays.

@@ -9,7 +9,7 @@ import pandas as pd
 from common import new_output, validate_crops, write_record, sha256
 
 
-def groups(handle, records):
+def groups(handle, records, crop_labels=None):
     frame = pd.read_csv(records, dtype={'record_id': str}, keep_default_na=False)
     if not {'record_id', 'label'} <= set(frame) or frame.empty:
         raise ValueError('Provide a nonempty CSV with record_id,label columns')
@@ -21,7 +21,25 @@ def groups(handle, records):
     frame['label'] = numeric.astype(np.int64)
     if frame.label.duplicated().any():
         raise ValueError('Each crop label must map to exactly one record_id')
-    labels = handle['labels'][:]
+    if crop_labels is not None:
+        mapping = pd.read_csv(crop_labels)
+        if not {'source_row', 'label'} <= set(mapping):
+            raise ValueError('crop-labels requires source_row,label columns')
+        rows = pd.to_numeric(mapping.source_row, errors='raise').to_numpy()
+        labels = pd.to_numeric(mapping.label, errors='raise').to_numpy()
+        if (not np.isfinite(rows).all() or not np.isfinite(labels).all()
+                or not np.equal(labels, np.floor(labels)).all()):
+            raise ValueError('Crop rows and labels must be finite integers')
+        order = np.argsort(rows)
+        if not np.array_equal(rows[order], np.arange(len(handle['crops']))):
+            raise ValueError('crop-labels must cover each source row exactly once')
+        labels = labels[order].astype(np.int64)
+        if 'labels' in handle and not np.array_equal(labels, handle['labels'][:]):
+            raise ValueError('External crop labels disagree with HDF5 labels')
+    elif 'labels' in handle:
+        labels = handle['labels'][:]
+    else:
+        raise ValueError('HDF5 has no labels; supply --crop-labels with source_row,label columns')
     if labels.shape != (len(handle['crops']),) or labels.dtype.kind not in 'iu':
         raise ValueError('Expected one integer label per crop')
     return frame, labels
@@ -50,7 +68,7 @@ def build(args, encoder=None):
     if args.output.exists():
         raise FileExistsError(args.output)
     with h5py.File(args.crops, 'r') as handle:
-        frame, labels = groups(handle, args.records)
+        frame, labels = groups(handle, args.records, getattr(args, 'crop_labels', None))
         if args.mode == 'image':
             validate_crops(handle)
             if args.batch_size < 1:
@@ -111,6 +129,8 @@ def build(args, encoder=None):
     record = dict(status='complete', mode=args.mode, records_sha256=sha256(args.records),
                   crop_selection='source row ascending; first max_crops, or all if zero',
                   max_crops=args.max_crops, n_records=len(frame))
+    if getattr(args, 'crop_labels', None) is not None:
+        record['crop_labels_sha256'] = sha256(args.crop_labels)
     if args.mode == 'image':
         record.update(head=args.head, checkpoint_sha256=sha256(args.checkpoint),
                       aggregation='normalized mean of crop embeddings')
@@ -129,6 +149,8 @@ def main():
         for name in ('crops', 'records', 'output'):
             p.add_argument('--'+name, type=Path, required=True)
         p.add_argument('--max-crops', type=int, default=100 if mode == 'image' else 0)
+        p.add_argument('--crop-labels', type=Path,
+                       help='CSV with source_row,label for every crop; required when HDF5 has no labels')
         if mode == 'image':
             p.add_argument('--checkpoint', type=Path, required=True)
             p.add_argument('--head', choices=['moa', 'compound'], default='moa')
