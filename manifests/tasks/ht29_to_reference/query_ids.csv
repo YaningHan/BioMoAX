@@ -1,0 +1,72 @@
+record_id,source,cell,expression_row,h5_label,crop_file,expression_file,source_label,broad_id,jcp2022,name,moa,partition,n_crops,expression_nonzero
+local_cpg0016:HT29:0,local_cpg0016,HT29,0,0,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K20696416,JCP2022_000794,,IGF-1 inhibitor,held_out,827,True
+local_cpg0016:HT29:1,local_cpg0016,HT29,1,1,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A22713669,JCP2022_001890,,Tyrosine phosphatase inhibitor,held_out,1326,True
+local_cpg0016:HT29:2,local_cpg0016,HT29,2,2,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K33882852,JCP2022_002118,,Benzodiazepine receptor agonist,held_out,1633,True
+local_cpg0016:HT29:3,local_cpg0016,HT29,3,3,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A74391928,JCP2022_002206,,Potassium channel blocker,held_out,1007,True
+local_cpg0016:HT29:4,local_cpg0016,HT29,4,4,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K97010173,JCP2022_007613,,Chelating agent,held_out,604,True
+local_cpg0016:HT29:5,local_cpg0016,HT29,5,5,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K70463136,JCP2022_010382,,HIF inhibitor,held_out,711,True
+local_cpg0016:HT29:6,local_cpg0016,HT29,6,6,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A37704979,JCP2022_010404,,P38 MAPK inhibitor,held_out,894,True
+local_cpg0016:HT29:7,local_cpg0016,HT29,7,7,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K70358946,JCP2022_010654,,Serotonin receptor agonist,held_out,983,True
+local_cpg0016:HT29:8,local_cpg0016,HT29,8,8,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A09722536,JCP2022_012146,,DNA alkylating agent,held_out,1083,True
+local_cpg0016:HT29:9,local_cpg0016,HT29,9,9,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K74514084,JCP2022_013455,,KIT inhibitor,held_out,563,True
+local_cpg0016:HT29:10,local_cpg0016,HT29,10,10,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K42191735,JCP2022_013856,,PI3K inhibitor,held_out,300,True
+local_cpg0016:HT29:11,local_cpg0016,HT29,11,11,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K05878375,JCP2022_020163,,HDAC inhibitor,held_out,1093,True
+local_cpg0016:HT29:12,local_cpg0016,HT29,12,12,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K16730910,JCP2022_021751,,KIT inhibitor,held_out,671,True
+local_cpg0016:HT29:13,local_cpg0016,HT29,13,13,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K92049597,JCP2022_021857,,Sodium channel blocker,held_out,1121,True
+local_cpg0016:HT29:14,local_cpg0016,HT29,14,14,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K35498378,JCP2022_024601,,Aldose reductase inhibitor,held_out,1145,True
+local_cpg0016:HT29:15,local_cpg0016,HT29,15,15,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A65597028,JCP2022_031861,,Adrenergic receptor antagonist,held_out,889,True
+local_cpg0016:HT29:16,local_cpg0016,HT29,16,16,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A69636825,JCP2022_032357,,Calcium channel blocker,held_out,855,True
+local_cpg0016:HT29:17,local_cpg0016,HT29,17,17,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K64800655,JCP2022_032771,,CDK inhibitor,held_out,295,True
+local_cpg0016:HT29:18,local_cpg0016,HT29,18,18,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K37385792,JCP2022_035570,,Vasopressin receptor antagonist,held_out,967,True
+local_cpg0016:HT29:19,local_cpg0016,HT29,19,19,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K11558771,JCP2022_039863,,HDAC inhibitor,held_out,947,True
+local_cpg0016:HT29:20,local_cpg0016,HT29,20,20,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K50720187,JCP2022_042261,,Glutamate receptor antagonist,held_out,1124,True
+local_cpg0016:HT29:21,local_cpg0016,HT29,21,21,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A72483914,JCP2022_042354,,Serotonin receptor antagonist,held_out,1177,True
+local_cpg0016:HT29:22,local_cpg0016,HT29,22,22,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K98763141,JCP2022_043099,,Cyclooxygenase inhibitor,held_out,915,True
+local_cpg0016:HT29:23,local_cpg0016,HT29,23,23,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K72726508,JCP2022_043287,,CDK inhibitor,held_out,631,True
+local_cpg0016:HT29:24,local_cpg0016,HT29,24,24,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K87782578,JCP2022_047545,,BTK inhibitor,held_out,303,True
+local_cpg0016:HT29:25,local_cpg0016,HT29,25,25,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K97688263,JCP2022_047559,,Sodium channel blocker,held_out,1123,True
+local_cpg0016:HT29:27,local_cpg0016,HT29,27,27,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K32821942,JCP2022_050338,,Dehydrogenase inhibitor,held_out,767,True
+local_cpg0016:HT29:28,local_cpg0016,HT29,28,28,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A64479082,JCP2022_050797,,Sodium channel blocker,held_out,2157,True
+local_cpg0016:HT29:29,local_cpg0016,HT29,29,29,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K44067360,JCP2022_050861,,Chloride channel antagonist,held_out,1135,True
+local_cpg0016:HT29:30,local_cpg0016,HT29,30,30,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A89164055,JCP2022_052259,,Aldose reductase inhibitor,held_out,924,True
+local_cpg0016:HT29:31,local_cpg0016,HT29,31,31,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K24616672,JCP2022_053734,,HMGCR inhibitor,held_out,1218,True
+local_cpg0016:HT29:33,local_cpg0016,HT29,33,33,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K15502390,JCP2022_060649,,Reverse transcriptase inhibitor,held_out,1216,True
+local_cpg0016:HT29:34,local_cpg0016,HT29,34,34,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K22482860,JCP2022_061437,,Potassium channel blocker,held_out,941,True
+local_cpg0016:HT29:35,local_cpg0016,HT29,35,35,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K16761703,JCP2022_062592,,PKC inhibitor,held_out,976,True
+local_cpg0016:HT29:36,local_cpg0016,HT29,36,36,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A08187463,JCP2022_063174,,Enkephalinase inhibitor,held_out,1063,True
+local_cpg0016:HT29:37,local_cpg0016,HT29,37,37,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K60476892,JCP2022_065525,,Guanylyl cyclase activator,held_out,407,True
+local_cpg0016:HT29:38,local_cpg0016,HT29,38,38,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K95785537,JCP2022_067432,,Src inhibitor,held_out,956,True
+local_cpg0016:HT29:39,local_cpg0016,HT29,39,39,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K73319509,JCP2022_067886,,C-Met inhibitor,held_out,928,True
+local_cpg0016:HT29:40,local_cpg0016,HT29,40,40,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K70778732,JCP2022_068606,,Serotonin reuptake inhibitor,held_out,1136,True
+local_cpg0016:HT29:41,local_cpg0016,HT29,41,41,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K44227013,JCP2022_068713,,FLT3 inhibitor,held_out,3,True
+local_cpg0016:HT29:43,local_cpg0016,HT29,43,43,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A64290322,JCP2022_069491,,Calcineurin inhibitor,held_out,787,True
+local_cpg0016:HT29:44,local_cpg0016,HT29,44,44,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K62810658,JCP2022_073156,,MEK inhibitor,held_out,1244,True
+local_cpg0016:HT29:45,local_cpg0016,HT29,45,45,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K54330070,JCP2022_073458,,P38 MAPK inhibitor,held_out,815,True
+local_cpg0016:HT29:47,local_cpg0016,HT29,47,47,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K36740062,JCP2022_075694,,Aurora kinase inhibitor,held_out,186,True
+local_cpg0016:HT29:48,local_cpg0016,HT29,48,48,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K48722258,JCP2022_076233,,Adenosine reuptake inhibitor,held_out,996,True
+local_cpg0016:HT29:49,local_cpg0016,HT29,49,49,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K63430059,JCP2022_076523,,DNA synthesis inhibitor,held_out,1060,True
+local_cpg0016:HT29:50,local_cpg0016,HT29,50,50,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K99616396,JCP2022_077046,,KIT inhibitor,held_out,867,True
+local_cpg0016:HT29:51,local_cpg0016,HT29,51,51,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K52075715,JCP2022_077096,,Tubulin inhibitor,held_out,171,True
+local_cpg0016:HT29:52,local_cpg0016,HT29,52,52,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K61250553,JCP2022_077671,,Opioid receptor agonist,held_out,971,True
+local_cpg0016:HT29:53,local_cpg0016,HT29,53,53,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K16542329,JCP2022_077927,,Phosphodiesterase inhibitor,held_out,860,True
+local_cpg0016:HT29:54,local_cpg0016,HT29,54,54,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K16803204,JCP2022_078581,,JAK inhibitor,held_out,749,True
+local_cpg0016:HT29:55,local_cpg0016,HT29,55,55,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K56810756,JCP2022_078588,,Alcohol dehydrogenase inhibitor,held_out,786,True
+local_cpg0016:HT29:57,local_cpg0016,HT29,57,57,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K32292990,JCP2022_079715,,PKC inhibitor,held_out,944,True
+local_cpg0016:HT29:58,local_cpg0016,HT29,58,58,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K67017579,JCP2022_080224,,Phosphodiesterase inhibitor,held_out,1088,True
+local_cpg0016:HT29:59,local_cpg0016,HT29,59,59,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K38852836,JCP2022_080920,,HSP inhibitor,held_out,110,True
+local_cpg0016:HT29:60,local_cpg0016,HT29,60,60,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A81772229,JCP2022_081555,,HMGCR inhibitor,held_out,1035,True
+local_cpg0016:HT29:61,local_cpg0016,HT29,61,61,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K50398167,JCP2022_082046,,Cyclooxygenase inhibitor,held_out,1202,True
+local_cpg0016:HT29:63,local_cpg0016,HT29,63,63,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K19525698,JCP2022_083372,,Thromboxane synthase inhibitor,held_out,893,True
+local_cpg0016:HT29:64,local_cpg0016,HT29,64,64,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K50498985,JCP2022_086505,,Smoothened receptor antagonist,held_out,1080,True
+local_cpg0016:HT29:65,local_cpg0016,HT29,65,65,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K69122748,JCP2022_087562,,Interleukin inhibitor,held_out,1217,True
+local_cpg0016:HT29:66,local_cpg0016,HT29,66,66,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A54029483,JCP2022_092464,,Endothelin receptor antagonist,held_out,1164,True
+local_cpg0016:HT29:67,local_cpg0016,HT29,67,67,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A22256192,JCP2022_093047,,Adrenergic receptor antagonist,held_out,988,True
+local_cpg0016:HT29:68,local_cpg0016,HT29,68,68,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K78692225,JCP2022_094002,,PDGFR inhibitor,held_out,1104,True
+local_cpg0016:HT29:69,local_cpg0016,HT29,69,69,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K80970344,JCP2022_096067,,NFKB pathway inhibitor,held_out,437,True
+local_cpg0016:HT29:70,local_cpg0016,HT29,70,70,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K84783599,JCP2022_101929,,Guanylate cyclase stimulant,held_out,1119,True
+local_cpg0016:HT29:71,local_cpg0016,HT29,71,71,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K49350383,JCP2022_102083,,Purine antagonist,held_out,977,True
+local_cpg0016:HT29:73,local_cpg0016,HT29,73,73,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K97181089,JCP2022_105696,,Sodium channel blocker,held_out,902,True
+local_cpg0016:HT29:74,local_cpg0016,HT29,74,74,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K86930074,JCP2022_106680,,KIT inhibitor,held_out,352,True
+local_cpg0016:HT29:75,local_cpg0016,HT29,75,75,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-A62184259,JCP2022_109917,,Protein synthesis inhibitor,held_out,138,True
+local_cpg0016:HT29:76,local_cpg0016,HT29,76,76,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K16444452,JCP2022_113779,,Phosphodiesterase inhibitor,held_out,1235,True
+local_cpg0016:HT29:77,local_cpg0016,HT29,77,77,crops/crops_cpg0016_HT29.h5,features/l1000_ht29_78.npy,,BRD-K36927236,JCP2022_114461,,Sulfonylurea,held_out,976,True

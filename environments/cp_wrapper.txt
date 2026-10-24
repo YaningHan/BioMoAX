@@ -1,0 +1,5 @@
+# Wrapper only; install the external CellProfiler executable separately.
+numpy<3
+pandas
+h5py
+tifffile

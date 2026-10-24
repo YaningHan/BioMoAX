@@ -1,0 +1,5 @@
+# Separate observed Python 3.8 environment; do not combine with core.txt.
+tensorflow==2.13.1
+efficientnet==1.1.1
+numpy==1.24.3
+h5py==3.1.0

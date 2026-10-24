@@ -1,0 +1,691 @@
+record_id,source,cell,expression_row,h5_label,crop_file,expression_file,source_label,broad_id,jcp2022,name,moa,partition,n_crops,expression_nonzero
+cpg0012:U2OS:0,cpg0012,U2OS,0,0,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,0,,,10-DEBC,Akt inhibitor,gallery_only,121,True
+cpg0012:U2OS:1,cpg0012,U2OS,1,1,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,5,,,4-IBP,Sigma receptor agonist,gallery_only,458,True
+cpg0012:U2OS:2,cpg0012,U2OS,2,2,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,8,,,5-iodotubercidin,Adenosine kinase inhibitor,train,99,True
+cpg0012:U2OS:3,cpg0012,U2OS,3,3,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,10,,,8-M-PDOT,Melatonin receptor agonist,gallery_only,456,True
+cpg0012:U2OS:4,cpg0012,U2OS,4,4,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,12,,,ABT-724,Dopamine receptor agonist,gallery_only,399,True
+cpg0012:U2OS:5,cpg0012,U2OS,5,5,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,13,,,acebutolol,Adrenergic receptor antagonist,train,598,True
+cpg0012:U2OS:6,cpg0012,U2OS,6,6,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,14,,,aceclidine,Acetylcholine receptor agonist,train,518,True
+cpg0012:U2OS:7,cpg0012,U2OS,7,7,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,15,,,aceclofenac,Prostanoid receptor antagonist,train,558,True
+cpg0012:U2OS:8,cpg0012,U2OS,8,8,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,16,,,acemetacin,Cyclooxygenase inhibitor,held_out,586,True
+cpg0012:U2OS:9,cpg0012,U2OS,9,9,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,17,,,acenocoumarol,Vitamin K antagonist,train,570,True
+cpg0012:U2OS:10,cpg0012,U2OS,10,10,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,18,,,acetazolamide,Carbonic anhydrase inhibitor,held_out,165,True
+cpg0012:U2OS:11,cpg0012,U2OS,11,11,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,19,,,adrenosterone,11-beta-HSD1 inhibitor,train,397,True
+cpg0012:U2OS:12,cpg0012,U2OS,12,12,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,21,,,albendazole,,train,52,True
+cpg0012:U2OS:13,cpg0012,U2OS,13,13,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,22,,,alexidine,Phosphatidylglycerophosphatase inhibitor,train,467,True
+cpg0012:U2OS:14,cpg0012,U2OS,14,14,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,23,,,alfaxalone,GABA receptor agonist,train,485,True
+cpg0012:U2OS:15,cpg0012,U2OS,15,15,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,24,,,alfuzosin,Adrenergic receptor antagonist,train,488,True
+cpg0012:U2OS:16,cpg0012,U2OS,16,16,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,27,,,alprenolol,Adrenergic receptor antagonist,train,488,True
+cpg0012:U2OS:17,cpg0012,U2OS,17,17,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,28,,,alprostadil,Prostanoid receptor agonist,gallery_only,464,True
+cpg0012:U2OS:18,cpg0012,U2OS,18,18,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,29,,,alrestatin,Aldose reductase inhibitor,train,501,True
+cpg0012:U2OS:19,cpg0012,U2OS,19,19,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,30,,,altanserin,Serotonin receptor antagonist,gallery_only,359,True
+cpg0012:U2OS:20,cpg0012,U2OS,20,20,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,31,,,AM-580,Retinoid receptor agonist,gallery_only,548,True
+cpg0012:U2OS:21,cpg0012,U2OS,21,21,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,32,,,AM-630,Cannabinoid receptor antagonist,gallery_only,325,True
+cpg0012:U2OS:22,cpg0012,U2OS,22,22,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,33,,,ambroxol,Sodium channel blocker,train,565,True
+cpg0012:U2OS:23,cpg0012,U2OS,23,23,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,34,,,amcinonide,Glucocorticoid receptor agonist,train,543,True
+cpg0012:U2OS:24,cpg0012,U2OS,24,24,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,36,,,aminoglutethimide,Glucocorticoid receptor antagonist,train,535,True
+cpg0012:U2OS:25,cpg0012,U2OS,25,25,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,37,,,amisulpride,Dopamine receptor antagonist,gallery_only,434,True
+cpg0012:U2OS:26,cpg0012,U2OS,26,26,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,38,,,amitriptyline,Norepinephrine inhibitor,train,463,True
+cpg0012:U2OS:27,cpg0012,U2OS,27,27,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,39,,,amlodipine,Calcium channel blocker,gallery_only,505,True
+cpg0012:U2OS:28,cpg0012,U2OS,28,28,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,40,,,amoxapine,Norepinephrine reputake inhibitor,train,248,True
+cpg0012:U2OS:29,cpg0012,U2OS,29,29,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,42,,,anandamide,Cannabinoid receptor agonist,train,399,True
+cpg0012:U2OS:30,cpg0012,U2OS,30,30,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,44,,,apafant,Platelet activating factor receptor antagonist,gallery_only,477,True
+cpg0012:U2OS:31,cpg0012,U2OS,31,31,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,45,,,BRD-A35931254,Dopamine receptor agonist,train,243,True
+cpg0012:U2OS:32,cpg0012,U2OS,32,32,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,50,,,astemizole,Histamine receptor antagonist,held_out,133,True
+cpg0012:U2OS:33,cpg0012,U2OS,33,33,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,51,,,BRD-A20239487,Adrenergic receptor antagonist,held_out,585,True
+cpg0012:U2OS:34,cpg0012,U2OS,34,34,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,52,,,atomoxetine,Norepinephrine transporter inhibitor,gallery_only,461,True
+cpg0012:U2OS:35,cpg0012,U2OS,35,35,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,53,,,ATPA,Glutamate receptor agonist,gallery_only,512,True
+cpg0012:U2OS:36,cpg0012,U2OS,36,36,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,54,,,atropine,Acetylcholine receptor antagonist,held_out,459,True
+cpg0012:U2OS:37,cpg0012,U2OS,37,37,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,56,,,azasetron,Serotonin receptor antagonist,train,481,True
+cpg0012:U2OS:38,cpg0012,U2OS,38,38,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,57,,,azathioprine,Dehydrogenase inhibitor,train,380,True
+cpg0012:U2OS:39,cpg0012,U2OS,39,39,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,58,,,azelastine,Histamine receptor antagonist,held_out,511,True
+cpg0012:U2OS:40,cpg0012,U2OS,40,40,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,60,,,BADGE,PPAR receptor antagonist,train,489,True
+cpg0012:U2OS:41,cpg0012,U2OS,41,41,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,61,,,bambuterol,Adrenergic receptor agonist,train,502,True
+cpg0012:U2OS:42,cpg0012,U2OS,42,42,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,63,,,BD-1063,Sigma receptor antagonist,gallery_only,463,True
+cpg0012:U2OS:43,cpg0012,U2OS,43,43,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,64,,,belinostat,HDAC inhibitor,train,32,True
+cpg0012:U2OS:44,cpg0012,U2OS,44,44,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,65,,,bemegride,Chemoreceptor agonist,train,494,True
+cpg0012:U2OS:45,cpg0012,U2OS,45,45,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,66,,,bemesetron,Serotonin receptor antagonist,held_out,430,True
+cpg0012:U2OS:46,cpg0012,U2OS,46,46,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,67,,,benazepril,Angiotensin converting enzyme inhibitor,held_out,512,True
+cpg0012:U2OS:47,cpg0012,U2OS,47,47,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,68,,,bendroflumethiazide,Sodium/potassium/chloride transporter inhibitor,train,531,True
+cpg0012:U2OS:48,cpg0012,U2OS,48,48,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,69,,,benfluorex,Gluconeogenesis inhibitor,train,499,True
+cpg0012:U2OS:49,cpg0012,U2OS,49,49,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,70,,,benzthiazide,Carbonic anhydrase inhibitor,held_out,534,True
+cpg0012:U2OS:50,cpg0012,U2OS,50,50,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,71,,,benzydamine,,train,401,True
+cpg0012:U2OS:51,cpg0012,U2OS,51,51,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,72,,,bepridil,,train,173,True
+cpg0012:U2OS:52,cpg0012,U2OS,52,52,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,73,,,bergenin,Interleukin inhibitor,train,522,True
+cpg0012:U2OS:53,cpg0012,U2OS,53,53,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,75,,,betaxolol,Adrenergic receptor antagonist,gallery_only,465,True
+cpg0012:U2OS:54,cpg0012,U2OS,54,54,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,76,,,bezafibrate,PPAR receptor agonist,train,460,True
+cpg0012:U2OS:55,cpg0012,U2OS,55,55,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,77,,,BH3I-1,BCL inhibitor,train,614,True
+cpg0012:U2OS:56,cpg0012,U2OS,56,56,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,78,,,BIBX-1382,EGFR inhibitor,gallery_only,382,True
+cpg0012:U2OS:57,cpg0012,U2OS,57,57,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,79,,,bifemelane,Acetylcholine release stimulant,gallery_only,409,True
+cpg0012:U2OS:58,cpg0012,U2OS,58,58,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,80,,,biperiden,Acetylcholine receptor antagonist,held_out,498,True
+cpg0012:U2OS:59,cpg0012,U2OS,59,59,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,81,,,blebbistatin,ATPase inhibitor,held_out,528,True
+cpg0012:U2OS:60,cpg0012,U2OS,60,60,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,82,,,BML-257,Akt inhibitor,train,335,True
+cpg0012:U2OS:61,cpg0012,U2OS,61,61,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,83,,,BML-259,CDK inhibitor,held_out,323,True
+cpg0012:U2OS:62,cpg0012,U2OS,62,62,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,84,,,BMY-14802,Sigma receptor antagonist,gallery_only,492,True
+cpg0012:U2OS:63,cpg0012,U2OS,63,63,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,138,,,BRD-K00801770,,train,356,True
+cpg0012:U2OS:64,cpg0012,U2OS,64,64,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,151,,,BRD-K01594626,,train,244,True
+cpg0012:U2OS:65,cpg0012,U2OS,65,65,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,168,,,BRD-K02409808,,train,351,True
+cpg0012:U2OS:66,cpg0012,U2OS,66,66,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,173,,,BRD-K02653582,,train,272,True
+cpg0012:U2OS:67,cpg0012,U2OS,67,67,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,180,,,BRD-K02927581,,train,203,True
+cpg0012:U2OS:68,cpg0012,U2OS,68,68,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,185,,,BRD-K03257659,,train,343,True
+cpg0012:U2OS:69,cpg0012,U2OS,69,69,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,188,,,BRD-K03416270,,train,224,True
+cpg0012:U2OS:70,cpg0012,U2OS,70,70,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,192,,,BRD-K03652504,,train,224,True
+cpg0012:U2OS:71,cpg0012,U2OS,71,71,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,196,,,BRD-K03857568,,train,224,True
+cpg0012:U2OS:72,cpg0012,U2OS,72,72,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,209,,,BRD-K04465546,,train,241,True
+cpg0012:U2OS:73,cpg0012,U2OS,73,73,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,210,,,BRD-K04577097,,train,434,True
+cpg0012:U2OS:74,cpg0012,U2OS,74,74,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,224,,,BRD-K05713002,,train,369,True
+cpg0012:U2OS:75,cpg0012,U2OS,75,75,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,228,,,BRD-K05791917,,train,353,True
+cpg0012:U2OS:76,cpg0012,U2OS,76,76,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,249,,,BRD-K06772064,,train,176,True
+cpg0012:U2OS:77,cpg0012,U2OS,77,77,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,260,,,BRD-K07481948,,train,371,True
+cpg0012:U2OS:78,cpg0012,U2OS,78,78,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,263,,,BRD-K07660364,,train,349,True
+cpg0012:U2OS:79,cpg0012,U2OS,79,79,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,265,,,BRD-K07807999,,train,355,True
+cpg0012:U2OS:80,cpg0012,U2OS,80,80,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,268,,,BRD-K07923524,,train,273,True
+cpg0012:U2OS:81,cpg0012,U2OS,81,81,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,273,,,BRD-K08240821,,train,298,True
+cpg0012:U2OS:82,cpg0012,U2OS,82,82,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,278,,,BRD-K08403039,,train,304,True
+cpg0012:U2OS:83,cpg0012,U2OS,83,83,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,279,,,BRD-K08438429,Somatostatin receptor agonist,gallery_only,156,True
+cpg0012:U2OS:84,cpg0012,U2OS,84,84,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,332,,,BRD-K11977286,,train,353,True
+cpg0012:U2OS:85,cpg0012,U2OS,85,85,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,351,,,BRD-K13299110,,train,352,True
+cpg0012:U2OS:86,cpg0012,U2OS,86,86,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,353,,,BRD-K13428252,,train,277,True
+cpg0012:U2OS:87,cpg0012,U2OS,87,87,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,357,,,BRD-K13626871,,train,244,True
+cpg0012:U2OS:88,cpg0012,U2OS,88,88,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,376,,,BRD-K14736141,,train,292,True
+cpg0012:U2OS:89,cpg0012,U2OS,89,89,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,388,,,BRD-K15935695,,train,399,True
+cpg0012:U2OS:90,cpg0012,U2OS,90,90,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,396,,,BRD-K16257721,,train,346,True
+cpg0012:U2OS:91,cpg0012,U2OS,91,91,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,407,,,BRD-K16813995,,train,339,True
+cpg0012:U2OS:92,cpg0012,U2OS,92,92,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,421,,,BRD-K17686770,,train,520,True
+cpg0012:U2OS:93,cpg0012,U2OS,93,93,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,454,,,BRD-K19558952,,train,287,True
+cpg0012:U2OS:94,cpg0012,U2OS,94,94,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,459,,,BRD-K19677752,,train,208,True
+cpg0012:U2OS:95,cpg0012,U2OS,95,95,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,475,,,BRD-K20281332,,train,154,True
+cpg0012:U2OS:96,cpg0012,U2OS,96,96,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,499,,,BRD-K21528100,,train,230,True
+cpg0012:U2OS:97,cpg0012,U2OS,97,97,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,517,,,BRD-K22246751,,train,198,True
+cpg0012:U2OS:98,cpg0012,U2OS,98,98,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,521,,,BRD-K22451824,,train,222,True
+cpg0012:U2OS:99,cpg0012,U2OS,99,99,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,562,,,BRD-K24199200,,train,286,True
+cpg0012:U2OS:100,cpg0012,U2OS,100,100,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,567,,,BRD-K24554242,,train,320,True
+cpg0012:U2OS:101,cpg0012,U2OS,101,101,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,570,,,BRD-K24636862,,train,254,True
+cpg0012:U2OS:102,cpg0012,U2OS,102,102,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,575,,,BRD-K24820558,,train,313,True
+cpg0012:U2OS:103,cpg0012,U2OS,103,103,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,578,,,BRD-K25164076,,train,459,True
+cpg0012:U2OS:104,cpg0012,U2OS,104,104,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,586,,,BRD-K25646871,,train,269,True
+cpg0012:U2OS:105,cpg0012,U2OS,105,105,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,594,,,BRD-K26038019,,train,295,True
+cpg0012:U2OS:106,cpg0012,U2OS,106,106,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,631,,,BRD-K28540419,,train,333,True
+cpg0012:U2OS:107,cpg0012,U2OS,107,107,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,640,,,BRD-K29054201,,train,481,True
+cpg0012:U2OS:108,cpg0012,U2OS,108,108,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,647,,,BRD-K29312193,,train,367,True
+cpg0012:U2OS:109,cpg0012,U2OS,109,109,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,653,,,BRD-K29568987,,train,196,True
+cpg0012:U2OS:110,cpg0012,U2OS,110,110,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,657,,,BRD-K29736077,,train,258,True
+cpg0012:U2OS:111,cpg0012,U2OS,111,111,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,676,,,BRD-K31060354,,train,305,True
+cpg0012:U2OS:112,cpg0012,U2OS,112,112,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,692,,,BRD-K31671785,,train,333,True
+cpg0012:U2OS:113,cpg0012,U2OS,113,113,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,696,,,BRD-K31812348,,train,325,True
+cpg0012:U2OS:114,cpg0012,U2OS,114,114,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,698,,,BRD-K31829694,,train,420,True
+cpg0012:U2OS:115,cpg0012,U2OS,115,115,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,707,,,BRD-K32128027,,train,429,True
+cpg0012:U2OS:116,cpg0012,U2OS,116,116,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,710,,,BRD-K32233845,,train,271,True
+cpg0012:U2OS:117,cpg0012,U2OS,117,117,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,735,,,BRD-K33591392,,train,471,True
+cpg0012:U2OS:118,cpg0012,U2OS,118,118,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,748,,,BRD-K34404012,,train,266,True
+cpg0012:U2OS:119,cpg0012,U2OS,119,119,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,750,,,BRD-K34431359,,train,303,True
+cpg0012:U2OS:120,cpg0012,U2OS,120,120,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,751,,,BRD-K34549246,,train,438,True
+cpg0012:U2OS:121,cpg0012,U2OS,121,121,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,760,,,BRD-K35060817,,train,275,True
+cpg0012:U2OS:122,cpg0012,U2OS,122,122,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,768,,,BRD-K35637774,,train,325,True
+cpg0012:U2OS:123,cpg0012,U2OS,123,123,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,781,,,BRD-K36471847,,train,340,True
+cpg0012:U2OS:124,cpg0012,U2OS,124,124,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,788,,,BRD-K36721554,,train,365,True
+cpg0012:U2OS:125,cpg0012,U2OS,125,125,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,796,,,BRD-K37061750,,train,271,True
+cpg0012:U2OS:126,cpg0012,U2OS,126,126,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,810,,,BRD-K37766746,,train,254,True
+cpg0012:U2OS:127,cpg0012,U2OS,127,127,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,812,,,BRD-K38011931,,train,296,True
+cpg0012:U2OS:128,cpg0012,U2OS,128,128,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,858,,,BRD-K40383467,,train,235,True
+cpg0012:U2OS:129,cpg0012,U2OS,129,129,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,871,,,BRD-K41139858,,train,346,True
+cpg0012:U2OS:130,cpg0012,U2OS,130,130,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,884,,,BRD-K41763142,,train,330,True
+cpg0012:U2OS:131,cpg0012,U2OS,131,131,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,894,,,BRD-K42595694,,train,475,True
+cpg0012:U2OS:132,cpg0012,U2OS,132,132,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,900,,,BRD-K42743267,,train,336,True
+cpg0012:U2OS:133,cpg0012,U2OS,133,133,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,910,,,BRD-K43374517,,train,341,True
+cpg0012:U2OS:134,cpg0012,U2OS,134,134,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,913,,,BRD-K43519318,,train,393,True
+cpg0012:U2OS:135,cpg0012,U2OS,135,135,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,915,,,BRD-K43556160,,train,304,True
+cpg0012:U2OS:136,cpg0012,U2OS,136,136,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,924,,,BRD-K44205194,,train,320,True
+cpg0012:U2OS:137,cpg0012,U2OS,137,137,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,932,,,BRD-K44635753,,train,312,True
+cpg0012:U2OS:138,cpg0012,U2OS,138,138,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,945,,,BRD-K45336346,,train,302,True
+cpg0012:U2OS:139,cpg0012,U2OS,139,139,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,954,,,BRD-K45711268,,train,307,True
+cpg0012:U2OS:140,cpg0012,U2OS,140,140,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,989,,,BRD-K47881779,,train,296,True
+cpg0012:U2OS:141,cpg0012,U2OS,141,141,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1013,,,BRD-K49290616,,train,329,True
+cpg0012:U2OS:142,cpg0012,U2OS,142,142,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1016,,,BRD-K49434056,,train,227,True
+cpg0012:U2OS:143,cpg0012,U2OS,143,143,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1017,,,BRD-K49441594,,train,477,True
+cpg0012:U2OS:144,cpg0012,U2OS,144,144,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1018,,,BRD-K49480198,,train,349,True
+cpg0012:U2OS:145,cpg0012,U2OS,145,145,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1022,,,BRD-K49877948,,train,323,True
+cpg0012:U2OS:146,cpg0012,U2OS,146,146,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1036,,,BRD-K50358328,,train,365,True
+cpg0012:U2OS:147,cpg0012,U2OS,147,147,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1045,,,BRD-K50799972,,train,409,True
+cpg0012:U2OS:148,cpg0012,U2OS,148,148,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1047,,,BRD-K51041684,,train,310,True
+cpg0012:U2OS:149,cpg0012,U2OS,149,149,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1058,,,BRD-K51643793,,train,445,True
+cpg0012:U2OS:150,cpg0012,U2OS,150,150,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1072,,,BRD-K52954098,,train,302,True
+cpg0012:U2OS:151,cpg0012,U2OS,151,151,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1077,,,BRD-K53359544,,train,384,True
+cpg0012:U2OS:152,cpg0012,U2OS,152,152,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1103,,,BRD-K54743934,,train,420,True
+cpg0012:U2OS:153,cpg0012,U2OS,153,153,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1123,,,BRD-K55331619,,train,357,True
+cpg0012:U2OS:154,cpg0012,U2OS,154,154,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1136,,,BRD-K55860636,,train,133,True
+cpg0012:U2OS:155,cpg0012,U2OS,155,155,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1149,,,BRD-K56477805,,train,4,True
+cpg0012:U2OS:156,cpg0012,U2OS,156,156,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1168,,,BRD-K57346660,,train,285,True
+cpg0012:U2OS:157,cpg0012,U2OS,157,157,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1178,,,BRD-K57962577,,train,324,True
+cpg0012:U2OS:158,cpg0012,U2OS,158,158,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1225,,,BRD-K60391168,,train,300,True
+cpg0012:U2OS:159,cpg0012,U2OS,159,159,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1234,,,BRD-K60703313,,train,333,True
+cpg0012:U2OS:160,cpg0012,U2OS,160,160,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1246,,,BRD-K61620767,,train,271,True
+cpg0012:U2OS:161,cpg0012,U2OS,161,161,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1247,,,BRD-K61627029,,train,251,True
+cpg0012:U2OS:162,cpg0012,U2OS,162,162,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1264,,,BRD-K62455331,,train,304,True
+cpg0012:U2OS:163,cpg0012,U2OS,163,163,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1278,,,BRD-K63345683,,train,511,True
+cpg0012:U2OS:164,cpg0012,U2OS,164,164,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1280,,,BRD-K63376220,,train,297,True
+cpg0012:U2OS:165,cpg0012,U2OS,165,165,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1282,,,BRD-K63484613,,train,591,True
+cpg0012:U2OS:166,cpg0012,U2OS,166,166,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1287,,,BRD-K63809549,,train,412,True
+cpg0012:U2OS:167,cpg0012,U2OS,167,167,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1288,,,BRD-K63811860,,train,230,True
+cpg0012:U2OS:168,cpg0012,U2OS,168,168,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1295,,,BRD-K64040351,,train,267,True
+cpg0012:U2OS:169,cpg0012,U2OS,169,169,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1310,,,BRD-K64649040,,train,235,True
+cpg0012:U2OS:170,cpg0012,U2OS,170,170,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1316,,,BRD-K64864583,,train,355,True
+cpg0012:U2OS:171,cpg0012,U2OS,171,171,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1357,,,BRD-K67399667,,train,272,True
+cpg0012:U2OS:172,cpg0012,U2OS,172,172,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1366,,,BRD-K67697926,,train,334,True
+cpg0012:U2OS:173,cpg0012,U2OS,173,173,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1376,,,BRD-K68085828,,train,404,True
+cpg0012:U2OS:174,cpg0012,U2OS,174,174,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1380,,,BRD-K68340318,,train,311,True
+cpg0012:U2OS:175,cpg0012,U2OS,175,175,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1389,,,BRD-K68664718,,train,315,True
+cpg0012:U2OS:176,cpg0012,U2OS,176,176,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1390,,,BRD-K68701561,,train,240,True
+cpg0012:U2OS:177,cpg0012,U2OS,177,177,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1391,,,BRD-K68774060,,train,394,True
+cpg0012:U2OS:178,cpg0012,U2OS,178,178,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1402,,,BRD-K69429207,,train,452,True
+cpg0012:U2OS:179,cpg0012,U2OS,179,179,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1406,,,BRD-K69672581,,train,303,True
+cpg0012:U2OS:180,cpg0012,U2OS,180,180,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1407,,,BRD-K69705756,,train,361,True
+cpg0012:U2OS:181,cpg0012,U2OS,181,181,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1408,,,BRD-K69806016,,train,294,True
+cpg0012:U2OS:182,cpg0012,U2OS,182,182,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1431,,,BRD-K70918484,,train,348,True
+cpg0012:U2OS:183,cpg0012,U2OS,183,183,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1435,,,BRD-K71087530,,train,390,True
+cpg0012:U2OS:184,cpg0012,U2OS,184,184,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1440,,,BRD-K71302181,,train,289,True
+cpg0012:U2OS:185,cpg0012,U2OS,185,185,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1441,,,BRD-K71387353,,train,199,True
+cpg0012:U2OS:186,cpg0012,U2OS,186,186,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1442,,,BRD-K71427192,XIAP inhibitor,train,112,True
+cpg0012:U2OS:187,cpg0012,U2OS,187,187,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1447,,,BRD-K71752918,,train,284,True
+cpg0012:U2OS:188,cpg0012,U2OS,188,188,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1453,,,BRD-K72267874,,train,272,True
+cpg0012:U2OS:189,cpg0012,U2OS,189,189,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1457,,,BRD-K72347310,,train,368,True
+cpg0012:U2OS:190,cpg0012,U2OS,190,190,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1463,,,BRD-K72464155,,train,106,True
+cpg0012:U2OS:191,cpg0012,U2OS,191,191,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1465,,,BRD-K72694250,,train,309,True
+cpg0012:U2OS:192,cpg0012,U2OS,192,192,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1478,,,BRD-K73044562,,train,284,True
+cpg0012:U2OS:193,cpg0012,U2OS,193,193,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1495,,,BRD-K73876582,,train,277,True
+cpg0012:U2OS:194,cpg0012,U2OS,194,194,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1496,,,BRD-K73942053,,train,260,True
+cpg0012:U2OS:195,cpg0012,U2OS,195,195,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1507,,,BRD-K74550836,,train,314,True
+cpg0012:U2OS:196,cpg0012,U2OS,196,196,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1512,,,BRD-K74785745,,train,477,True
+cpg0012:U2OS:197,cpg0012,U2OS,197,197,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1539,,,BRD-K76223260,,train,225,True
+cpg0012:U2OS:198,cpg0012,U2OS,198,198,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1540,,,BRD-K76243603,,train,320,True
+cpg0012:U2OS:199,cpg0012,U2OS,199,199,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1551,,,BRD-K76624532,,train,261,True
+cpg0012:U2OS:200,cpg0012,U2OS,200,200,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1552,,,BRD-K76636716,,train,297,True
+cpg0012:U2OS:201,cpg0012,U2OS,201,201,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1557,,,BRD-K76688397,,train,325,True
+cpg0012:U2OS:202,cpg0012,U2OS,202,202,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1560,,,BRD-K76784707,,train,357,True
+cpg0012:U2OS:203,cpg0012,U2OS,203,203,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1564,,,BRD-K77162730,,train,348,True
+cpg0012:U2OS:204,cpg0012,U2OS,204,204,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1572,,,BRD-K77596469,,train,314,True
+cpg0012:U2OS:205,cpg0012,U2OS,205,205,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1576,,,BRD-K77831863,,train,303,True
+cpg0012:U2OS:206,cpg0012,U2OS,206,206,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1584,,,BRD-K78133682,,train,95,True
+cpg0012:U2OS:207,cpg0012,U2OS,207,207,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1601,,,BRD-K78849449,,train,237,True
+cpg0012:U2OS:208,cpg0012,U2OS,208,208,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1617,,,BRD-K79657514,,train,298,True
+cpg0012:U2OS:209,cpg0012,U2OS,209,209,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1623,,,BRD-K79944151,,train,294,True
+cpg0012:U2OS:210,cpg0012,U2OS,210,210,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1626,,,BRD-K79997126,,train,292,True
+cpg0012:U2OS:211,cpg0012,U2OS,211,211,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1631,,,BRD-K80171496,,train,359,True
+cpg0012:U2OS:212,cpg0012,U2OS,212,212,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1635,,,BRD-K80391949,,train,337,True
+cpg0012:U2OS:213,cpg0012,U2OS,213,213,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1640,,,BRD-K80841398,,train,344,True
+cpg0012:U2OS:214,cpg0012,U2OS,214,214,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1642,,,BRD-K80881992,,train,480,True
+cpg0012:U2OS:215,cpg0012,U2OS,215,215,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1659,,,BRD-K81527737,,train,288,True
+cpg0012:U2OS:216,cpg0012,U2OS,216,216,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1676,,,BRD-K82494568,,train,396,True
+cpg0012:U2OS:217,cpg0012,U2OS,217,217,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1682,,,BRD-K82986138,,train,276,True
+cpg0012:U2OS:218,cpg0012,U2OS,218,218,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1717,,,BRD-K84935204,,train,375,True
+cpg0012:U2OS:219,cpg0012,U2OS,219,219,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1721,,,BRD-K85123694,,train,382,True
+cpg0012:U2OS:220,cpg0012,U2OS,220,220,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1723,,,BRD-K85134515,,train,248,True
+cpg0012:U2OS:221,cpg0012,U2OS,221,221,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1724,,,BRD-K85297660,,train,251,True
+cpg0012:U2OS:222,cpg0012,U2OS,222,222,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1726,,,BRD-K85332209,,train,425,True
+cpg0012:U2OS:223,cpg0012,U2OS,223,223,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1730,,,BRD-K85650383,,train,435,True
+cpg0012:U2OS:224,cpg0012,U2OS,224,224,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1743,,,BRD-K86265052,,train,295,True
+cpg0012:U2OS:225,cpg0012,U2OS,225,225,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1746,,,BRD-K86535717,,train,416,True
+cpg0012:U2OS:226,cpg0012,U2OS,226,226,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1747,,,BRD-K86618560,,train,357,True
+cpg0012:U2OS:227,cpg0012,U2OS,227,227,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1749,,,BRD-K86682249,Tyrosine phosphatase inhibitor,train,154,True
+cpg0012:U2OS:228,cpg0012,U2OS,228,228,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1781,,,BRD-K87920375,,train,244,True
+cpg0012:U2OS:229,cpg0012,U2OS,229,229,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1804,,,BRD-K88908047,,train,320,True
+cpg0012:U2OS:230,cpg0012,U2OS,230,230,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1815,,,BRD-K89386994,,train,247,True
+cpg0012:U2OS:231,cpg0012,U2OS,231,231,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1819,,,BRD-K89606138,,train,406,True
+cpg0012:U2OS:232,cpg0012,U2OS,232,232,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1826,,,BRD-K90061989,,train,309,True
+cpg0012:U2OS:233,cpg0012,U2OS,233,233,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1883,,,BRD-K93116089,,train,192,True
+cpg0012:U2OS:234,cpg0012,U2OS,234,234,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1887,,,BRD-K93210686,,train,408,True
+cpg0012:U2OS:235,cpg0012,U2OS,235,235,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1889,,,BRD-K93240833,,train,313,True
+cpg0012:U2OS:236,cpg0012,U2OS,236,236,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1890,,,BRD-K93291781,,train,391,True
+cpg0012:U2OS:237,cpg0012,U2OS,237,237,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1892,,,BRD-K93301765,,train,383,True
+cpg0012:U2OS:238,cpg0012,U2OS,238,238,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1894,,,BRD-K93330237,,train,298,True
+cpg0012:U2OS:239,cpg0012,U2OS,239,239,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1908,,,BRD-K93880770,,train,311,True
+cpg0012:U2OS:240,cpg0012,U2OS,240,240,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1923,,,BRD-K94726713,,train,340,True
+cpg0012:U2OS:241,cpg0012,U2OS,241,241,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1937,,,BRD-K95367721,,train,219,True
+cpg0012:U2OS:242,cpg0012,U2OS,242,242,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1953,,,BRD-K96006237,,train,353,True
+cpg0012:U2OS:243,cpg0012,U2OS,243,243,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1967,,,BRD-K96625837,,train,238,True
+cpg0012:U2OS:244,cpg0012,U2OS,244,244,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1973,,,BRD-K96957785,,train,312,True
+cpg0012:U2OS:245,cpg0012,U2OS,245,245,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1977,,,BRD-K97103850,,train,401,True
+cpg0012:U2OS:246,cpg0012,U2OS,246,246,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1993,,,BRD-K97722864,,train,406,True
+cpg0012:U2OS:247,cpg0012,U2OS,247,247,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,1994,,,BRD-K97748079,,train,328,True
+cpg0012:U2OS:248,cpg0012,U2OS,248,248,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2010,,,BRD-K98645985,,train,303,True
+cpg0012:U2OS:249,cpg0012,U2OS,249,249,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2011,,,BRD-K98668154,,train,289,True
+cpg0012:U2OS:250,cpg0012,U2OS,250,250,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2021,,,BRD-K99115033,,train,330,True
+cpg0012:U2OS:251,cpg0012,U2OS,251,251,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2024,,,BRD-K99307487,,train,325,True
+cpg0012:U2OS:252,cpg0012,U2OS,252,252,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2029,,,BRD-K99582188,,train,127,True
+cpg0012:U2OS:253,cpg0012,U2OS,253,253,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2031,,,BRD-K99628932,,train,492,True
+cpg0012:U2OS:254,cpg0012,U2OS,254,254,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2041,,,BRD-M36167927,,train,259,True
+cpg0012:U2OS:255,cpg0012,U2OS,255,255,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2048,,,BRD-M66672790,,train,373,True
+cpg0012:U2OS:256,cpg0012,U2OS,256,256,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2058,,,brinzolamide,Carbonic anhydrase inhibitor,train,375,True
+cpg0012:U2OS:257,cpg0012,U2OS,257,257,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2059,,,bromocriptine,Dopamine receptor agonist,held_out,429,True
+cpg0012:U2OS:258,cpg0012,U2OS,258,258,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2060,,,bromopride,Dopamine receptor antagonist,train,470,True
+cpg0012:U2OS:259,cpg0012,U2OS,259,259,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2062,,,bucladesine,CAMP stimulant,gallery_only,525,True
+cpg0012:U2OS:260,cpg0012,U2OS,260,260,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2065,,,bumetanide,Solute carrier family member inhibitor,train,340,True
+cpg0012:U2OS:261,cpg0012,U2OS,261,261,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2066,,,buphenine,Adrenergic receptor agonist,held_out,427,True
+cpg0012:U2OS:262,cpg0012,U2OS,262,262,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2067,,,bupropion,Dopamine uptake inhibitor,train,526,True
+cpg0012:U2OS:263,cpg0012,U2OS,263,263,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2070,,,BW-723C86,Serotonin receptor agonist,train,538,True
+cpg0012:U2OS:264,cpg0012,U2OS,264,264,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2072,,,caffeine,Phosphodiesterase inhibitor,held_out,497,True
+cpg0012:U2OS:265,cpg0012,U2OS,265,265,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2073,,,calcipotriol,Vitamin D receptor agonist,gallery_only,458,True
+cpg0012:U2OS:266,cpg0012,U2OS,266,266,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2074,,,calcitriol,Vitamin D receptor agonist,train,393,True
+cpg0012:U2OS:267,cpg0012,U2OS,267,267,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2075,,,canrenone,Mineralocorticoid receptor antagonist,train,503,True
+cpg0012:U2OS:268,cpg0012,U2OS,268,268,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2077,,,captopril,Angiotensin converting enzyme inhibitor,held_out,505,True
+cpg0012:U2OS:269,cpg0012,U2OS,269,269,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2079,,,carbamazepine,Carboxamide antiepileptic,train,402,True
+cpg0012:U2OS:270,cpg0012,U2OS,270,270,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2080,,,carbenoxolone,11-beta-HSD1 inhibitor,train,421,True
+cpg0012:U2OS:271,cpg0012,U2OS,271,271,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2081,,,carbinoxamine,Histamine receptor antagonist,train,402,True
+cpg0012:U2OS:272,cpg0012,U2OS,272,272,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2082,,,carteolol,Adrenergic receptor antagonist,train,527,True
+cpg0012:U2OS:273,cpg0012,U2OS,273,273,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2083,,,CD-437,Retinoid receptor agonist,gallery_only,61,True
+cpg0012:U2OS:274,cpg0012,U2OS,274,274,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2086,,,celecoxib,Cyclooxygenase inhibitor,train,462,True
+cpg0012:U2OS:275,cpg0012,U2OS,275,275,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2087,,,cerulenin,Fatty acid synthase inhibitor,train,155,True
+cpg0012:U2OS:276,cpg0012,U2OS,276,276,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2088,,,cetirizine,Histamine receptor antagonist,held_out,484,True
+cpg0012:U2OS:277,cpg0012,U2OS,277,277,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2089,,,CGP-37157,L-type calcium channel blocker,train,361,True
+cpg0012:U2OS:278,cpg0012,U2OS,278,278,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2092,,,CGS-15943,Adenosine receptor antagonist,gallery_only,544,True
+cpg0012:U2OS:279,cpg0012,U2OS,279,279,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2093,,,chelidonine,,train,93,True
+cpg0012:U2OS:280,cpg0012,U2OS,280,280,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2095,,,chlormezanone,GABA receptor modulator,train,485,True
+cpg0012:U2OS:281,cpg0012,U2OS,281,281,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2097,,,ciglitazone,PPAR receptor agonist,gallery_only,521,True
+cpg0012:U2OS:282,cpg0012,U2OS,282,282,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2099,,,cilnidipine,Calcium channel blocker,gallery_only,435,True
+cpg0012:U2OS:283,cpg0012,U2OS,283,283,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2100,,,cilostamide,Phosphodiesterase inhibitor,train,466,True
+cpg0012:U2OS:284,cpg0012,U2OS,284,284,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2101,,,cilostazol,Phosphodiesterase inhibitor,gallery_only,533,True
+cpg0012:U2OS:285,cpg0012,U2OS,285,285,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2103,,,cimetidine,Histamine receptor antagonist,held_out,475,True
+cpg0012:U2OS:286,cpg0012,U2OS,286,286,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2104,,,cinnarizine,Calcium channel blocker,train,529,True
+cpg0012:U2OS:287,cpg0012,U2OS,287,287,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2106,,,cisapride,Serotonin receptor agonist,held_out,481,True
+cpg0012:U2OS:288,cpg0012,U2OS,288,288,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2107,,,citalopram,Serotonin reuptake inhibitor,held_out,391,True
+cpg0012:U2OS:289,cpg0012,U2OS,289,289,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2108,,,CL-82198,Metalloproteinase inhibitor,gallery_only,405,True
+cpg0012:U2OS:290,cpg0012,U2OS,290,290,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2112,,,clenbuterol,Adrenergic receptor agonist,train,507,True
+cpg0012:U2OS:291,cpg0012,U2OS,291,291,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2113,,,clobenpropit,Histamine receptor antagonist,gallery_only,477,True
+cpg0012:U2OS:292,cpg0012,U2OS,292,292,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2114,,,clofarabine,Ribonucleoside reductase inhibitor,gallery_only,107,True
+cpg0012:U2OS:293,cpg0012,U2OS,293,293,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2115,,,clomethiazole,GABA receptor modulator,train,469,True
+cpg0012:U2OS:294,cpg0012,U2OS,294,294,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2116,,,clomifene,Estrogen receptor antagonist,train,458,True
+cpg0012:U2OS:295,cpg0012,U2OS,295,295,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2117,,,clomipramine,SERT inhibitor,train,406,True
+cpg0012:U2OS:296,cpg0012,U2OS,296,296,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2119,,,clorgiline,Monoamine oxidase inhibitor,train,474,True
+cpg0012:U2OS:297,cpg0012,U2OS,297,297,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2120,,,clotrimazole,Imidazoline ligand,train,245,True
+cpg0012:U2OS:298,cpg0012,U2OS,298,298,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2121,,,clozapine,Dopamine receptor antagonist,held_out,483,True
+cpg0012:U2OS:299,cpg0012,U2OS,299,299,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2122,,,CNQX,Glutamate receptor antagonist,gallery_only,439,True
+cpg0012:U2OS:300,cpg0012,U2OS,300,300,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2123,,,colchicine,Microtubule inhibitor,gallery_only,43,True
+cpg0012:U2OS:301,cpg0012,U2OS,301,301,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2124,,,CPCCOEt,Glutamate receptor antagonist,gallery_only,549,True
+cpg0012:U2OS:302,cpg0012,U2OS,302,302,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2126,,,curcumin,Lipoxygenase inhibitor,train,556,True
+cpg0012:U2OS:303,cpg0012,U2OS,303,303,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2128,,,cyclobenzaprine,Serotonin receptor agonist,train,343,True
+cpg0012:U2OS:304,cpg0012,U2OS,304,304,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2130,,,cyclothiazide,Glutamate receptor modulator,train,474,True
+cpg0012:U2OS:305,cpg0012,U2OS,305,305,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2131,,,cyproheptadine,Histamine receptor antagonist,held_out,491,True
+cpg0012:U2OS:306,cpg0012,U2OS,306,306,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2132,,,BRD-A38359809,Acetylcholine receptor agonist,train,572,True
+cpg0012:U2OS:307,cpg0012,U2OS,307,307,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2133,,,D-64131,Microtubule inhibitor,gallery_only,57,True
+cpg0012:U2OS:308,cpg0012,U2OS,308,308,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2134,,,danazol,Estrogen receptor antagonist,train,547,True
+cpg0012:U2OS:309,cpg0012,U2OS,309,309,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2135,,,dapsone,Bacterial antifolate,train,451,True
+cpg0012:U2OS:310,cpg0012,U2OS,310,310,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2136,,,daunorubicin,RNA synthesis inhibitor,train,41,True
+cpg0012:U2OS:311,cpg0012,U2OS,311,311,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2137,,,DCPIB,Glutamate inhibitor,gallery_only,474,True
+cpg0012:U2OS:312,cpg0012,U2OS,312,312,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2139,,,dephostatin,Tyrosine phosphatase inhibitor,train,438,True
+cpg0012:U2OS:313,cpg0012,U2OS,313,313,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2141,,,desoxypeganine,Monoamine oxidase inhibitor,train,413,True
+cpg0012:U2OS:314,cpg0012,U2OS,314,314,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2143,,,dexamethasone,Glucocorticoid receptor agonist,train,302,True
+cpg0012:U2OS:315,cpg0012,U2OS,315,315,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2144,,,dexniguldipine,,gallery_only,4,True
+cpg0012:U2OS:316,cpg0012,U2OS,316,316,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2145,,,diazepam,Benzodiazepine receptor agonist,train,530,True
+cpg0012:U2OS:317,cpg0012,U2OS,317,317,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2146,,,diazoxide,Potassium channel activator,train,431,True
+cpg0012:U2OS:318,cpg0012,U2OS,318,318,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2147,,,diclofenac,Cyclooxygenase inhibitor,held_out,586,True
+cpg0012:U2OS:319,cpg0012,U2OS,319,319,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2148,,,dicloxacillin,,train,514,True
+cpg0012:U2OS:320,cpg0012,U2OS,320,320,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2150,,,dienestrol,Estrogen receptor agonist,train,295,True
+cpg0012:U2OS:321,cpg0012,U2OS,321,321,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2151,,,diethylcarbamazine,Lipoxygenase inhibitor,train,497,True
+cpg0012:U2OS:322,cpg0012,U2OS,322,322,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2152,,,diflunisal,Prostanoid receptor antagonist,train,398,True
+cpg0012:U2OS:323,cpg0012,U2OS,323,323,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2153,,,digoxigenin,,train,15,True
+cpg0012:U2OS:324,cpg0012,U2OS,324,324,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2154,,,digoxin,ATPase inhibitor,train,8,True
+cpg0012:U2OS:325,cpg0012,U2OS,325,325,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2155,,,dihydrodeoxygedunin,Growth factor receptor activator,train,402,True
+cpg0012:U2OS:326,cpg0012,U2OS,326,326,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2156,,,dilazep,Adenosine reuptake inhibitor,gallery_only,420,True
+cpg0012:U2OS:327,cpg0012,U2OS,327,327,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2157,,,diltiazem,Calcium channel blocker,train,587,True
+cpg0012:U2OS:328,cpg0012,U2OS,328,328,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2158,,,dinoprostone,Prostanoid receptor agonist,gallery_only,399,True
+cpg0012:U2OS:329,cpg0012,U2OS,329,329,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2159,,,diphenhydramine,Histamine receptor antagonist,held_out,456,True
+cpg0012:U2OS:330,cpg0012,U2OS,330,330,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2161,,,diphenylpyraline,Dopamine uptake inhibitor,train,381,True
+cpg0012:U2OS:331,cpg0012,U2OS,331,331,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2163,,,disopyramide,Sodium channel blocker,held_out,458,True
+cpg0012:U2OS:332,cpg0012,U2OS,332,332,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2164,,,disulfiram,TRPV agonist,train,428,True
+cpg0012:U2OS:333,cpg0012,U2OS,333,333,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2165,,,dizocilpine,Glutamate receptor antagonist,gallery_only,510,True
+cpg0012:U2OS:334,cpg0012,U2OS,334,334,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2169,,,dorsomorphin,AMPK inhibitor,gallery_only,201,True
+cpg0012:U2OS:335,cpg0012,U2OS,335,335,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2170,,,dosulepin,Tricyclic antidepressant,train,459,True
+cpg0012:U2OS:336,cpg0012,U2OS,336,336,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2171,,,doxazosin,Adrenergic receptor antagonist,held_out,466,True
+cpg0012:U2OS:337,cpg0012,U2OS,337,337,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2172,,,doxepin,Histamine receptor antagonist,train,512,True
+cpg0012:U2OS:338,cpg0012,U2OS,338,338,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2173,,,doxycycline,Metalloproteinase inhibitor,train,547,True
+cpg0012:U2OS:339,cpg0012,U2OS,339,339,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2174,,,doxylamine,Histamine receptor antagonist,train,542,True
+cpg0012:U2OS:340,cpg0012,U2OS,340,340,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2175,,,dubinidine,,train,369,True
+cpg0012:U2OS:341,cpg0012,U2OS,341,341,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2177,,,dyphylline,Phosphodiesterase inhibitor,train,541,True
+cpg0012:U2OS:342,cpg0012,U2OS,342,342,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2180,,,emetine,Protein synthesis inhibitor,train,421,True
+cpg0012:U2OS:343,cpg0012,U2OS,343,343,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2182,,,enalapril,Angiotensin converting enzyme inhibitor,train,420,True
+cpg0012:U2OS:344,cpg0012,U2OS,344,344,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2183,,,enilconazole,Sterol demethylase inhibitor,train,437,True
+cpg0012:U2OS:345,cpg0012,U2OS,345,345,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2185,,,epirizole,Cyclooxygenase inhibitor,train,342,True
+cpg0012:U2OS:346,cpg0012,U2OS,346,346,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2186,,,eplerenone,Cytochrome P450 inhibitor,gallery_only,486,True
+cpg0012:U2OS:347,cpg0012,U2OS,347,347,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2187,,,equilin,Estrogen receptor agonist,held_out,494,True
+cpg0012:U2OS:348,cpg0012,U2OS,348,348,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2188,,,ER-27319,Syk inhibitor,gallery_only,64,True
+cpg0012:U2OS:349,cpg0012,U2OS,349,349,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2190,,,eriodictyol,Cytochrome P450 inhibitor,train,471,True
+cpg0012:U2OS:350,cpg0012,U2OS,350,350,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2191,,,estradiol,Estrogen receptor agonist,train,395,True
+cpg0012:U2OS:351,cpg0012,U2OS,351,351,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2192,,,estriol,Estrogen receptor agonist,train,406,True
+cpg0012:U2OS:352,cpg0012,U2OS,352,352,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2193,,,etazolate,Phosphodiesterase inhibitor,held_out,425,True
+cpg0012:U2OS:353,cpg0012,U2OS,353,353,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2194,,,eticlopride,Dopamine receptor antagonist,gallery_only,405,True
+cpg0012:U2OS:354,cpg0012,U2OS,354,354,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2195,,,etilefrine,Adrenergic receptor agonist,train,509,True
+cpg0012:U2OS:355,cpg0012,U2OS,355,355,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2196,,,etodolac,Cyclooxygenase inhibitor,train,363,True
+cpg0012:U2OS:356,cpg0012,U2OS,356,356,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2197,,,etoposide,Topoisomerase inhibitor,train,99,True
+cpg0012:U2OS:357,cpg0012,U2OS,357,357,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2198,,,ezetimibe,Cholesterol inhibitor,train,559,True
+cpg0012:U2OS:358,cpg0012,U2OS,358,358,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2199,,,famotidine,Histamine receptor antagonist,train,367,True
+cpg0012:U2OS:359,cpg0012,U2OS,359,359,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2201,,,fasudil,Rho associated kinase inhibitor,train,417,True
+cpg0012:U2OS:360,cpg0012,U2OS,360,360,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2202,,,FCCP,,train,143,True
+cpg0012:U2OS:361,cpg0012,U2OS,361,361,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2203,,,felodipine,Calcium channel blocker,held_out,513,True
+cpg0012:U2OS:362,cpg0012,U2OS,362,362,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2206,,,fenobam,Glutamate receptor antagonist,gallery_only,317,True
+cpg0012:U2OS:363,cpg0012,U2OS,363,363,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2207,,,fenofibrate,PPAR receptor agonist,train,488,True
+cpg0012:U2OS:364,cpg0012,U2OS,364,364,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2208,,,fenoldopam,Dopamine receptor agonist,held_out,411,True
+cpg0012:U2OS:365,cpg0012,U2OS,365,365,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2210,,,fexofenadine,Histamine receptor antagonist,held_out,597,True
+cpg0012:U2OS:366,cpg0012,U2OS,366,366,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2211,,,FGIN-1-27,IMPase inhibitor,train,477,True
+cpg0012:U2OS:367,cpg0012,U2OS,367,367,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2212,,,FGIN-1-43,Benzodiazepine receptor agonist,train,523,True
+cpg0012:U2OS:368,cpg0012,U2OS,368,368,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2213,,,finasteride,5 alpha reductase inhibitor,train,457,True
+cpg0012:U2OS:369,cpg0012,U2OS,369,369,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2216,,,flecainide,Sodium channel blocker,train,540,True
+cpg0012:U2OS:370,cpg0012,U2OS,370,370,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2217,,,fluconazole,Sterol demethylase inhibitor,train,445,True
+cpg0012:U2OS:371,cpg0012,U2OS,371,371,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2219,,,flunarizine,Calcium channel blocker,gallery_only,478,True
+cpg0012:U2OS:372,cpg0012,U2OS,372,372,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2221,,,fluoxetine,Selective serotonin reuptake inhibitor,train,582,True
+cpg0012:U2OS:373,cpg0012,U2OS,373,373,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2222,,,flupentixol,Dopamine receptor antagonist,train,463,True
+cpg0012:U2OS:374,cpg0012,U2OS,374,374,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2223,,,fluspirilene,Dopamine receptor antagonist,train,25,True
+cpg0012:U2OS:375,cpg0012,U2OS,375,375,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2224,,,flutamide,Androgen receptor antagonist,train,408,True
+cpg0012:U2OS:376,cpg0012,U2OS,376,376,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2227,,,furosemide,Diuretic,train,258,True
+cpg0012:U2OS:377,cpg0012,U2OS,377,377,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2228,,,galantamine,Acetylcholinesterase inhibitor,train,423,True
+cpg0012:U2OS:378,cpg0012,U2OS,378,378,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2229,,,gelsemine,Glycine receptor antagonist,train,491,True
+cpg0012:U2OS:379,cpg0012,U2OS,379,379,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2230,,,gemfibrozil,Lipoprotein lipase activator,train,555,True
+cpg0012:U2OS:380,cpg0012,U2OS,380,380,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2231,,,genistein,Tyrosine kinase inhibitor,train,412,True
+cpg0012:U2OS:381,cpg0012,U2OS,381,381,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2232,,,glafenine,DeltaF508-CFTR Corrector,train,509,True
+cpg0012:U2OS:382,cpg0012,U2OS,382,382,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2233,,,glibenclamide,Sulfonylurea,train,467,True
+cpg0012:U2OS:383,cpg0012,U2OS,383,383,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2234,,,gliclazide,ATP channel blocker,train,519,True
+cpg0012:U2OS:384,cpg0012,U2OS,384,384,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2235,,,glimepiride,Insulin secretagogue,gallery_only,458,True
+cpg0012:U2OS:385,cpg0012,U2OS,385,385,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2236,,,glipizide,Sulfonylurea,train,444,True
+cpg0012:U2OS:386,cpg0012,U2OS,386,386,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2237,,,gossypol,BCL inhibitor,train,443,True
+cpg0012:U2OS:387,cpg0012,U2OS,387,387,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2239,,,GW-405833,Cannabinoid receptor agonist,gallery_only,437,True
+cpg0012:U2OS:388,cpg0012,U2OS,388,388,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2240,,,GW-843682X,PLK inhibitor,train,36,True
+cpg0012:U2OS:389,cpg0012,U2OS,389,389,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2244,,,HA-1004,,train,553,True
+cpg0012:U2OS:390,cpg0012,U2OS,390,390,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2245,,,halcinonide,Glucocorticoid receptor agonist,train,349,True
+cpg0012:U2OS:391,cpg0012,U2OS,391,391,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2246,,,haloperidol,Dopamine receptor antagonist,held_out,508,True
+cpg0012:U2OS:392,cpg0012,U2OS,392,392,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2247,,,harmane,Monoamine oxidase inhibitor,gallery_only,491,True
+cpg0012:U2OS:393,cpg0012,U2OS,393,393,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2248,,,harmine,DYRK inhibitor,train,477,True
+cpg0012:U2OS:394,cpg0012,U2OS,394,394,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2249,,,hexamethyleneamiloride,Sodium/hydrogen antiport inhibitor,train,341,True
+cpg0012:U2OS:395,cpg0012,U2OS,395,395,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2250,,,hexestrol,Estrogen receptor agonist,held_out,478,True
+cpg0012:U2OS:396,cpg0012,U2OS,396,396,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2252,,,hispidin,PKC inhibitor,train,433,True
+cpg0012:U2OS:397,cpg0012,U2OS,397,397,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2253,,,homochlorcyclizine,Antihistamine,train,516,True
+cpg0012:U2OS:398,cpg0012,U2OS,398,398,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2256,,,hydroflumethiazide,Sodium/potassium/chloride transporter inhibitor,train,380,True
+cpg0012:U2OS:399,cpg0012,U2OS,399,399,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2258,,,hydroxyprogesterone,Progesterone receptor agonist,train,533,True
+cpg0012:U2OS:400,cpg0012,U2OS,400,400,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2260,,,hymecromone,Monoamine oxidase inhibitor,held_out,445,True
+cpg0012:U2OS:401,cpg0012,U2OS,401,401,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2261,,,IB-MECA,Adenosine receptor agonist,train,450,True
+cpg0012:U2OS:402,cpg0012,U2OS,402,402,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2262,,,ibudilast,Phosphodiesterase inhibitor,gallery_only,384,True
+cpg0012:U2OS:403,cpg0012,U2OS,403,403,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2263,,,ibuprofen,Cyclooxygenase inhibitor,held_out,560,True
+cpg0012:U2OS:404,cpg0012,U2OS,404,404,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2264,,,ICI-89406,Adrenergic receptor antagonist,gallery_only,365,True
+cpg0012:U2OS:405,cpg0012,U2OS,405,405,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2265,,,icosapent,Platelet aggregation inhibitor,train,530,True
+cpg0012:U2OS:406,cpg0012,U2OS,406,406,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2266,,,idazoxan,Adrenergic receptor antagonist,gallery_only,463,True
+cpg0012:U2OS:407,cpg0012,U2OS,407,407,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2267,,,imatinib,KIT inhibitor,train,212,True
+cpg0012:U2OS:408,cpg0012,U2OS,408,408,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2268,,,imiloxan,Adrenergic receptor antagonist,gallery_only,525,True
+cpg0012:U2OS:409,cpg0012,U2OS,409,409,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2269,,,imipramine,Serotonin reuptake inhibitor,train,338,True
+cpg0012:U2OS:410,cpg0012,U2OS,410,410,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2272,,,importazole,Importin-beta transport receptor inhibitor,train,273,True
+cpg0012:U2OS:411,cpg0012,U2OS,411,411,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2274,,,indapamide,Thiazide diuretic,train,465,True
+cpg0012:U2OS:412,cpg0012,U2OS,412,412,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2275,,,indirubin,CDK inhibitor,held_out,400,True
+cpg0012:U2OS:413,cpg0012,U2OS,413,413,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2276,,,indometacin,Cyclooxygenase inhibitor,train,402,True
+cpg0012:U2OS:414,cpg0012,U2OS,414,414,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2277,,,indoprofen,Cyclooxygenase inhibitor,held_out,462,True
+cpg0012:U2OS:415,cpg0012,U2OS,415,415,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2279,,,ipratropium,Acetylcholine receptor antagonist,train,492,True
+cpg0012:U2OS:416,cpg0012,U2OS,416,416,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2281,,,irsogladine,Phosphodiesterase inhibitor,gallery_only,568,True
+cpg0012:U2OS:417,cpg0012,U2OS,417,417,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2282,,,isoprenaline,Adrenergic receptor agonist,train,561,True
+cpg0012:U2OS:418,cpg0012,U2OS,418,418,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2283,,,isotretinoin,Retinoid receptor agonist,train,468,True
+cpg0012:U2OS:419,cpg0012,U2OS,419,419,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2285,,,isoxsuprine,Adrenergic receptor agonist,train,303,True
+cpg0012:U2OS:420,cpg0012,U2OS,420,420,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2286,,,isradipine,Calcium channel blocker,gallery_only,526,True
+cpg0012:U2OS:421,cpg0012,U2OS,421,421,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2288,,,ivachtin,Caspase inhibitor,gallery_only,435,True
+cpg0012:U2OS:422,cpg0012,U2OS,422,422,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2289,,,JTC-801,Opioid receptor antagonist,train,40,True
+cpg0012:U2OS:423,cpg0012,U2OS,423,423,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2290,,,JWH-015,Cannabinoid receptor agonist,gallery_only,394,True
+cpg0012:U2OS:424,cpg0012,U2OS,424,424,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2293,,,KB-R7943,Sodium/calcium exchange inhibitor,train,386,True
+cpg0012:U2OS:425,cpg0012,U2OS,425,425,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2294,,,kenpaullone,CDK inhibitor,train,223,True
+cpg0012:U2OS:426,cpg0012,U2OS,426,426,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2295,,,ketanserin,Serotonin receptor antagonist,held_out,522,True
+cpg0012:U2OS:427,cpg0012,U2OS,427,427,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2296,,,ketoconazole,Sterol demethylase inhibitor,train,460,True
+cpg0012:U2OS:428,cpg0012,U2OS,428,428,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2297,,,ketoprofen,Cyclooxygenase inhibitor,train,463,True
+cpg0012:U2OS:429,cpg0012,U2OS,429,429,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2298,,,ketotifen,Histamine receptor ligand,train,490,True
+cpg0012:U2OS:430,cpg0012,U2OS,430,430,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2300,,,L-stepholidine,Dopamine receptor agonist,train,510,True
+cpg0012:U2OS:431,cpg0012,U2OS,431,431,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2301,,,labetalol,Adrenergic receptor antagonist,train,514,True
+cpg0012:U2OS:432,cpg0012,U2OS,432,432,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2302,,,lansoprazole,ATPase inhibitor,gallery_only,385,True
+cpg0012:U2OS:433,cpg0012,U2OS,433,433,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2303,,,LE-135,Retinoid receptor agonist,gallery_only,265,True
+cpg0012:U2OS:434,cpg0012,U2OS,434,434,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2304,,,levcromakalim,Potassium channel activator,gallery_only,480,True
+cpg0012:U2OS:435,cpg0012,U2OS,435,435,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2305,,,levobunolol,Adrenergic receptor antagonist,train,491,True
+cpg0012:U2OS:436,cpg0012,U2OS,436,436,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2306,,,levocabastine,Histamine receptor antagonist,train,529,True
+cpg0012:U2OS:437,cpg0012,U2OS,437,437,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2307,,,levonorgestrel,Estrogen receptor agonist,held_out,426,True
+cpg0012:U2OS:438,cpg0012,U2OS,438,438,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2308,,,levothyroxine,Thyroid hormone stimulant,train,529,True
+cpg0012:U2OS:439,cpg0012,U2OS,439,439,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2309,,,LFM-A12,EGFR inhibitor,train,432,True
+cpg0012:U2OS:440,cpg0012,U2OS,440,440,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2310,,,LFM-A13,BTK inhibitor,train,478,True
+cpg0012:U2OS:441,cpg0012,U2OS,441,441,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2311,,,lidocaine,Histamine receptor agonist,train,517,True
+cpg0012:U2OS:442,cpg0012,U2OS,442,442,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2313,,,linopirdine,Potassium channel blocker,gallery_only,381,True
+cpg0012:U2OS:443,cpg0012,U2OS,443,443,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2314,,,lobelanidine,Opioid receptor antagonist,train,459,True
+cpg0012:U2OS:444,cpg0012,U2OS,444,444,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2316,,,loperamide,Opioid receptor agonist,train,316,True
+cpg0012:U2OS:445,cpg0012,U2OS,445,445,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2318,,,lorglumide,CCK receptor antagonist,train,533,True
+cpg0012:U2OS:446,cpg0012,U2OS,446,446,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2319,,,lovastatin,HMGCR inhibitor,gallery_only,290,True
+cpg0012:U2OS:447,cpg0012,U2OS,447,447,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2320,,,loxapine,Dopamine receptor antagonist,held_out,309,True
+cpg0012:U2OS:448,cpg0012,U2OS,448,448,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2321,,,lupanine,Sodium channel blocker,held_out,446,True
+cpg0012:U2OS:449,cpg0012,U2OS,449,449,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2323,,,LY-2183240,FAAH inhibitor,gallery_only,46,True
+cpg0012:U2OS:450,cpg0012,U2OS,450,450,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2325,,,LY-294002,PLK inhibitor,train,340,True
+cpg0012:U2OS:451,cpg0012,U2OS,451,451,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2329,,,lylamine,Cannabinoid receptor agonist,gallery_only,23,True
+cpg0012:U2OS:452,cpg0012,U2OS,452,452,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2330,,,malonoben,Protein tyrosine kinase inhibitor,gallery_only,118,True
+cpg0012:U2OS:453,cpg0012,U2OS,453,453,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2331,,,maprotiline,Tricyclic antidepressant,gallery_only,313,True
+cpg0012:U2OS:454,cpg0012,U2OS,454,454,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2333,,,mebendazole,,train,38,True
+cpg0012:U2OS:455,cpg0012,U2OS,455,455,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2334,,,mebeverine,Acetylcholine receptor antagonist,train,544,True
+cpg0012:U2OS:456,cpg0012,U2OS,456,456,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2335,,,medetomidine,Adrenergic receptor agonist,gallery_only,506,True
+cpg0012:U2OS:457,cpg0012,U2OS,457,457,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2336,,,medrysone,Glucocorticoid receptor agonist,held_out,404,True
+cpg0012:U2OS:458,cpg0012,U2OS,458,458,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2337,,,meloxicam,Cyclooxygenase inhibitor,held_out,449,True
+cpg0012:U2OS:459,cpg0012,U2OS,459,459,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2338,,,mephenytoin,Hydantoin antiepileptic,train,526,True
+cpg0012:U2OS:460,cpg0012,U2OS,460,460,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2339,,,mesoridazine,Dopamine receptor antagonist,train,583,True
+cpg0012:U2OS:461,cpg0012,U2OS,461,461,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2340,,,mestranol,Estrogen receptor agonist,train,391,True
+cpg0012:U2OS:462,cpg0012,U2OS,462,462,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2341,,,metergoline,Dopamine receptor agonist,train,312,True
+cpg0012:U2OS:463,cpg0012,U2OS,463,463,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2343,,,methazolamide,Carbonic anhydrase inhibitor,train,514,True
+cpg0012:U2OS:464,cpg0012,U2OS,464,464,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2344,,,methocarbamol,Muscle relaxant,train,497,True
+cpg0012:U2OS:465,cpg0012,U2OS,465,465,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2345,,,methotrexate,Dihydrofolate reductase inhibitor,train,272,True
+cpg0012:U2OS:466,cpg0012,U2OS,466,466,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2346,,,methoxamine,Adrenergic receptor agonist,held_out,469,True
+cpg0012:U2OS:467,cpg0012,U2OS,467,467,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2347,,,methoxsalen,DNA synthesis inhibitor,train,498,True
+cpg0012:U2OS:468,cpg0012,U2OS,468,468,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2348,,,methylprednisolone,Glucocorticoid receptor agonist,held_out,420,True
+cpg0012:U2OS:469,cpg0012,U2OS,469,469,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2350,,,metitepine,Anti-HCVE2,train,519,True
+cpg0012:U2OS:470,cpg0012,U2OS,470,470,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2351,,,metixene,Acetylcholine receptor antagonist,held_out,581,True
+cpg0012:U2OS:471,cpg0012,U2OS,471,471,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2352,,,metolazone,Carbonic anhydrase inhibitor,train,524,True
+cpg0012:U2OS:472,cpg0012,U2OS,472,472,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2353,,,metronidazole,DNA inhibitor,train,495,True
+cpg0012:U2OS:473,cpg0012,U2OS,473,473,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2354,,,metyrapone,Cytochrome P450 inhibitor,train,497,True
+cpg0012:U2OS:474,cpg0012,U2OS,474,474,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2355,,,mevastatin,HMGCR inhibitor,gallery_only,288,True
+cpg0012:U2OS:475,cpg0012,U2OS,475,475,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2357,,,MG-132,Proteasome inhibitor,train,11,True
+cpg0012:U2OS:476,cpg0012,U2OS,476,476,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2358,,,mibefradil,T-type calcium channel blocker,gallery_only,171,True
+cpg0012:U2OS:477,cpg0012,U2OS,477,477,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2359,,,midodrine,Adrenergic receptor agonist,held_out,503,True
+cpg0012:U2OS:478,cpg0012,U2OS,478,478,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2360,,,mifepristone,Progesterone receptor antagonist,train,453,True
+cpg0012:U2OS:479,cpg0012,U2OS,479,479,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2361,,,mifobate,PPAR receptor antagonist,gallery_only,529,True
+cpg0012:U2OS:480,cpg0012,U2OS,480,480,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2362,,,milrinone,Phosphodiesterase inhibitor,gallery_only,559,True
+cpg0012:U2OS:481,cpg0012,U2OS,481,481,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2363,,,minaprine,Serotonin reuptake inhibitor,train,502,True
+cpg0012:U2OS:482,cpg0012,U2OS,482,482,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2365,,,minoxidil,Vasodilator,train,479,True
+cpg0012:U2OS:483,cpg0012,U2OS,483,483,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2366,,,mirtazapine,Serotonin receptor antagonist,train,366,True
+cpg0012:U2OS:484,cpg0012,U2OS,484,484,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2367,,,mitoxantrone,Topoisomerase inhibitor,train,39,True
+cpg0012:U2OS:485,cpg0012,U2OS,485,485,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2369,,,ML-7,Myosin light chain kinase inhibitor,train,343,True
+cpg0012:U2OS:486,cpg0012,U2OS,486,486,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2370,,,mocetinostat,HDAC inhibitor,train,104,True
+cpg0012:U2OS:487,cpg0012,U2OS,487,487,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2371,,,modafinil,Adrenergic receptor agonist,train,533,True
+cpg0012:U2OS:488,cpg0012,U2OS,488,488,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2372,,,molindone,Dopamine receptor antagonist,train,458,True
+cpg0012:U2OS:489,cpg0012,U2OS,489,489,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2373,,,molsidomine,Guanylyl cyclase activator,train,466,True
+cpg0012:U2OS:490,cpg0012,U2OS,490,490,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2374,,,monastrol,Kinesin inhibitor,train,487,True
+cpg0012:U2OS:491,cpg0012,U2OS,491,491,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2375,,,moracizine,Sodium channel blocker,held_out,430,True
+cpg0012:U2OS:492,cpg0012,U2OS,492,492,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2376,,,moxonidine,Imidazoline receptor agonist,gallery_only,391,True
+cpg0012:U2OS:493,cpg0012,U2OS,493,493,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2377,,,MPEP,Glutamate receptor antagonist,gallery_only,371,True
+cpg0012:U2OS:494,cpg0012,U2OS,494,494,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2380,,,nabumetone,Cyclooxygenase inhibitor,train,485,True
+cpg0012:U2OS:495,cpg0012,U2OS,495,495,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2381,,,nadolol,Adrenergic receptor antagonist,held_out,391,True
+cpg0012:U2OS:496,cpg0012,U2OS,496,496,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2383,,,nalbuphine,Opioid receptor agonist,train,460,True
+cpg0012:U2OS:497,cpg0012,U2OS,497,497,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2384,,,naloxone,Opioid receptor antagonist,gallery_only,539,True
+cpg0012:U2OS:498,cpg0012,U2OS,498,498,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2386,,,naltriben,Opioid receptor antagonist,gallery_only,526,True
+cpg0012:U2OS:499,cpg0012,U2OS,499,499,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2388,,,NAN-190,Serotonin receptor agonist,held_out,506,True
+cpg0012:U2OS:500,cpg0012,U2OS,500,500,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2389,,,naproxen,Cyclooxygenase inhibitor,held_out,432,True
+cpg0012:U2OS:501,cpg0012,U2OS,501,501,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2391,,,naringenin,TRPV antagonist,train,459,True
+cpg0012:U2OS:502,cpg0012,U2OS,502,502,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2392,,,NAS-181,Serotonin receptor antagonist,gallery_only,463,True
+cpg0012:U2OS:503,cpg0012,U2OS,503,503,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2393,,,NBQX,Glutamate receptor antagonist,gallery_only,553,True
+cpg0012:U2OS:504,cpg0012,U2OS,504,504,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2394,,,necrostatin-1,RIPK inhibitor,gallery_only,571,True
+cpg0012:U2OS:505,cpg0012,U2OS,505,505,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2395,,,nemonapride,Dopamine receptor antagonist,gallery_only,528,True
+cpg0012:U2OS:506,cpg0012,U2OS,506,506,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2396,,,nicardipine,Calcium channel blocker,train,377,True
+cpg0012:U2OS:507,cpg0012,U2OS,507,507,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2397,,,nicergoline,Adrenergic receptor antagonist,train,422,True
+cpg0012:U2OS:508,cpg0012,U2OS,508,508,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2398,,,niclosamide,STAT inhibitor,train,194,True
+cpg0012:U2OS:509,cpg0012,U2OS,509,509,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2399,,,nilutamide,Androgen receptor antagonist,train,403,True
+cpg0012:U2OS:510,cpg0012,U2OS,510,510,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2400,,,nimesulide,Cyclooxygenase inhibitor,train,473,True
+cpg0012:U2OS:511,cpg0012,U2OS,511,511,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2401,,,nimodipine,Calcium channel blocker,held_out,484,True
+cpg0012:U2OS:512,cpg0012,U2OS,512,512,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2402,,,nisoxetine,Norepinephrine reuptake inhibitor,gallery_only,512,True
+cpg0012:U2OS:513,cpg0012,U2OS,513,513,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2403,,,nitrendipine,Calcium channel blocker,held_out,477,True
+cpg0012:U2OS:514,cpg0012,U2OS,514,514,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2404,,,nitrocaramiphen,Cholinergic receptor antagonist,gallery_only,457,True
+cpg0012:U2OS:515,cpg0012,U2OS,515,515,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2406,,,nizatidine,Histamine receptor antagonist,train,481,True
+cpg0012:U2OS:516,cpg0012,U2OS,516,516,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2408,,,nocodazole,,train,68,True
+cpg0012:U2OS:517,cpg0012,U2OS,517,517,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2410,,,nomifensine,Dopamine uptake inhibitor,held_out,481,True
+cpg0012:U2OS:518,cpg0012,U2OS,518,518,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2411,,,norketamine,Glutamate receptor antagonist,gallery_only,469,True
+cpg0012:U2OS:519,cpg0012,U2OS,519,519,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2413,,,NS-1619,Calcium channel activator,train,414,True
+cpg0012:U2OS:520,cpg0012,U2OS,520,520,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2415,,,nTZDpa,PPAR receptor agonist,gallery_only,532,True
+cpg0012:U2OS:521,cpg0012,U2OS,521,521,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2418,,,oleylethanolamide,Potassium channel blocker,gallery_only,455,True
+cpg0012:U2OS:522,cpg0012,U2OS,522,522,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2419,,,omeprazole,ATPase inhibitor,train,476,True
+cpg0012:U2OS:523,cpg0012,U2OS,523,523,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2420,,,BRD-A07195938,Serotonin receptor antagonist,train,530,True
+cpg0012:U2OS:524,cpg0012,U2OS,524,524,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2421,,,orciprenaline,Adrenergic receptor agonist,held_out,502,True
+cpg0012:U2OS:525,cpg0012,U2OS,525,525,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2422,,,otenzepad,Acetylcholine receptor antagonist,gallery_only,466,True
+cpg0012:U2OS:526,cpg0012,U2OS,526,526,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2424,,,oxaprozin,Cyclooxygenase inhibitor,train,467,True
+cpg0012:U2OS:527,cpg0012,U2OS,527,527,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2425,,,oxybutynin,Acetylcholine receptor antagonist,train,506,True
+cpg0012:U2OS:528,cpg0012,U2OS,528,528,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2426,,,oxymetazoline,Adrenergic receptor agonist,held_out,440,True
+cpg0012:U2OS:529,cpg0012,U2OS,529,529,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2427,,,ozagrel,Thromboxane synthase inhibitor,train,454,True
+cpg0012:U2OS:530,cpg0012,U2OS,530,530,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2428,,,paclitaxel,Tubulin inhibitor,train,51,True
+cpg0012:U2OS:531,cpg0012,U2OS,531,531,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2429,,,pantoprazole,ATPase inhibitor,held_out,501,True
+cpg0012:U2OS:532,cpg0012,U2OS,532,532,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2430,,,paracetamol,Cyclooxygenase inhibitor,held_out,447,True
+cpg0012:U2OS:533,cpg0012,U2OS,533,533,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2431,,,parbendazole,Tubulin inhibitor,train,65,True
+cpg0012:U2OS:534,cpg0012,U2OS,534,534,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2432,,,paroxetine,Selective serotonin reuptake inhibitor,gallery_only,202,True
+cpg0012:U2OS:535,cpg0012,U2OS,535,535,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2435,,,pentobarbital,GABA receptor modulator,train,469,True
+cpg0012:U2OS:536,cpg0012,U2OS,536,536,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2436,,,pentoxifylline,Phosphodiesterase inhibitor,held_out,472,True
+cpg0012:U2OS:537,cpg0012,U2OS,537,537,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2437,,,perphenazine,Dopamine receptor antagonist,held_out,454,True
+cpg0012:U2OS:538,cpg0012,U2OS,538,538,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2438,,,PETCM,,train,475,True
+cpg0012:U2OS:539,cpg0012,U2OS,539,539,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2439,,,PHCCC,Glutamate receptor agonist,gallery_only,344,True
+cpg0012:U2OS:540,cpg0012,U2OS,540,540,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2441,,,phenacetin,Cyclooxygenase inhibitor,train,509,True
+cpg0012:U2OS:541,cpg0012,U2OS,541,541,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2444,,,pheniramine,Histamine receptor antagonist,train,402,True
+cpg0012:U2OS:542,cpg0012,U2OS,542,542,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2445,,,phenylbutazone,Cyclooxygenase inhibitor,held_out,490,True
+cpg0012:U2OS:543,cpg0012,U2OS,543,543,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2446,,,phenylephrine,Adrenergic receptor agonist,train,371,True
+cpg0012:U2OS:544,cpg0012,U2OS,544,544,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2447,,,phenytoin,Hydantoin antiepileptic,train,401,True
+cpg0012:U2OS:545,cpg0012,U2OS,545,545,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2450,,,picotamide,Thromboxane synthase inhibitor,train,417,True
+cpg0012:U2OS:546,cpg0012,U2OS,546,546,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2451,,,pifithrin-alpha,TP53 inhibitor,train,465,True
+cpg0012:U2OS:547,cpg0012,U2OS,547,547,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2452,,,pimozide,Dopamine receptor antagonist,held_out,49,True
+cpg0012:U2OS:548,cpg0012,U2OS,548,548,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2453,,,pinacidil,ATP channel activator,gallery_only,475,True
+cpg0012:U2OS:549,cpg0012,U2OS,549,549,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2454,,,pindolol,Adrenergic receptor antagonist,held_out,327,True
+cpg0012:U2OS:550,cpg0012,U2OS,550,550,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2455,,,piperidolate,Acetylcholine receptor antagonist,held_out,353,True
+cpg0012:U2OS:551,cpg0012,U2OS,551,551,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2456,,,piperine,Monoamine oxidase inhibitor,held_out,412,True
+cpg0012:U2OS:552,cpg0012,U2OS,552,552,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2457,,,piperlongumine,,train,56,True
+cpg0012:U2OS:553,cpg0012,U2OS,553,553,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2458,,,pirenperone,Serotonin receptor antagonist,train,372,True
+cpg0012:U2OS:554,cpg0012,U2OS,554,554,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2459,,,piribedil,Dopamine receptor agonist,train,424,True
+cpg0012:U2OS:555,cpg0012,U2OS,555,555,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2460,,,pirlindole,Monoamine oxidase inhibitor,gallery_only,435,True
+cpg0012:U2OS:556,cpg0012,U2OS,556,556,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2461,,,piroxicam,Cyclooxygenase inhibitor,held_out,461,True
+cpg0012:U2OS:557,cpg0012,U2OS,557,557,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2462,,,pizotifen,Serotonin receptor antagonist,held_out,378,True
+cpg0012:U2OS:558,cpg0012,U2OS,558,558,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2463,,,PK-11195,Benzodiazepine receptor antagonist,train,466,True
+cpg0012:U2OS:559,cpg0012,U2OS,559,559,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2466,,,practolol,Adrenergic receptor antagonist,held_out,581,True
+cpg0012:U2OS:560,cpg0012,U2OS,560,560,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2467,,,pravastatin,HMGCR inhibitor,gallery_only,504,True
+cpg0012:U2OS:561,cpg0012,U2OS,561,561,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2468,,,prazosin,Adrenergic receptor antagonist,held_out,108,True
+cpg0012:U2OS:562,cpg0012,U2OS,562,562,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2469,,,PRE-084,Sigma receptor agonist,gallery_only,556,True
+cpg0012:U2OS:563,cpg0012,U2OS,563,563,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2470,,,prednicarbate,Phospholipase activator,train,483,True
+cpg0012:U2OS:564,cpg0012,U2OS,564,564,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2471,,,prednisone,Glucocorticoid receptor agonist,train,494,True
+cpg0012:U2OS:565,cpg0012,U2OS,565,565,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2473,,,primidone,GABA receptor antagonist,train,562,True
+cpg0012:U2OS:566,cpg0012,U2OS,566,566,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2475,,,procainamide,Sodium channel blocker,held_out,429,True
+cpg0012:U2OS:567,cpg0012,U2OS,567,567,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2476,,,procaine,HMGCR inhibitor,train,473,True
+cpg0012:U2OS:568,cpg0012,U2OS,568,568,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2477,,,procaterol,Adrenergic receptor agonist,held_out,559,True
+cpg0012:U2OS:569,cpg0012,U2OS,569,569,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2478,,,prochlorperazine,Dopamine receptor antagonist,held_out,369,True
+cpg0012:U2OS:570,cpg0012,U2OS,570,570,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2479,,,progesterone,Progesterone receptor agonist,train,445,True
+cpg0012:U2OS:571,cpg0012,U2OS,571,571,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2480,,,proglumide,CCK receptor antagonist,train,526,True
+cpg0012:U2OS:572,cpg0012,U2OS,572,572,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2481,,,promazine,Dopamine receptor antagonist,train,466,True
+cpg0012:U2OS:573,cpg0012,U2OS,573,573,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2482,,,propafenone,Antiarrhythmic,train,356,True
+cpg0012:U2OS:574,cpg0012,U2OS,574,574,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2483,,,propentofylline,Phosphodiesterase inhibitor,held_out,443,True
+cpg0012:U2OS:575,cpg0012,U2OS,575,575,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2484,,,propranolol,Adrenergic receptor antagonist,gallery_only,426,True
+cpg0012:U2OS:576,cpg0012,U2OS,576,576,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2485,,,propylthiouracil,Thyroid peroxidase inhibitor,train,446,True
+cpg0012:U2OS:577,cpg0012,U2OS,577,577,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2486,,,proscillaridin,ATPase inhibitor,train,17,True
+cpg0012:U2OS:578,cpg0012,U2OS,578,578,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2487,,,protriptyline,Tricyclic antidepressant,train,320,True
+cpg0012:U2OS:579,cpg0012,U2OS,579,579,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2489,,,purmorphamine,Smoothened receptor agonist,train,385,True
+cpg0012:U2OS:580,cpg0012,U2OS,580,580,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2490,,,BRD-A26222320,,train,4,True
+cpg0012:U2OS:581,cpg0012,U2OS,581,581,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2491,,,pyrazolanthrone,JNK inhibitor,train,197,True
+cpg0012:U2OS:582,cpg0012,U2OS,582,582,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2492,,,quinapril,Angiotensin converting enzyme inhibitor,held_out,501,True
+cpg0012:U2OS:583,cpg0012,U2OS,583,583,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2493,,,quinethazone,Thiazide diuretic,train,432,True
+cpg0012:U2OS:584,cpg0012,U2OS,584,584,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2496,,,racecadotril,Enkephalinase inhibitor,train,456,True
+cpg0012:U2OS:585,cpg0012,U2OS,585,585,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2497,,,raclopride,Dopamine receptor antagonist,train,554,True
+cpg0012:U2OS:586,cpg0012,U2OS,586,586,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2498,,,raloxifene,Estrogen receptor antagonist,gallery_only,419,True
+cpg0012:U2OS:587,cpg0012,U2OS,587,587,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2499,,,ramelteon,Melatonin receptor agonist,train,449,True
+cpg0012:U2OS:588,cpg0012,U2OS,588,588,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2500,,,ramipril,Angiotensin converting enzyme inhibitor,train,469,True
+cpg0012:U2OS:589,cpg0012,U2OS,589,589,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2501,,,reboxetine,Adrenergic receptor antagonist,gallery_only,493,True
+cpg0012:U2OS:590,cpg0012,U2OS,590,590,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2502,,,remacemide,Glutamate receptor antagonist,gallery_only,606,True
+cpg0012:U2OS:591,cpg0012,U2OS,591,591,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2503,,,remoxipride,Dopamine receptor antagonist,held_out,514,True
+cpg0012:U2OS:592,cpg0012,U2OS,592,592,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2504,,,repaglinide,Insulin secretagogue,train,432,True
+cpg0012:U2OS:593,cpg0012,U2OS,593,593,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2506,,,REV-5901,Lipoxygenase inhibitor,train,525,True
+cpg0012:U2OS:594,cpg0012,U2OS,594,594,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2508,,,riluzole,Glutamate inhibitor,train,374,True
+cpg0012:U2OS:595,cpg0012,U2OS,595,595,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2509,,,rimcazole,Sigma receptor antagonist,gallery_only,348,True
+cpg0012:U2OS:596,cpg0012,U2OS,596,596,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2510,,,rimexolone,Glucocorticoid receptor agonist,held_out,412,True
+cpg0012:U2OS:597,cpg0012,U2OS,597,597,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2511,,,risperidone,Dopamine receptor antagonist,held_out,509,True
+cpg0012:U2OS:598,cpg0012,U2OS,598,598,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2512,,,ritodrine,Adrenergic receptor agonist,train,499,True
+cpg0012:U2OS:599,cpg0012,U2OS,599,599,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2513,,,Ro-20-1724,Phosphodiesterase inhibitor,train,445,True
+cpg0012:U2OS:600,cpg0012,U2OS,600,600,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2515,,,rolipram,Phosphodiesterase inhibitor,train,552,True
+cpg0012:U2OS:601,cpg0012,U2OS,601,601,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2516,,,ropinirole,Dopamine receptor agonist,held_out,328,True
+cpg0012:U2OS:602,cpg0012,U2OS,602,602,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2517,,,roscovitine,CDK inhibitor,train,458,True
+cpg0012:U2OS:603,cpg0012,U2OS,603,603,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2518,,,rotenone,Mitochondrial complex I inhibitor,train,78,True
+cpg0012:U2OS:604,cpg0012,U2OS,604,604,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2519,,,RS-23597-190,Serotonin receptor antagonist,held_out,307,True
+cpg0012:U2OS:605,cpg0012,U2OS,605,605,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2522,,,salmeterol,Adrenergic receptor agonist,gallery_only,503,True
+cpg0012:U2OS:606,cpg0012,U2OS,606,606,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2524,,,salubrinal,Eukaryotic translation initiation factor inhibitor,gallery_only,258,True
+cpg0012:U2OS:607,cpg0012,U2OS,607,607,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2527,,,SB-202190,P38 MAPK inhibitor,train,434,True
+cpg0012:U2OS:608,cpg0012,U2OS,608,608,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2528,,,SB-203580,P38 MAPK inhibitor,train,520,True
+cpg0012:U2OS:609,cpg0012,U2OS,609,609,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2529,,,SB-205384,GABA receptor modulator,gallery_only,568,True
+cpg0012:U2OS:610,cpg0012,U2OS,610,610,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2530,,,SB-205607,Delta 1 opioid receptor agonist,gallery_only,483,True
+cpg0012:U2OS:611,cpg0012,U2OS,611,611,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2531,,,SB-216763,GSK-3 inhibitor,gallery_only,410,True
+cpg0012:U2OS:612,cpg0012,U2OS,612,612,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2533,,,SB-221284,Serotonin receptor antagonist,gallery_only,454,True
+cpg0012:U2OS:613,cpg0012,U2OS,613,613,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2534,,,SB-225002,CCK receptor antagonist,gallery_only,50,True
+cpg0012:U2OS:614,cpg0012,U2OS,614,614,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2538,,,SB-431542,TGF beta receptor inhibitor,train,411,True
+cpg0012:U2OS:615,cpg0012,U2OS,615,615,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2540,,,SC-19220,Prostanoid receptor antagonist,gallery_only,521,True
+cpg0012:U2OS:616,cpg0012,U2OS,616,616,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2541,,,SC-560,Cyclooxygenase inhibitor,gallery_only,384,True
+cpg0012:U2OS:617,cpg0012,U2OS,617,617,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2544,,,SCH-79797,Proteasome inhibitor,gallery_only,7,True
+cpg0012:U2OS:618,cpg0012,U2OS,618,618,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2545,,,scopolamine,Acetylcholine receptor antagonist,gallery_only,501,True
+cpg0012:U2OS:619,cpg0012,U2OS,619,619,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2546,,,scoulerine,GABA receptor antagonist,train,413,True
+cpg0012:U2OS:620,cpg0012,U2OS,620,620,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2547,,,securinine,TP53 activator,train,324,True
+cpg0012:U2OS:621,cpg0012,U2OS,621,621,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2548,,,semaxanib,VEGFR inhibitor,gallery_only,377,True
+cpg0012:U2OS:622,cpg0012,U2OS,622,622,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2550,,,siguazodan,Phosphodiesterase inhibitor,gallery_only,491,True
+cpg0012:U2OS:623,cpg0012,U2OS,623,623,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2552,,,simvastatin,HMGCR inhibitor,train,229,True
+cpg0012:U2OS:624,cpg0012,U2OS,624,624,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2554,,,SKI-II,Sphingosine kinase inhibitor,gallery_only,407,True
+cpg0012:U2OS:625,cpg0012,U2OS,625,625,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2555,,,sotalol,Adrenergic receptor antagonist,gallery_only,540,True
+cpg0012:U2OS:626,cpg0012,U2OS,626,626,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2560,,,SR-2640,Leukotriene receptor antagonist,gallery_only,436,True
+cpg0012:U2OS:627,cpg0012,U2OS,627,627,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2562,,,strychnine,Acetylcholine receptor antagonist,train,408,True
+cpg0012:U2OS:628,cpg0012,U2OS,628,628,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2564,,,sulconazole,,train,286,True
+cpg0012:U2OS:629,cpg0012,U2OS,629,629,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2567,,,sulfasalazine,Anti-rheumatic drug,train,525,True
+cpg0012:U2OS:630,cpg0012,U2OS,630,630,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2568,,,sulfinpyrazone,Uricosuric blocker,train,523,True
+cpg0012:U2OS:631,cpg0012,U2OS,631,631,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2569,,,sulindac,Cyclooxygenase inhibitor,train,472,True
+cpg0012:U2OS:632,cpg0012,U2OS,632,632,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2570,,,sulpiride,Dopamine receptor antagonist,held_out,477,True
+cpg0012:U2OS:633,cpg0012,U2OS,633,633,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2571,,,suprofen,Cyclooxygenase inhibitor,held_out,495,True
+cpg0012:U2OS:634,cpg0012,U2OS,634,634,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2573,,,T-0156,Phosphodiesterase inhibitor,held_out,542,True
+cpg0012:U2OS:635,cpg0012,U2OS,635,635,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2575,,,tacedinaline,,train,108,True
+cpg0012:U2OS:636,cpg0012,U2OS,636,636,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2577,,,tamoxifen,Estrogen receptor antagonist,gallery_only,12,True
+cpg0012:U2OS:637,cpg0012,U2OS,637,637,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2578,,,TCB2,Serotonin receptor agonist,gallery_only,555,True
+cpg0012:U2OS:638,cpg0012,U2OS,638,638,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2580,,,tenoxicam,Cyclooxygenase inhibitor,held_out,460,True
+cpg0012:U2OS:639,cpg0012,U2OS,639,639,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2582,,,terfenadine,Histamine receptor antagonist,train,456,True
+cpg0012:U2OS:640,cpg0012,U2OS,640,640,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2584,,,testosterone,,train,460,True
+cpg0012:U2OS:641,cpg0012,U2OS,641,641,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2585,,,tetracaine,Membrane integrity inhibitor,train,354,True
+cpg0012:U2OS:642,cpg0012,U2OS,642,642,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2586,,,tetrindole,Monoamine oxidase inhibitor,gallery_only,41,True
+cpg0012:U2OS:643,cpg0012,U2OS,643,643,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2587,,,thalidomide,TNF production inhibitor,train,486,True
+cpg0012:U2OS:644,cpg0012,U2OS,644,644,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2588,,,thapsigargin,ATPase inhibitor,held_out,8,True
+cpg0012:U2OS:645,cpg0012,U2OS,645,645,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2589,,,thiamylal,Glutamate receptor antagonist,train,518,True
+cpg0012:U2OS:646,cpg0012,U2OS,646,646,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2590,,,thioperamide,Histamine receptor antagonist,gallery_only,348,True
+cpg0012:U2OS:647,cpg0012,U2OS,647,647,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2592,,,tianeptine,Selective serotonin reuptake enhancer,gallery_only,359,True
+cpg0012:U2OS:648,cpg0012,U2OS,648,648,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2593,,,tiapride,Dopamine receptor antagonist,train,492,True
+cpg0012:U2OS:649,cpg0012,U2OS,649,649,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2594,,,ticlopidine,Purinergic receptor antagonist,train,312,True
+cpg0012:U2OS:650,cpg0012,U2OS,650,650,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2596,,,BRD-A31916785,Adrenergic receptor antagonist,held_out,508,True
+cpg0012:U2OS:651,cpg0012,U2OS,651,651,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2599,,,tocainide,Sodium channel blocker,train,476,True
+cpg0012:U2OS:652,cpg0012,U2OS,652,652,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2601,,,tolperisone,Voltage-gated sodium channel blocker,train,470,True
+cpg0012:U2OS:653,cpg0012,U2OS,653,653,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2602,,,tomelukast,Leukotriene receptor antagonist,train,512,True
+cpg0012:U2OS:654,cpg0012,U2OS,654,654,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2603,,,torasemide,Thromboxane receptor antagonist,train,435,True
+cpg0012:U2OS:655,cpg0012,U2OS,655,655,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2604,,,TPCA-1,IKK inhibitor,gallery_only,90,True
+cpg0012:U2OS:656,cpg0012,U2OS,656,656,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2605,,,tracazolate,GABA receptor modulator,gallery_only,437,True
+cpg0012:U2OS:657,cpg0012,U2OS,657,657,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2606,,,trandolapril,Angiotensin converting enzyme inhibitor,train,502,True
+cpg0012:U2OS:658,cpg0012,U2OS,658,658,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2607,,,trazodone,Serotonin reuptake inhibitor,held_out,439,True
+cpg0012:U2OS:659,cpg0012,U2OS,659,659,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2609,,,triamcinolone,Glucocorticoid receptor agonist,held_out,298,True
+cpg0012:U2OS:660,cpg0012,U2OS,660,660,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2610,,,trichlormethiazide,Chloride channel antagonist,train,626,True
+cpg0012:U2OS:661,cpg0012,U2OS,661,661,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2611,,,trifluoperazine,Dopamine receptor antagonist,train,260,True
+cpg0012:U2OS:662,cpg0012,U2OS,662,662,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2612,,,trifluridine,Thymidylate synthase inhibitor,train,273,True
+cpg0012:U2OS:663,cpg0012,U2OS,663,663,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2613,,,trimethobenzamide,Histamine receptor antagonist,held_out,334,True
+cpg0012:U2OS:664,cpg0012,U2OS,664,664,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2615,,,triptolide,,train,29,True
+cpg0012:U2OS:665,cpg0012,U2OS,665,665,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2618,,,TTNPB,Retinoid receptor agonist,gallery_only,431,True
+cpg0012:U2OS:666,cpg0012,U2OS,666,666,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2619,,,tulobuterol,Adrenergic receptor agonist,held_out,477,True
+cpg0012:U2OS:667,cpg0012,U2OS,667,667,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2621,,,ubenimex,Leukotriene inhibitor,train,337,True
+cpg0012:U2OS:668,cpg0012,U2OS,668,668,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2622,,,urapidil,Adrenergic receptor antagonist,gallery_only,495,True
+cpg0012:U2OS:669,cpg0012,U2OS,669,669,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2623,,,valdecoxib,Cyclooxygenase inhibitor,train,566,True
+cpg0012:U2OS:670,cpg0012,U2OS,670,670,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2624,,,valsartan,Angiotensin receptor antagonist,train,478,True
+cpg0012:U2OS:671,cpg0012,U2OS,671,671,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2625,,,vanoxerine,Dopamine uptake inhibitor,held_out,113,True
+cpg0012:U2OS:672,cpg0012,U2OS,672,672,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2626,,,venlafaxine,Adrenergic inhibitor,train,435,True
+cpg0012:U2OS:673,cpg0012,U2OS,673,673,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2627,,,verapamil,Calcium channel blocker,train,556,True
+cpg0012:U2OS:674,cpg0012,U2OS,674,674,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2631,,,vinpocetine,Sodium channel blocker,train,398,True
+cpg0012:U2OS:675,cpg0012,U2OS,675,675,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2632,,,W-13,Calmodulin antagonist,train,431,True
+cpg0012:U2OS:676,cpg0012,U2OS,676,676,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2633,,,W-9,Calmodulin antagonist,gallery_only,401,True
+cpg0012:U2OS:677,cpg0012,U2OS,677,677,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2634,,,warfarin,Vitamin K antagonist,train,536,True
+cpg0012:U2OS:678,cpg0012,U2OS,678,678,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2635,,,wiskostatin,Neural Wiskott-Aldrich syndrome protein inhibitor,train,488,True
+cpg0012:U2OS:679,cpg0012,U2OS,679,679,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2636,,,wortmannin,PI3K inhibitor,train,426,True
+cpg0012:U2OS:680,cpg0012,U2OS,680,680,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2638,,,Y-26763,Potassium channel activator,gallery_only,472,True
+cpg0012:U2OS:681,cpg0012,U2OS,681,681,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2639,,,Y-27152,Potassium channel activator,gallery_only,440,True
+cpg0012:U2OS:682,cpg0012,U2OS,682,682,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2642,,,zaldaride,Calmodulin antagonist,gallery_only,412,True
+cpg0012:U2OS:683,cpg0012,U2OS,683,683,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2643,,,zaprinast,Phosphodiesterase inhibitor,train,392,True
+cpg0012:U2OS:684,cpg0012,U2OS,684,684,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2644,,,zardaverine,Phosphodiesterase inhibitor,train,379,True
+cpg0012:U2OS:685,cpg0012,U2OS,685,685,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2646,,,ZK-93423,Benzodiazepine receptor agonist,gallery_only,115,True
+cpg0012:U2OS:686,cpg0012,U2OS,686,686,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2647,,,ZK-93426,Benzodiazepine receptor antagonist,gallery_only,337,True
+cpg0012:U2OS:687,cpg0012,U2OS,687,687,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2649,,,zolpidem,Benzodiazepine receptor agonist,train,550,True
+cpg0012:U2OS:688,cpg0012,U2OS,688,688,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2650,,,zonisamide,Sodium channel blocker,gallery_only,520,True
+cpg0012:U2OS:689,cpg0012,U2OS,689,689,crops/crops_cpg0012_690.h5,features/l1000_u2os_690.npy,2651,,,zopiclone,GABA receptor agonist,gallery_only,587,True

@@ -1,0 +1,342 @@
+query_id,gallery_id,direct_target,shared_moa,anchor_record_ids
+cpg0000:A549:gene:ADA,cpg0004:A549:55,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:77,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:98,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:114,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:117,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:122,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:135,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:138,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:167,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:170,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:187,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:207,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:227,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:314,False,Antiviral,cpg0004:A549:613
+cpg0000:A549:gene:ADA,cpg0004:A549:354,True,Ribonucleoside reductase inhibitor,cpg0004:A549:354
+cpg0000:A549:gene:ADA,cpg0004:A549:505,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:561,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:613,True,Antiviral,cpg0004:A549:613
+cpg0000:A549:gene:ADA,cpg0004:A549:626,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:676,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:718,False,Ribonucleoside reductase inhibitor,cpg0004:A549:354
+cpg0000:A549:gene:ADA,cpg0004:A549:741,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:755,True,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:818,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:839,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:905,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:940,False,Ribonucleoside reductase inhibitor,cpg0004:A549:354
+cpg0000:A549:gene:ADA,cpg0004:A549:950,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:985,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:994,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:1006,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:1008,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:1009,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:ADA,cpg0004:A549:1023,False,Phosphodiesterase inhibitor,cpg0004:A549:755
+cpg0000:A549:gene:AKR1B1,cpg0004:A549:70,True,Aldose reductase inhibitor,cpg0004:A549:70|cpg0004:A549:133
+cpg0000:A549:gene:AKR1B1,cpg0004:A549:133,True,Aldose reductase inhibitor,cpg0004:A549:70|cpg0004:A549:133
+cpg0000:A549:gene:ALDH2,cpg0004:A549:936,True,Aldehyde dehydrogenase inhibitor,cpg0004:A549:936
+cpg0000:A549:gene:ATM,cpg0004:A549:76,False,Adenosine receptor antagonist,cpg0004:A549:881
+cpg0000:A549:gene:ATM,cpg0004:A549:145,False,Adenosine receptor antagonist,cpg0004:A549:881
+cpg0000:A549:gene:ATM,cpg0004:A549:193,False,Adenosine receptor antagonist,cpg0004:A549:881
+cpg0000:A549:gene:ATM,cpg0004:A549:211,False,Adenosine receptor antagonist,cpg0004:A549:881
+cpg0000:A549:gene:ATM,cpg0004:A549:881,True,Adenosine receptor antagonist,cpg0004:A549:881
+cpg0000:A549:gene:BTK,cpg0004:A549:29,True,BTK inhibitor,cpg0004:A549:29|cpg0004:A549:316|cpg0004:A549:732
+cpg0000:A549:gene:BTK,cpg0004:A549:316,True,BTK inhibitor,cpg0004:A549:29|cpg0004:A549:316|cpg0004:A549:732
+cpg0000:A549:gene:BTK,cpg0004:A549:732,True,BTK inhibitor,cpg0004:A549:29|cpg0004:A549:316|cpg0004:A549:732
+cpg0000:A549:gene:DDR2,cpg0004:A549:24,False,RET tyrosine kinase inhibitor,cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:DDR2,cpg0004:A549:32,False,RET tyrosine kinase inhibitor,cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:DDR2,cpg0004:A549:49,True,RET tyrosine kinase inhibitor,cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:DDR2,cpg0004:A549:201,False,RET tyrosine kinase inhibitor,cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:DDR2,cpg0004:A549:367,True,RET tyrosine kinase inhibitor,cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:GAA,cpg0004:A549:404,True,Glucosidase inhibitor,cpg0004:A549:404|cpg0004:A549:465|cpg0004:A549:698
+cpg0000:A549:gene:GAA,cpg0004:A549:465,True,Glucosidase inhibitor,cpg0004:A549:404|cpg0004:A549:465|cpg0004:A549:698
+cpg0000:A549:gene:GAA,cpg0004:A549:698,True,Glucosidase inhibitor,cpg0004:A549:404|cpg0004:A549:465|cpg0004:A549:698
+cpg0000:A549:gene:GHSR,cpg0004:A549:600,True,Growth hormone secretagogue receptor agonist,cpg0004:A549:600
+cpg0000:A549:gene:GRIN2A,cpg0004:A549:172,False,Glutamate receptor antagonist,cpg0004:A549:185
+cpg0000:A549:gene:GRIN2A,cpg0004:A549:185,True,Glutamate receptor antagonist,cpg0004:A549:185
+cpg0000:A549:gene:GRIN2A,cpg0004:A549:477,False,Glutamate receptor antagonist,cpg0004:A549:185
+cpg0000:A549:gene:GRIN2A,cpg0004:A549:634,False,Glutamate receptor antagonist,cpg0004:A549:185
+cpg0000:A549:gene:GRIN2A,cpg0004:A549:957,False,Glutamate receptor antagonist,cpg0004:A549:185
+cpg0000:A549:gene:GUCY1B1,cpg0004:A549:286,True,Guanylate cyclase activator,cpg0004:A549:286
+cpg0000:A549:gene:GUCY1B1,cpg0004:A549:687,True,Guanylate cyclase stimulant,cpg0004:A549:687
+cpg0000:A549:gene:HSD11B1,cpg0004:A549:535,True,11-beta hydroxysteroid dehydrogenase inhibitor,cpg0004:A549:535
+cpg0000:A549:gene:HSD11B1,cpg0004:A549:552,True,Gap junction modulator,cpg0004:A549:552
+cpg0000:A549:gene:HSD11B1,cpg0004:A549:874,True,11-beta-HSD1 inhibitor,cpg0004:A549:874
+cpg0000:A549:gene:HTR3A,cpg0004:A549:52,False,HMGCR inhibitor,cpg0004:A549:918
+cpg0000:A549:gene:HTR3A,cpg0004:A549:137,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:206,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:225,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:261,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:272,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:274,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:276,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:278,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:279,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:285,True,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:290,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:291,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:320,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:323,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:343,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:351,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:355,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:363,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:382,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:387,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:389,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:391,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:401,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:406,False,HMGCR inhibitor,cpg0004:A549:918
+cpg0000:A549:gene:HTR3A,cpg0004:A549:435,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:443,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:445,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:466,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:468,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:473,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:494,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:496,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:497,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:510,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:529,True,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:532,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:550,True,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:573,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:610,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:617,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:642,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:651,False,HMGCR inhibitor,cpg0004:A549:918
+cpg0000:A549:gene:HTR3A,cpg0004:A549:653,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:658,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:669,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:677,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:683,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:719,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:724,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:727,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:738,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:747,True,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:756,True,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:759,True,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:766,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:775,True,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:780,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:785,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:786,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:787,False,Serotonin receptor agonist,cpg0004:A549:775
+cpg0000:A549:gene:HTR3A,cpg0004:A549:788,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:808,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:814,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:842,True,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:852,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:872,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:877,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:917,False,HMGCR inhibitor,cpg0004:A549:918
+cpg0000:A549:gene:HTR3A,cpg0004:A549:918,True,HMGCR inhibitor,cpg0004:A549:918
+cpg0000:A549:gene:HTR3A,cpg0004:A549:931,False,HMGCR inhibitor,cpg0004:A549:918
+cpg0000:A549:gene:HTR3A,cpg0004:A549:933,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:949,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:976,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:977,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:987,False,Serotonin receptor antagonist,cpg0004:A549:285|cpg0004:A549:529|cpg0004:A549:550|cpg0004:A549:747|cpg0004:A549:756|cpg0004:A549:759
+cpg0000:A549:gene:HTR3A,cpg0004:A549:1014,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:1020,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:1027,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:HTR3A,cpg0004:A549:1036,False,Adrenergic receptor antagonist,cpg0004:A549:842
+cpg0000:A549:gene:IL1B,cpg0004:A549:525,True,Interleukin inhibitor,cpg0004:A549:525
+cpg0000:A549:gene:KCNN4,cpg0004:A549:91,False,Cytochrome P450 inhibitor,cpg0004:A549:900
+cpg0000:A549:gene:KCNN4,cpg0004:A549:264,True,Hemozoin biocrystallization inhibitor,cpg0004:A549:264
+cpg0000:A549:gene:KCNN4,cpg0004:A549:385,False,Cytochrome P450 inhibitor,cpg0004:A549:900
+cpg0000:A549:gene:KCNN4,cpg0004:A549:645,True,Intermediate conductance potassium channel blocker,cpg0004:A549:645
+cpg0000:A549:gene:KCNN4,cpg0004:A549:673,False,Cytochrome P450 inhibitor,cpg0004:A549:900
+cpg0000:A549:gene:KCNN4,cpg0004:A549:900,True,Cytochrome P450 inhibitor,cpg0004:A549:900
+cpg0000:A549:gene:KDR,cpg0004:A549:5,False,PLK inhibitor,cpg0004:A549:248
+cpg0000:A549:gene:KDR,cpg0004:A549:12,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:24,True,RET tyrosine kinase inhibitor,cpg0004:A549:24|cpg0004:A549:32|cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:KDR,cpg0004:A549:26,False,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:32,True,RET tyrosine kinase inhibitor,cpg0004:A549:24|cpg0004:A549:32|cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:KDR,cpg0004:A549:49,True,RET tyrosine kinase inhibitor,cpg0004:A549:24|cpg0004:A549:32|cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:KDR,cpg0004:A549:68,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:113,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:128,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:144,False,PLK inhibitor,cpg0004:A549:248
+cpg0000:A549:gene:KDR,cpg0004:A549:201,False,RET tyrosine kinase inhibitor,cpg0004:A549:24|cpg0004:A549:32|cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:KDR,cpg0004:A549:202,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:237,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:248,True,PLK inhibitor,cpg0004:A549:248
+cpg0000:A549:gene:KDR,cpg0004:A549:260,False,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:262,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:299,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:304,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:310,False,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:311,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:367,True,RET tyrosine kinase inhibitor,cpg0004:A549:24|cpg0004:A549:32|cpg0004:A549:49|cpg0004:A549:367
+cpg0000:A549:gene:KDR,cpg0004:A549:377,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:388,True,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:397,False,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:426,False,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:444,True,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:450,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:470,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:520,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:538,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:554,False,PLK inhibitor,cpg0004:A549:248
+cpg0000:A549:gene:KDR,cpg0004:A549:582,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:596,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:598,False,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:603,False,Aurora kinase inhibitor,cpg0004:A549:388
+cpg0000:A549:gene:KDR,cpg0004:A549:652,False,PLK inhibitor,cpg0004:A549:248
+cpg0000:A549:gene:KDR,cpg0004:A549:655,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:964,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:KDR,cpg0004:A549:1003,True,VEGFR inhibitor,cpg0004:A549:68|cpg0004:A549:113|cpg0004:A549:128|cpg0004:A549:237|cpg0004:A549:299|cpg0004:A549:304|cpg0004:A549:377|cpg0004:A549:450|cpg0004:A549:470|cpg0004:A549:538|cpg0004:A549:582|cpg0004:A549:596|cpg0004:A549:655|cpg0004:A549:1003
+cpg0000:A549:gene:KDR,cpg0004:A549:1016,False,Tyrosine kinase inhibitor,cpg0004:A549:444
+cpg0000:A549:gene:LCK,cpg0004:A549:12,True,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:202,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:262,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:311,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:444,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:520,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:964,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:LCK,cpg0004:A549:1016,False,Tyrosine kinase inhibitor,cpg0004:A549:12
+cpg0000:A549:gene:MMP2,cpg0004:A549:169,True,Matrix metalloprotease inhibitor,cpg0004:A549:169
+cpg0000:A549:gene:MMP2,cpg0004:A549:190,True,Metalloproteinase inhibitor,cpg0004:A549:190
+cpg0000:A549:gene:MMP2,cpg0004:A549:782,False,Metalloproteinase inhibitor,cpg0004:A549:190
+cpg0000:A549:gene:OPRL1,cpg0004:A549:347,False,Opioid receptor antagonist,cpg0004:A549:906
+cpg0000:A549:gene:OPRL1,cpg0004:A549:515,False,Opioid receptor antagonist,cpg0004:A549:906
+cpg0000:A549:gene:OPRL1,cpg0004:A549:523,False,Opioid receptor antagonist,cpg0004:A549:906
+cpg0000:A549:gene:OPRL1,cpg0004:A549:906,True,Opioid receptor antagonist,cpg0004:A549:906
+cpg0000:A549:gene:OPRL1,cpg0004:A549:1007,False,Opioid receptor antagonist,cpg0004:A549:906
+cpg0000:A549:gene:P2RY12,cpg0004:A549:637,True,Purinergic receptor antagonist,cpg0004:A549:637|cpg0004:A549:876
+cpg0000:A549:gene:P2RY12,cpg0004:A549:647,False,Purinergic receptor antagonist,cpg0004:A549:637|cpg0004:A549:876
+cpg0000:A549:gene:P2RY12,cpg0004:A549:876,True,Purinergic receptor antagonist,cpg0004:A549:637|cpg0004:A549:876
+cpg0000:A549:gene:PDE3A,cpg0004:A549:55,True,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:76,True,Adenosine receptor antagonist,cpg0004:A549:76
+cpg0000:A549:gene:PDE3A,cpg0004:A549:77,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:98,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:114,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:117,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:122,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:135,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:138,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:145,False,Adenosine receptor antagonist,cpg0004:A549:76
+cpg0000:A549:gene:PDE3A,cpg0004:A549:167,True,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:170,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:187,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:193,False,Adenosine receptor antagonist,cpg0004:A549:76
+cpg0000:A549:gene:PDE3A,cpg0004:A549:207,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:211,False,Adenosine receptor antagonist,cpg0004:A549:76
+cpg0000:A549:gene:PDE3A,cpg0004:A549:227,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:330,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE3A,cpg0004:A549:417,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE3A,cpg0004:A549:505,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:561,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:626,True,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:676,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:741,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:755,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:818,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:839,True,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:881,False,Adenosine receptor antagonist,cpg0004:A549:76
+cpg0000:A549:gene:PDE3A,cpg0004:A549:903,True,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE3A,cpg0004:A549:905,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:926,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE3A,cpg0004:A549:950,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:985,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:994,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:1001,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE3A,cpg0004:A549:1006,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:1008,True,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:1009,True,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE3A,cpg0004:A549:1023,False,Phosphodiesterase inhibitor,cpg0004:A549:55|cpg0004:A549:167|cpg0004:A549:626|cpg0004:A549:839|cpg0004:A549:1008|cpg0004:A549:1009
+cpg0000:A549:gene:PDE4D,cpg0004:A549:55,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:76,False,Adenosine receptor antagonist,cpg0004:A549:193
+cpg0000:A549:gene:PDE4D,cpg0004:A549:77,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:98,True,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:114,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:117,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:122,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:135,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:138,True,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:145,False,Adenosine receptor antagonist,cpg0004:A549:193
+cpg0000:A549:gene:PDE4D,cpg0004:A549:167,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:170,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:187,True,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:193,True,Adenosine receptor antagonist,cpg0004:A549:193
+cpg0000:A549:gene:PDE4D,cpg0004:A549:207,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:211,False,Adenosine receptor antagonist,cpg0004:A549:193
+cpg0000:A549:gene:PDE4D,cpg0004:A549:227,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:330,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE4D,cpg0004:A549:417,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE4D,cpg0004:A549:505,True,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:561,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:626,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:676,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:741,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:755,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:818,True,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:839,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:881,False,Adenosine receptor antagonist,cpg0004:A549:193
+cpg0000:A549:gene:PDE4D,cpg0004:A549:903,True,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE4D,cpg0004:A549:905,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:926,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE4D,cpg0004:A549:950,True,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:985,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:994,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:1001,False,Leukotriene receptor antagonist,cpg0004:A549:903
+cpg0000:A549:gene:PDE4D,cpg0004:A549:1006,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:1008,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:1009,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PDE4D,cpg0004:A549:1023,False,Phosphodiesterase inhibitor,cpg0004:A549:98|cpg0004:A549:138|cpg0004:A549:187|cpg0004:A549:505|cpg0004:A549:818|cpg0004:A549:950
+cpg0000:A549:gene:PLA2G1B,cpg0004:A549:567,True,Bile acid,cpg0004:A549:567
+cpg0000:A549:gene:PPARD,cpg0004:A549:21,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:147,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:428,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:516,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:533,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:695,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:865,False,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPARD,cpg0004:A549:970,True,PPAR receptor agonist,cpg0004:A549:970
+cpg0000:A549:gene:PPAT,cpg0004:A549:937,True,Dehydrogenase inhibitor,cpg0004:A549:937
+cpg0000:A549:gene:PRKCB,cpg0004:A549:346,True,PKC inhibitor,cpg0004:A549:346|cpg0004:A549:678
+cpg0000:A549:gene:PRKCB,cpg0004:A549:678,True,PKC inhibitor,cpg0004:A549:346|cpg0004:A549:678
+cpg0000:A549:gene:PTK2B,cpg0004:A549:65,True,Focal adhesion kinase inhibitor,cpg0004:A549:65
+cpg0000:A549:gene:PTK2B,cpg0004:A549:141,False,Focal adhesion kinase inhibitor,cpg0004:A549:65
+cpg0000:A549:gene:SSTR2,cpg0004:A549:394,True,Somatostatin receptor agonist,cpg0004:A549:394
+cpg0000:A549:gene:TNF,cpg0004:A549:55,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:77,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:81,True,Tumor necrosis factor release inhibitor,cpg0004:A549:81|cpg0004:A549:200
+cpg0000:A549:gene:TNF,cpg0004:A549:98,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:114,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:117,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:122,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:135,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:138,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:167,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:170,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:187,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:200,True,Tumor necrosis factor release inhibitor,cpg0004:A549:81|cpg0004:A549:200
+cpg0000:A549:gene:TNF,cpg0004:A549:207,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:226,False,TGF beta receptor inhibitor,cpg0004:A549:295
+cpg0000:A549:gene:TNF,cpg0004:A549:227,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:265,True,Anti-cancer agent,cpg0004:A549:265
+cpg0000:A549:gene:TNF,cpg0004:A549:295,True,TGF beta receptor inhibitor,cpg0004:A549:295
+cpg0000:A549:gene:TNF,cpg0004:A549:505,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:509,True,Tumor necrosis factor production inhibitor,cpg0004:A549:509
+cpg0000:A549:gene:TNF,cpg0004:A549:561,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:626,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:676,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:741,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:755,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:818,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:839,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:866,True,TNF production inhibitor,cpg0004:A549:866
+cpg0000:A549:gene:TNF,cpg0004:A549:905,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:950,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:985,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:994,True,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:1006,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:1008,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:1009,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TNF,cpg0004:A549:1023,False,Phosphodiesterase inhibitor,cpg0004:A549:994
+cpg0000:A549:gene:TUBB3,cpg0004:A549:386,True,Microtubule stabilizing agent,cpg0004:A549:386
+cpg0000:A549:gene:TUBB3,cpg0004:A549:421,False,Microtubule stabilizing agent,cpg0004:A549:386

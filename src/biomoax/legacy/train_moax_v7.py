@@ -1,21 +1,21 @@
 """
 train_moax_v7.py
 ================
-v6 → v7 变动：
+Changes from v6 to v7:
 
-新增数据（均无L1000，只参与i2i/gene_i2i）：
-  cpg0000 compound A549   260 cpd, 每基因2个，与CRISPR A549直接基因配对
-  cpg0000 compound U2OS   260 cpd, 68基因与CRISPR U2OS配对
-  cpg0000 CRISPR A549     120 训练基因 (held-out 10: ADA/ALDH2/BTK/GUCY1B1/IL1B/KDR/MMP2/PRKCB/PTK2B/TNF)
-  cpg0000 CRISPR U2OS     68 基因，全量训练
+Additional datasets (without L1000; used for image and gene-image losses):
+  cpg0000 compound A549: 260 compounds, two per gene, paired with CRISPR images.
+  cpg0000 compound U2OS: 260 compounds, paired with 68 CRISPR genes.
+  cpg0000 CRISPR A549: historical default of 120 training genes and 10 held-out genes.
+  cpg0000 CRISPR U2OS: historical collection of 68 genes.
 
-新损失 loss_gene_i2i：
-  CRISPR图像(基因X) ↔ cpg0000化合物图像(靶基因X)
-  替代 v6 的 loss_crispr_i2i（v6用药名匹配cpg0012/0004，v7直接按基因对齐）
+Gene-image loss:
+  CRISPR images for gene X paired with compound images targeting gene X.
+  Gene-based pairing replaces the earlier compound-name matching.
 
-Checkpoint 条件简化：
+Checkpoint thresholds:
   v7: e2e_U2OS≥22.2% AND e2e_A549≥17.9% AND i2i_U2OS≥14.4% AND i2i_A549≥13.6%
-  去掉 i2e/e2i 门槛，每个满足条件的 epoch 都保存为 qualified_ep{epoch:03d}.pt
+  Save each qualifying epoch as qualified_ep{epoch:03d}.pt; no i2e/e2i threshold.
 
 Global ID offset:
   U2OS(cpg0012) 0-689    A549(cpg0004) 690-1728
@@ -71,13 +71,13 @@ META = {
 }
 PROFILES_MERGED = PROC / "metadata/cpg0012_profiles_merged.csv"
 
-# CRISPR held-out（不参与训练，作泛化/零样本测试）
-#   A549: 部分留出（有 L1000，主力 gene_i2i 训练 120 基因）
-#   U2OS: 全部 68 基因留出（无 L1000，纯跨细胞系零样本测试，不进训练）
+# Historical CRISPR held-out defaults; overridden by the public training entry.
+# A549: selected held-out genes.
+# U2OS: all genes held out in this base configuration.
 HELD_OUT_GENES_A549 = {
     'ADA','ALDH2','BTK','GUCY1B1','IL1B','KDR','MMP2','PRKCB','PTK2B','TNF'
 }
-HELD_OUT_GENES_U2OS = "ALL"   # 全部 U2OS CRISPR 基因均 held-out
+HELD_OUT_GENES_U2OS = "ALL"   # Hold out all U2OS CRISPR genes by default.
 
 # ── Offsets ───────────────────────────────────────────────────────────────────
 OFFSET = {
@@ -92,7 +92,7 @@ OFFSET = {
 }
 N_CPD     = {"U2OS": 690, "A549": 1039, "HT29": 78, "A375": 86, "MCF7": 85}
 N_CPD_NEW = {"cpd_A549": 260, "cpd_U2OS": 260}
-NO_L1K_OFFSET = OFFSET["cpg0030"]   # global_id >= 此值的 drugs 无 L1000
+NO_L1K_OFFSET = OFFSET["cpg0030"]   # Drugs at or above this global ID have no L1000.
 
 # Optional compound-pair expansion used by newer wrappers.  Historical runs
 # leave this empty, preserving their offsets, sampling, and checkpoints.
@@ -124,21 +124,21 @@ ALPHA_CPD        = 2.0
 ALPHA_MOA_I      = 1.7
 ALPHA_MOA_E      = 3.0
 ALPHA_MOA_CROSS  = 2.0
-ALPHA_GENE_I2I   = 1.0   # CRISPR图像↔cpg0000化合物图像 基因级配对
-ALPHA_CRISPR_I2E = 1.5   # CRISPR图像↔药物L1000 (靶向+MOA)，补 CRISPR→L1000 短板
+ALPHA_GENE_I2I   = 1.0   # Gene-level CRISPR/compound image pairing.
+ALPHA_CRISPR_I2E = 1.5   # CRISPR image to drug L1000, using target/MOA positives.
 
-# ── Checkpoint 阈值（去掉 i2e/e2i 门槛）────────────────────────────────────────
+# Checkpoint thresholds (without i2e/e2i thresholds).
 THRESH_E2E_U2OS = 0.222   # L1000 baseline
 THRESH_E2E_A549 = 0.179
 THRESH_I2I_U2OS = 0.144   # best DP single-modal baseline
 THRESH_I2I_A549 = 0.136   # best CP single-modal baseline
 
-GENE_I2I_PER_BATCH   = 24   # 每 batch 采样的基因对数（v6=16，v7扩至24）
-CRISPR_I2E_PER_BATCH = 24   # 每 batch 采样的 CRISPR→药物L1000 基因数
+GENE_I2I_PER_BATCH   = 24   # Gene-image pairs sampled per batch.
+CRISPR_I2E_PER_BATCH = 24   # Genes sampled for CRISPR-to-expression pairing.
 
 TRAIN_CROP_RATIO = 0.8
 RANDOM_SEED      = 42
-N_CRISPR_CACHE   = 1000   # 每基因缓存的 crops 数
+N_CRISPR_CACHE   = 1000   # Cached crops per gene.
 
 EPOCHS       = 150
 LR           = 1e-4
@@ -246,7 +246,7 @@ class MultiH5Reader:
 
     def load_with_global_offset(self, cell, h5_path, h5_label_col, global_offset,
                                  max_crops_per_label=200):
-        """通用加载：H5 labels 0-indexed，global_id = label + global_offset。"""
+        """Load zero-indexed H5 labels with global_id = label + global_offset."""
         print(f"Loading {cell}: {Path(h5_path).name} (offset={global_offset}, max {max_crops_per_label}/drug)")
         t0 = time.time()
         rng = np.random.default_rng(RANDOM_SEED)
@@ -291,8 +291,8 @@ class MultiH5Reader:
 
 def load_crispr_h5(h5_path, meta_csv, held_out_genes=None, n_per_gene=1000):
     """
-    从 H5 加载 CRISPR crops，缓存到 dict。
-    返回: {gene_idx: np.array(N, 5, 128, 128)}, all_gene_names
+    Load CRISPR crops from H5 into an in-memory dictionary.
+    Return {gene_idx: np.array(N, 5, 128, 128)}, all_gene_names.
     """
     meta = pd.read_csv(meta_csv)
     all_genes = meta['gene'].tolist()
@@ -302,7 +302,7 @@ def load_crispr_h5(h5_path, meta_csv, held_out_genes=None, n_per_gene=1000):
         held_out = set(held_out_genes or [])
     rng = np.random.default_rng(RANDOM_SEED)
     gene_crops = {}
-    print(f"  加载 {Path(h5_path).name}  ({len(all_genes)} 基因, held-out={len(held_out)})...")
+    print(f"  Loading {Path(h5_path).name}  ({len(all_genes)} genes, held-out={len(held_out)})...")
     t0 = time.time()
     with h5py.File(h5_path, 'r') as f:
         all_labels = f['labels'][:].astype(np.int32)
@@ -325,7 +325,7 @@ def load_crispr_h5(h5_path, meta_csv, held_out_genes=None, n_per_gene=1000):
                 pos += len(sel)
             gene_crops[gene_idx] = crops
     total_gb = sum(c.nbytes for c in gene_crops.values()) / 1e9
-    print(f"    {len(gene_crops)} 训练基因  {total_gb:.1f} GB  ({time.time()-t0:.0f}s)")
+    print(f"    {len(gene_crops)} training genes  {total_gb:.1f} GB  ({time.time()-t0:.0f}s)")
     return gene_crops, all_genes
 
 
@@ -636,9 +636,9 @@ def fetch_gene_i2i_batch(sample_list, crispr_a549, crispr_u2os,
                           multi_h5):
     """
     sample_list: [(cell, gene_idx), ...]
-    crispr_a549/u2os: {gene_idx: (N,5,128,128)} 预缓存
+    crispr_a549/u2os: cached {gene_idx: (N,5,128,128)} arrays.
     gene_to_cpd_rows_a549/u2os: {gene_idx: [(cpd_cell, rows), ...]}
-    返回 (crispr_imgs, cpd_imgs, pos_mask)，对角线为正样本
+    Return (crispr_imgs, cpd_imgs, pos_mask), with positive diagonal pairs.
     """
     cr_list, drug_list = [], []
     for cell, gi in sample_list:
@@ -663,10 +663,10 @@ def fetch_gene_i2i_batch(sample_list, crispr_a549, crispr_u2os,
 
 def fetch_crispr_i2e_batch(sample_list, crispr_a549, gene_to_pos_drugs):
     """
-    CRISPR图像 → 药物L1000 (i2e方向) 采样。
-    sample_list: [(gene_idx, gene_name), ...]  A549 训练基因
-    gene_to_pos_drugs: {gene_name: set(药物global_id)}  靶向+同MOA的有L1K药物
-    返回 (crispr_imgs, drug_gids, gene_names)；正样本掩码在 run_epoch 里按 MOA/靶向构建
+    Sample CRISPR-image to drug-expression pairs.
+    sample_list: [(gene_idx, gene_name), ...] for A549 training genes.
+    gene_to_pos_drugs: {gene_name: set(drug_global_id)} for target/MOA positives with L1000.
+    Return (crispr_imgs, drug_gids, gene_names); run_epoch constructs the positive mask.
     """
     cr_list, drug_gids, gene_names = [], [], []
     for gene_idx, gene_name in sample_list:
@@ -710,7 +710,7 @@ def topk_metrics(sim, labels, moa_sets, valid_drug_mask=None, query_moa_list=Non
             h1 = h5 = h10 = False; hits = 0; ap_sum = 0.0; rank_adj = 0
             for gi in q_sorted:
                 if gi == q_label: continue
-                rank_adj += 1                          # 跳过自身后重新计数(修 off-by-one)
+                rank_adj += 1                          # Recount ranks after excluding self.
                 if q_moa & moa_sets[gi]:
                     hits += 1; ap_sum += hits / rank_adj
                     if rank_adj <= 1:  h1  = True
@@ -914,7 +914,7 @@ def run_epoch(img_bb, expr_bb,
 
             zero = torch.zeros([], device=DEVICE)
 
-            # ── CPD: image ↔ L1000 (仅有L1000的药物) ──────────────────────
+            # Compound image-expression loss: drugs with L1000 only.
             loss_i2e_cpd = zero
             if B_l1k >= 2 and exprs is not None:
                 trunk_expr_l1k = expr_bb(exprs)
@@ -928,14 +928,14 @@ def run_epoch(img_bb, expr_bb,
             else:
                 trunk_expr_l1k = None
 
-            # ── MOA i2i: 所有 batch drugs（含无L1000的新化合物）────────────
+            # Image MOA loss: all drugs in the batch, including those without L1000.
             moa_mask_all  = make_moa_mask(batch_moa_all, DEVICE)
             has_moa_all   = moa_mask_all.any()
             z_img_i2i_all = head_img_i2i(trunk_img_all)
             loss_i2i = supcon(z_img_i2i_all, moa_mask_all,
                               quad_temp.log_temp_i2i) if has_moa_all else zero
 
-            # ── e2e MOA: 仅 L1K drugs ──────────────────────────────────────
+            # Expression MOA loss: drugs with L1000 only.
             z_expr_e2e_l1k = None
             loss_e2e = zero
             if trunk_expr_l1k is not None and B_l1k >= 2:
@@ -944,9 +944,9 @@ def run_epoch(img_bb, expr_bb,
                     z_expr_e2e_l1k = head_expr_e2e(trunk_expr_l1k)
                     loss_e2e = supcon(z_expr_e2e_l1k, moa_mask_l1k, quad_temp.log_temp_e2e)
 
-            # ── moa_cross: 图像 → L1K 表达（表达侧 stop-gradient，表达做 teacher）──
-            #   表达空间由纯 e2e 塑造保持稳定，图像单向向其对齐，
-            #   防止后期变强的图像信号把 e2e 的 MOA 聚类拽偏（run1 e2e 退化根因）
+            # Cross-modal MOA loss: image to expression with stopped expression gradients.
+            # Expression geometry is optimized by the expression MOA objective.
+            # This term aligns images without updating the expression branch.
             loss_moa_cross = zero
             if trunk_expr_l1k is not None and B_l1k >= 1 and has_moa_all:
                 if z_expr_e2e_l1k is None:
@@ -956,7 +956,7 @@ def run_epoch(img_bb, expr_bb,
                     loss_moa_cross = cross_supcon(z_img_i2i_all, z_expr_e2e_l1k.detach(),
                                                   moa_mask_cross, quad_temp.log_temp_moa_cross)
 
-            # ── gene i2i: CRISPR(基因X) ↔ cpg0000化合物(靶基因X) ───────────
+            # Gene-image loss: CRISPR gene X paired with compounds targeting X.
             loss_gene_i2i = zero
             if valid_gene_i2i_indices:
                 gi_batch = random.sample(valid_gene_i2i_indices,
@@ -972,9 +972,9 @@ def run_epoch(img_bb, expr_bb,
                     loss_gene_i2i = cross_supcon(gi_cr_emb, gi_cpd_emb,
                                                  gi_pos.to(DEVICE), quad_temp.log_temp_i2i)
 
-            # ── crispr i2e: CRISPR图像(基因X) → 药物L1000(靶向X或同MOA) ──────
-            #   表达侧 detach（药物L1000空间做teacher），只训练CRISPR图像编码器
-            #   向其对齐，直接补 CRISPR→药物L1000 短板
+            # CRISPR-to-expression loss: target and shared-MOA drug positives.
+            # Detach the expression branch and optimize the image encoder.
+            # The public five-loss entry disables this auxiliary term.
             loss_crispr_i2e = zero
             if crispr_i2e_samples:
                 ci_batch = random.sample(crispr_i2e_samples,
@@ -1047,7 +1047,7 @@ def main():
                 eval_set.update(rng.choice(idxs, max(1, len(idxs)//2), replace=False).tolist())
         return sorted([l for l in df[label_col].tolist() if l not in eval_set]), sorted(eval_set)
 
-    # U2OS: 排除 Tocris
+    # Exclude Tocris from U2OS training/query selection.
     prof = pd.read_csv(PROFILES_MERGED, low_memory=False)
     tocris_names = set(prof[prof['Metadata_source_name'] == 'Tocris Bioscience']
                        ['Metadata_cpd_name'].str.lower())
@@ -1086,7 +1086,7 @@ def main():
     cpg30_intlbl_to_global = {ilbl: OFFSET["cpg0030"] + i for i, ilbl in enumerate(train30_sorted)}
     cpg0030_train_global   = list(cpg30_intlbl_to_global.values())
 
-    # cpg0000 compound A549/U2OS（全量参与训练，无L1000）
+    # Include cpg0000 A549/U2OS compounds for image training without L1000.
     cpd_a549_meta = pd.read_csv(CPD_DIR / "meta_cpg0000_cpd_A549.csv")
     cpd_u2os_meta = pd.read_csv(CPD_DIR / "meta_cpg0000_cpd_U2OS.csv")
     cpd_a549_train_global = [OFFSET["cpd_A549"] + i for i in range(N_CPD_NEW["cpd_A549"])]
@@ -1132,8 +1132,8 @@ def main():
         moa_str = str(row["moa"]) if pd.notna(row.get("moa","")) else ""
         moa_sets[g] = set(m.strip() for m in moa_str.split("|") if m.strip())
 
-    # cpg0000 化合物 MOA（按名称匹配 compoundinfo_beta）
-    # cpg0000 化合物 MOA：按基因靶点查，保证同基因两个化合物 MOA 一致
+    # Compound MOA annotations from compoundinfo_beta.
+    # Resolve MOA by target gene for paired compounds.
     cpd_beta = pd.read_csv(META_D / "compoundinfo_beta.txt", sep="\t", low_memory=False)
     cpd_beta["target_up"] = cpd_beta["target"].fillna("").str.upper()
     gene_to_moa = {}
@@ -1142,7 +1142,7 @@ def main():
         moas = hits["moa"].dropna()
         if len(moas) > 0:
             gene_to_moa[gene] = moas.value_counts().index[0]
-    print(f"cpg0000 化合物 gene→MOA 覆盖: {len(gene_to_moa)}/130 基因")
+    print(f"cpg0000 compound gene-to-MOA coverage: {len(gene_to_moa)}/130 genes")
 
     for meta_df, off_key in [(cpd_a549_meta, "cpd_A549"), (cpd_u2os_meta, "cpd_U2OS")]:
         for _, row in meta_df.iterrows():
@@ -1207,7 +1207,7 @@ def main():
     multi_h5.load_cpg0030(H5["cpg0030"],
                           PROC / "meta_cpg0030_u2os.csv",
                           train30_intlbls, cpg30_intlbl_to_global, max_crops=100)
-    # cpg0000 化合物（global_id = label + offset）
+    # cpg0000 compounds: global_id = label + offset.
     multi_h5.load_with_global_offset("cpd_A549", H5["cpd_A549"], "labels", OFFSET["cpd_A549"], max_crops_per_label=150)
     multi_h5.load_with_global_offset("cpd_U2OS", H5["cpd_U2OS"], "labels", OFFSET["cpd_U2OS"], max_crops_per_label=150)
     for key, cfg in TRAINING_EXPANSION.items():
@@ -1216,7 +1216,7 @@ def main():
             max_crops_per_label=150,
         )
 
-    # ── drug→rows 构建 ────────────────────────────────────────────────────────
+    # Construct drug-to-row mappings.
     a549_new_to_h5 = dict(zip(metas["A549"]["new_int_label"].astype(int),
                                metas["A549"]["int_label"].astype(int)))
     inv_a549 = {v: k for k, v in a549_new_to_h5.items()}
@@ -1271,8 +1271,8 @@ def main():
     u2os_gallery = list(range(OFFSET["U2OS"], OFFSET["U2OS"] + N_CPD["U2OS"]))
     a549_gallery = list(range(OFFSET["A549"], OFFSET["A549"] + N_CPD["A549"]))
 
-    # ── CRISPR 加载（从 H5，held-out A549=10 / U2OS=8）────────────────────────
-    print("\n加载 CRISPR crops...")
+    # Load CRISPR crops using the configured held-out genes.
+    print("\nLoading CRISPR crops...")
     crispr_a549_meta_df = pd.read_csv(CRISPR_DIR / "meta_cpg0000_A549.csv")
     crispr_u2os_meta_df = pd.read_csv(CRISPR_DIR / "meta_cpg0000_U2OS.csv")
 
@@ -1287,7 +1287,7 @@ def main():
         held_out_genes=HELD_OUT_GENES_U2OS,
         n_per_gene=N_CRISPR_CACHE)
 
-    # ── 基因-化合物配对映射 ────────────────────────────────────────────────────
+    # Construct gene-compound pair mappings.
     gene_to_a549_crispr_idx = {row['gene']: row['int_label']
                                 for _, row in crispr_a549_meta_df.iterrows()}
     gene_to_u2os_crispr_idx = {row['gene']: row['int_label']
@@ -1322,29 +1322,29 @@ def main():
         [("A549", gi) for gi in gene_to_cpd_rows_a549 if gi in crispr_a549] +
         [("U2OS", gi) for gi in gene_to_cpd_rows_u2os if gi in crispr_u2os]
     )
-    print(f"gene i2i 有效基因: A549={sum(1 for c,_ in valid_gene_i2i_indices if c=='A549')} "
+    print(f"gene i2i eligible genes: A549={sum(1 for c,_ in valid_gene_i2i_indices if c=='A549')} "
           f"U2OS={sum(1 for c,_ in valid_gene_i2i_indices if c=='U2OS')} "
           f"total={len(valid_gene_i2i_indices)}")
 
-    # ── crispr i2e: CRISPR基因 → 正样本A549药物L1000 (靶向+同MOA) ──────────────
-    #   正样本定义与评估脚本 build_gene_pos 一致：靶向同基因的药物 ∪ 同MOA药物
+    # CRISPR-to-expression positives: A549 drugs with target or shared-MOA annotations.
+    # Use the union of direct target anchors and one-hop MOA positives.
     a549_name2gid, a549_gid2moa = {}, {}
     for _, row in metas["A549"].iterrows():
         gid = int(row["new_int_label"]) + OFFSET["A549"]
         a549_name2gid.setdefault(str(row["cmap_name"]).lower().strip(), gid)
         a549_gid2moa[gid] = moa_sets[gid]
-    # 药物名 → 靶点基因(大写)
+    # Drug name to uppercase target gene.
     beta_name2tgts = {}
     for _, r in cpd_beta.iterrows():
         if r["target_up"]:
             beta_name2tgts.setdefault(str(r["cmap_name"]).lower().strip(), set()).update(
                 g.strip() for g in r["target_up"].split("|") if g.strip())
-    # 基因(大写) → 直接靶向的A549药物gid
+    # Uppercase gene to directly targeted A549 drug IDs.
     gene_to_direct_gid = {}
     for name, gid in a549_name2gid.items():
         for t in beta_name2tgts.get(name, set()):
             gene_to_direct_gid.setdefault(t, set()).add(gid)
-    # CRISPR训练基因 → 正样本药物(靶向 ∪ 同MOA)
+    # CRISPR training gene to positive drug IDs.
     gene_to_pos_drugs = {}
     for gene, gi in gene_to_a549_crispr_idx.items():
         if gene in HELD_OUT_GENES_A549 or gi not in crispr_a549: continue
@@ -1359,9 +1359,9 @@ def main():
     crispr_i2e_samples = [(gene_to_a549_crispr_idx[g], g) for g in gene_to_pos_drugs]
     if crispr_i2e_samples:
         avg = np.mean([len(v) for v in gene_to_pos_drugs.values()])
-        print(f"crispr i2e: {len(crispr_i2e_samples)}个训练基因有正样本药物, 平均{avg:.0f}个药物/基因")
+        print(f"crispr i2e: {len(crispr_i2e_samples)} training genes with positives, mean {avg:.0f} drugs/gene")
 
-    # ── 模型 ──────────────────────────────────────────────────────────────────
+    # Models.
     img_bb        = ImageBackbone(IMG_CHANNELS, VIT_PATCH, 128, VIT_DIM, VIT_DEPTH, VIT_HEADS, VIT_MLP_RATIO).to(DEVICE)
     expr_bb       = ExprBackbone(IN_DIM, EXPR_TRUNK).to(DEVICE)
     head_img_cpd  = ProjHead(VIT_DIM,    EMBED_DIM).to(DEVICE)
@@ -1370,7 +1370,7 @@ def main():
     head_expr_e2e = ProjHead(EXPR_TRUNK, EMBED_DIM).to(DEVICE)
     quad_temp     = QuadTemp(INIT_TEMP).to(DEVICE)
 
-    # ── 优化器 ────────────────────────────────────────────────────────────────
+    # Optimizers.
     all_params = (list(img_bb.parameters()) + list(expr_bb.parameters()) +
                   list(head_img_cpd.parameters()) + list(head_expr_cpd.parameters()) +
                   list(head_img_i2i.parameters()) + list(head_expr_e2e.parameters()) +
@@ -1467,11 +1467,11 @@ def main():
               f"temp_e2e={quad_temp.temp_e2e:.4f} temp_cross={quad_temp.temp_moa_cross:.4f}")
         return i2i_u5, i2i_a5, e2e_u5, e2e_a5, i2e_u5, i2e_a5, e2i_u5, e2i_a5, combined
 
-    # ── 训练循环 ──────────────────────────────────────────────────────────────
+    # Training loop.
     print(f"\n{'='*60}")
     print(f"moax_v7: {len(valid_train)} train drugs, {EPOCHS} epochs")
-    print(f"  gene i2i pairs: {len(valid_gene_i2i_indices)} 基因")
-    print(f"  qualified checkpoint 条件: e2e≥{THRESH_E2E_U2OS*100:.1f}%/{THRESH_E2E_A549*100:.1f}% "
+    print(f"  gene i2i pairs: {len(valid_gene_i2i_indices)} genes")
+    print(f"  qualified checkpoint thresholds: e2e≥{THRESH_E2E_U2OS*100:.1f}%/{THRESH_E2E_A549*100:.1f}% "
           f"AND i2i≥{THRESH_I2I_U2OS*100:.1f}%/{THRESH_I2I_A549*100:.1f}%")
     print(f"{'='*60}")
 
@@ -1518,7 +1518,7 @@ def main():
         if mean_e2e  > best["e2e"]:       best["e2e"]       = mean_e2e;  save_ckpt("best_e2e",  epoch, base_m)
         if mean_i2e  > best["i2e_moa"]:   best["i2e_moa"]   = mean_i2e;  save_ckpt("best_i2e",  epoch, base_m)
 
-        # ── qualified checkpoint：e2e持平 + i2i超baseline，每epoch都保存 ──────
+        # Save every epoch satisfying the expression and image retrieval thresholds.
         qual_ok = (e2e_u5 >= THRESH_E2E_U2OS and e2e_a5 >= THRESH_E2E_A549 and
                    i2i_u5 >= THRESH_I2I_U2OS  and i2i_a5 >= THRESH_I2I_A549)
         if qual_ok:

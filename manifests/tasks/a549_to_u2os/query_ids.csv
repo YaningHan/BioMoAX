@@ -1,0 +1,258 @@
+record_id,source,cell,expression_row,h5_label,crop_file,expression_file,source_label,broad_id,jcp2022,name,moa,partition,n_crops,expression_nonzero
+cpg0004:A549:9,cpg0004,A549,9,1109,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1109,BRD-K64052750,,gefitinib,EGFR inhibitor,held_out,300,True
+cpg0004:A549:12,cpg0004,A549,12,913,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,913,BRD-K49328571,,dasatinib,Tyrosine kinase inhibitor,held_out,218,True
+cpg0004:A549:13,cpg0004,A549,13,1279,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1279,BRD-K77908580,,entinostat,HDAC inhibitor,held_out,250,True
+cpg0004:A549:23,cpg0004,A549,23,1152,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1152,BRD-K67868012,,PI-103,PI3K inhibitor,held_out,300,True
+cpg0004:A549:45,cpg0004,A549,45,940,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,940,BRD-K51313569,,palbociclib,CDK inhibitor,held_out,300,True
+cpg0004:A549:50,cpg0004,A549,50,1014,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1014,BRD-K56844688,,epirubicin,Topoisomerase inhibitor,held_out,129,True
+cpg0004:A549:51,cpg0004,A549,51,773,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,773,BRD-K36627727,,tamibarotene,Retinoid receptor agonist,held_out,300,True
+cpg0004:A549:52,cpg0004,A549,52,1177,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1177,BRD-K69726342,,atorvastatin,HMGCR inhibitor,held_out,300,True
+cpg0004:A549:53,cpg0004,A549,53,859,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,859,BRD-K44844162,,taselisib,PI3K inhibitor,held_out,300,True
+cpg0004:A549:72,cpg0004,A549,72,1032,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1032,BRD-K58486055,,reparixin,CCK receptor antagonist,held_out,300,True
+cpg0004:A549:76,cpg0004,A549,76,1522,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1522,BRD-K97799481,,theophylline,Adenosine receptor antagonist,held_out,300,True
+cpg0004:A549:86,cpg0004,A549,86,1455,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1455,BRD-K92657060,,zaleplon,Benzodiazepine receptor agonist,held_out,300,True
+cpg0004:A549:91,cpg0004,A549,91,1313,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1313,BRD-K80738081,,resveratrol,Cytochrome P450 inhibitor,held_out,300,True
+cpg0004:A549:97,cpg0004,A549,97,495,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,495,BRD-K13662825,,dinaciclib,CDK inhibitor,held_out,276,True
+cpg0004:A549:98,cpg0004,A549,98,1463,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1463,BRD-K93208532,,apremilast,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:102,cpg0004,A549,102,392,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,392,BRD-K04112579,,nepafenac,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:109,cpg0004,A549,109,16,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,16,BRD-A04352665,,maraviroc,CCK receptor antagonist,held_out,300,True
+cpg0004:A549:114,cpg0004,A549,114,1125,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1125,BRD-K65781196,,avanafil,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:116,cpg0004,A549,116,1029,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1029,BRD-K58114536,,rasagiline,Monoamine oxidase inhibitor,held_out,300,True
+cpg0004:A549:117,cpg0004,A549,117,487,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,487,BRD-K12932420,,YM-976,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:118,cpg0004,A549,118,1011,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1011,BRD-K56751279,,Y-39983,Rho associated kinase inhibitor,held_out,300,True
+cpg0004:A549:122,cpg0004,A549,122,497,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,497,BRD-K13926615,,vardenafil,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:129,cpg0004,A549,129,1110,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1110,BRD-K64338723,,milacemide,Monoamine oxidase inhibitor,held_out,300,True
+cpg0004:A549:131,cpg0004,A549,131,285,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,285,BRD-A82395837,,ginkgolide-b,Platelet activating factor receptor antagonist,held_out,300,True
+cpg0004:A549:138,cpg0004,A549,138,383,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,383,BRD-K03194791,,roflumilast,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:147,cpg0004,A549,147,333,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,333,BRD-A97437073,,rosiglitazone,PPAR receptor agonist,held_out,300,True
+cpg0004:A549:148,cpg0004,A549,148,498,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,498,BRD-K14175878,,MK-0812,CCK receptor antagonist,held_out,300,True
+cpg0004:A549:151,cpg0004,A549,151,1457,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1457,BRD-K92731339,,perindopril,Angiotensin converting enzyme inhibitor,held_out,300,True
+cpg0004:A549:157,cpg0004,A549,157,1359,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1359,BRD-K84748119,,vicriviroc,CCK receptor antagonist,held_out,300,True
+cpg0004:A549:173,cpg0004,A549,173,188,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,188,BRD-A51382177,,fosinopril,Angiotensin converting enzyme inhibitor,held_out,300,True
+cpg0004:A549:174,cpg0004,A549,174,1090,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1090,BRD-K62737565,,gabapentin,Calcium channel blocker,held_out,300,True
+cpg0004:A549:178,cpg0004,A549,178,1198,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1198,BRD-K70924353,,amtolmetin-guacil,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:192,cpg0004,A549,192,111,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,111,BRD-A28545468,,selegiline,Monoamine oxidase inhibitor,held_out,300,True
+cpg0004:A549:206,cpg0004,A549,206,570,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,570,BRD-K19462402,,buflomedil,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:209,cpg0004,A549,209,442,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,442,BRD-K08586861,,ramatroban,Prostanoid receptor antagonist,held_out,300,True
+cpg0004:A549:212,cpg0004,A549,212,1374,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1374,BRD-K85606544,,neratinib,EGFR inhibitor,held_out,252,True
+cpg0004:A549:213,cpg0004,A549,213,1238,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1238,BRD-K74065929,,doramapimod,P38 MAPK inhibitor,held_out,300,True
+cpg0004:A549:219,cpg0004,A549,219,267,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,267,BRD-A75172220,,hydrocortisone,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:222,cpg0004,A549,222,992,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,992,BRD-K55127134,,fluphenazine,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:225,cpg0004,A549,225,1183,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1183,BRD-K70358946,,aripiprazole,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:235,cpg0004,A549,235,210,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,210,BRD-A58280226,,Y-27632,Rho associated kinase inhibitor,held_out,300,True
+cpg0004:A549:236,cpg0004,A549,236,1027,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1027,BRD-K57764956,,cariprazine,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:237,cpg0004,A549,237,1000,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1000,BRD-K55966568,,orantinib,VEGFR inhibitor,held_out,300,True
+cpg0004:A549:239,cpg0004,A549,239,1033,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1033,BRD-K58501140,,TAK-875,Insulin secretagogue,held_out,300,True
+cpg0004:A549:248,cpg0004,A549,248,1190,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1190,BRD-K70511574,,HMN-214,PLK inhibitor,held_out,124,True
+cpg0004:A549:253,cpg0004,A549,253,148,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,148,BRD-A37959677,,estrone,Estrogen receptor agonist,held_out,300,True
+cpg0004:A549:258,cpg0004,A549,258,1383,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1383,BRD-K86797399,,SB-939,HDAC inhibitor,held_out,50,True
+cpg0004:A549:261,cpg0004,A549,261,1186,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1186,BRD-K70464547,,sertraline,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:262,cpg0004,A549,262,369,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,369,BRD-K02123250,,JNJ-38877605,Tyrosine kinase inhibitor,held_out,300,True
+cpg0004:A549:263,cpg0004,A549,263,964,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,964,BRD-K53097745,,pterostilbene,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:270,cpg0004,A549,270,1419,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1419,BRD-K89917372,,retigabine,Potassium channel activator,held_out,300,True
+cpg0004:A549:271,cpg0004,A549,271,927,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,927,BRD-K50168500,,canertinib,EGFR inhibitor,held_out,300,True
+cpg0004:A549:275,cpg0004,A549,275,341,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,341,BRD-A98845662,,desvenlafaxine,Serotonin reuptake inhibitor,held_out,300,True
+cpg0004:A549:276,cpg0004,A549,276,1168,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1168,BRD-K68867920,,quetiapine,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:282,cpg0004,A549,282,1528,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1528,BRD-K98530306,,clonidine,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:288,cpg0004,A549,288,1428,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1428,BRD-K90948141,,indiplon,Benzodiazepine receptor agonist,held_out,300,True
+cpg0004:A549:293,cpg0004,A549,293,1530,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1530,BRD-K98624455,,bepotastine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:296,cpg0004,A549,296,1538,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1538,BRD-K99383816,,ftorafur,Thymidylate synthase inhibitor,held_out,300,True
+cpg0004:A549:298,cpg0004,A549,298,1429,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1429,BRD-K91111634,,rotigotine,Dopamine receptor agonist,held_out,300,True
+cpg0004:A549:299,cpg0004,A549,299,388,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,388,BRD-K03449891,,foretinib,VEGFR inhibitor,held_out,52,True
+cpg0004:A549:303,cpg0004,A549,303,1540,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1540,BRD-K99475619,,genz-644282,Topoisomerase inhibitor,held_out,83,True
+cpg0004:A549:304,cpg0004,A549,304,910,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,910,BRD-K49075727,,nintedanib,VEGFR inhibitor,held_out,300,True
+cpg0004:A549:305,cpg0004,A549,305,1236,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1236,BRD-K73999723,,telmisartan,Angiotensin receptor antagonist,held_out,300,True
+cpg0004:A549:308,cpg0004,A549,308,311,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,311,BRD-A91877226,,capecitabine,Thymidylate synthase inhibitor,held_out,300,True
+cpg0004:A549:312,cpg0004,A549,312,1435,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1435,BRD-K91315211,,betahistine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:319,cpg0004,A549,319,829,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,829,BRD-K42191735,,buparlisib,PI3K inhibitor,held_out,300,True
+cpg0004:A549:323,cpg0004,A549,323,1460,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1460,BRD-K92984783,,melperone,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:324,cpg0004,A549,324,1503,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1503,BRD-K96740444,,itopride,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:326,cpg0004,A549,326,1414,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1414,BRD-K89375097,,pirenzepine,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:334,cpg0004,A549,334,319,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,319,BRD-A93424738,,dexamethasone-acetate,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:338,cpg0004,A549,338,403,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,403,BRD-K05395900,,nicotine,Acetylcholine receptor agonist,held_out,300,True
+cpg0004:A549:350,cpg0004,A549,350,336,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,336,BRD-A97674275,,ranolazine,Sodium channel blocker,held_out,300,True
+cpg0004:A549:351,cpg0004,A549,351,321,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,321,BRD-A94276798,,talinolol,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:352,cpg0004,A549,352,1486,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1486,BRD-K95412502,,istaroxime,ATPase inhibitor,held_out,31,True
+cpg0004:A549:359,cpg0004,A549,359,444,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,444,BRD-K08799216,,pelitinib,EGFR inhibitor,held_out,300,True
+cpg0004:A549:360,cpg0004,A549,360,1543,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1543,BRD-K99604664,,tanaproget,Progesterone receptor agonist,held_out,300,True
+cpg0004:A549:362,cpg0004,A549,362,332,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,332,BRD-A97104540,,fenoterol,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:364,cpg0004,A549,364,1490,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1490,BRD-K95880107,,PH-797804,P38 MAPK inhibitor,held_out,300,True
+cpg0004:A549:365,cpg0004,A549,365,1517,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1517,BRD-K97564742,,mepyramine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:369,cpg0004,A549,369,1509,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1509,BRD-K97158071,,droperidol,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:374,cpg0004,A549,374,427,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,427,BRD-K07310275,,PF-04691502,PI3K inhibitor,held_out,288,True
+cpg0004:A549:377,cpg0004,A549,377,666,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,666,BRD-K28428262,,brivanib,VEGFR inhibitor,held_out,300,True
+cpg0004:A549:378,cpg0004,A549,378,1006,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1006,BRD-K56334280,,amonafide,Topoisomerase inhibitor,held_out,211,True
+cpg0004:A549:382,cpg0004,A549,382,1150,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1150,BRD-K67789209,,adatanserin,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:389,cpg0004,A549,389,399,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,399,BRD-K04956647,,nebivolol,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:405,cpg0004,A549,405,1038,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1038,BRD-K59013864,,AM-24,Lipoxygenase inhibitor,held_out,300,True
+cpg0004:A549:406,cpg0004,A549,406,1258,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1258,BRD-K75958547,,pitavastatin,HMGCR inhibitor,held_out,172,True
+cpg0004:A549:412,cpg0004,A549,412,1016,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1016,BRD-K56957086,,dacinostat,HDAC inhibitor,held_out,79,True
+cpg0004:A549:413,cpg0004,A549,413,1226,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1226,BRD-K73237276,,tacalcitol,Vitamin D receptor agonist,held_out,300,True
+cpg0004:A549:415,cpg0004,A549,415,215,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,215,BRD-A61221616,,medroxyprogesterone-acetate,Progesterone receptor agonist,held_out,300,True
+cpg0004:A549:417,cpg0004,A549,417,1207,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1207,BRD-K71289571,,zafirlukast,Leukotriene receptor antagonist,held_out,300,True
+cpg0004:A549:418,cpg0004,A549,418,201,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,201,BRD-A55579717,,cytisine,Acetylcholine receptor agonist,held_out,300,True
+cpg0004:A549:419,cpg0004,A549,419,1160,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1160,BRD-K68232413,,etizolam,Benzodiazepine receptor agonist,held_out,300,True
+cpg0004:A549:423,cpg0004,A549,423,1012,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1012,BRD-K56800335,,guanaben-acetate,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:435,cpg0004,A549,435,1243,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1243,BRD-K74339692,,tamsulosin,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:436,cpg0004,A549,436,506,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,506,BRD-K15010214,,emedastine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:439,cpg0004,A549,439,1317,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1317,BRD-K81332461,,maxacalcitol,Vitamin D receptor agonist,held_out,300,True
+cpg0004:A549:441,cpg0004,A549,441,1269,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1269,BRD-K76841105,,tazarotene,Retinoid receptor agonist,held_out,300,True
+cpg0004:A549:443,cpg0004,A549,443,1271,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1271,BRD-K76953762,,indoramin,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:445,cpg0004,A549,445,56,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,56,BRD-A14966924,,alaproclate,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:450,cpg0004,A549,450,703,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,703,BRD-K31309378,,lucitanib,VEGFR inhibitor,held_out,300,True
+cpg0004:A549:451,cpg0004,A549,451,240,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,240,BRD-A67516570,,lafutidine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:456,cpg0004,A549,456,1232,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1232,BRD-K73541271,,etofenamate,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:470,cpg0004,A549,470,482,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,482,BRD-K12735121,,TG-100801,VEGFR inhibitor,held_out,300,True
+cpg0004:A549:473,cpg0004,A549,473,760,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,760,BRD-K35586044,,yohimbine,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:477,cpg0004,A549,477,1082,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1082,BRD-K62387885,,basimglurant,Glutamate receptor antagonist,held_out,300,True
+cpg0004:A549:479,cpg0004,A549,479,1091,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1091,BRD-K62762455,,RU-58841,Androgen receptor antagonist,held_out,300,True
+cpg0004:A549:484,cpg0004,A549,484,57,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,57,BRD-A15202882,,milnacipran,Serotonin reuptake inhibitor,held_out,300,True
+cpg0004:A549:494,cpg0004,A549,494,1358,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1358,BRD-K84698278,,agomelatine,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:495,cpg0004,A549,495,11,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,11,BRD-A03061970,,alizapride,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:497,cpg0004,A549,497,764,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,764,BRD-K35719256,,rotundine,Serotonin receptor agonist,held_out,300,True
+cpg0004:A549:504,cpg0004,A549,504,511,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,511,BRD-K15426076,,iguratimod,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:510,cpg0004,A549,510,1256,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1256,BRD-K75844781,,mCPP,Serotonin receptor agonist,held_out,300,True
+cpg0004:A549:512,cpg0004,A549,512,1115,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1115,BRD-K64785675,,TG-100115,PI3K inhibitor,held_out,300,True
+cpg0004:A549:514,cpg0004,A549,514,706,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,706,BRD-K31385749,,ivabradine,Potassium channel blocker,held_out,300,True
+cpg0004:A549:519,cpg0004,A549,519,758,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,758,BRD-K35245662,,ciclesonide,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:523,cpg0004,A549,523,832,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,832,BRD-K42417338,,butorphanol-(+)-tartrate,Opioid receptor antagonist,held_out,300,True
+cpg0004:A549:529,cpg0004,A549,529,1084,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1084,BRD-K62398570,,lerisetron,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:530,cpg0004,A549,530,157,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,157,BRD-A40639672,,ketorolac,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:531,cpg0004,A549,531,1350,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1350,BRD-K83837640,,JNJ-26481585,HDAC inhibitor,held_out,25,True
+cpg0004:A549:532,cpg0004,A549,532,1332,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1332,BRD-K82467063,,SB-271046,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:539,cpg0004,A549,539,1209,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1209,BRD-K71603915,,EVP-6124,Acetylcholine receptor agonist,held_out,300,True
+cpg0004:A549:546,cpg0004,A549,546,1372,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1372,BRD-K85337334,,otilonium,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:547,cpg0004,A549,547,853,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,853,BRD-K44353683,,nateglinide,Insulin secretagogue,held_out,300,True
+cpg0004:A549:550,cpg0004,A549,550,77,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,77,BRD-A19736161,,ondansetron,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:551,cpg0004,A549,551,1308,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1308,BRD-K80343549,,TAK-285,EGFR inhibitor,held_out,300,True
+cpg0004:A549:559,cpg0004,A549,559,74,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,74,BRD-A19195498,,trimipramine,Norepinephrine reputake inhibitor,held_out,300,True
+cpg0004:A549:570,cpg0004,A549,570,866,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,866,BRD-K45152786,,merbarone,Topoisomerase inhibitor,held_out,300,True
+cpg0004:A549:578,cpg0004,A549,578,849,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,849,BRD-K43887077,,dopamine,Dopamine receptor agonist,held_out,300,True
+cpg0004:A549:588,cpg0004,A549,588,367,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,367,BRD-K02079473,,oxatomide,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:589,cpg0004,A549,589,1181,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1181,BRD-K70301876,,escitalopram,Selective serotonin reuptake inhibitor,held_out,300,True
+cpg0004:A549:604,cpg0004,A549,604,10,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,10,BRD-A02990301,,lofexidine,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:606,cpg0004,A549,606,101,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,101,BRD-A26095496,,clobetasol,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:609,cpg0004,A549,609,168,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,168,BRD-A45153512,,bimatoprost,Prostanoid receptor agonist,held_out,300,True
+cpg0004:A549:616,cpg0004,A549,616,344,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,344,BRD-K00077635,,estramustine-phosphate,Estrogen receptor agonist,held_out,300,True
+cpg0004:A549:617,cpg0004,A549,617,934,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,934,BRD-K50938287,,sumatriptan,Serotonin receptor agonist,held_out,300,True
+cpg0004:A549:620,cpg0004,A549,620,80,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,80,BRD-A20119038,,mecamylamine,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:621,cpg0004,A549,621,926,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,926,BRD-K50163129,,acrivastine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:623,cpg0004,A549,623,360,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,360,BRD-K01577834,,adenosine,Adenosine receptor agonist,held_out,300,True
+cpg0004:A549:626,cpg0004,A549,626,293,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,293,BRD-A84575140,,pimobendan,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:628,cpg0004,A549,628,156,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,156,BRD-A40084411,,CGP-12177,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:633,cpg0004,A549,633,629,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,629,BRD-K24723746,,solifenacin-succinate,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:634,cpg0004,A549,634,685,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,685,BRD-K29653726,,topiramate,Glutamate receptor antagonist,held_out,300,True
+cpg0004:A549:640,cpg0004,A549,640,1307,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1307,BRD-K80267133,,aminosalicylic-acid,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:651,cpg0004,A549,651,1341,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1341,BRD-K82941592,,rosuvastatin,HMGCR inhibitor,held_out,300,True
+cpg0004:A549:652,cpg0004,A549,652,1179,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1179,BRD-K69776681,,volasertib,PLK inhibitor,held_out,49,True
+cpg0004:A549:655,cpg0004,A549,655,805,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,805,BRD-K39974922,,lenvatinib,VEGFR inhibitor,held_out,300,True
+cpg0004:A549:657,cpg0004,A549,657,1311,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1311,BRD-K80608265,,erteberel,Estrogen receptor agonist,held_out,300,True
+cpg0004:A549:659,cpg0004,A549,659,296,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,296,BRD-A86216746,,varenicline,Acetylcholine receptor agonist,held_out,300,True
+cpg0004:A549:668,cpg0004,A549,668,110,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,110,BRD-A28467416,,PKI-179,PI3K inhibitor,held_out,300,True
+cpg0004:A549:685,cpg0004,A549,685,656,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,656,BRD-K27184429,,levocetirizine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:693,cpg0004,A549,693,1385,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1385,BRD-K86882815,,cabergoline,Dopamine receptor agonist,held_out,300,True
+cpg0004:A549:695,cpg0004,A549,695,513,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,513,BRD-K15507868,,tesaglitazar,PPAR receptor agonist,held_out,300,True
+cpg0004:A549:701,cpg0004,A549,701,1188,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1188,BRD-K70505054,,ranitidine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:705,cpg0004,A549,705,1111,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1111,BRD-K64504314,,dienogest,Progesterone receptor agonist,held_out,300,True
+cpg0004:A549:712,cpg0004,A549,712,979,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,979,BRD-K54006094,,formoterol,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:714,cpg0004,A549,714,117,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,117,BRD-A29485665,,bicalutamide,Androgen receptor antagonist,held_out,300,True
+cpg0004:A549:719,cpg0004,A549,719,990,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,990,BRD-K55013654,,lorcaserin,Serotonin receptor agonist,held_out,300,True
+cpg0004:A549:722,cpg0004,A549,722,969,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,969,BRD-K53517854,,fluvoxamine,Selective serotonin reuptake inhibitor,held_out,300,True
+cpg0004:A549:724,cpg0004,A549,724,938,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,938,BRD-K51143828,,lurasidone,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:728,cpg0004,A549,728,1059,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1059,BRD-K60038276,,irbesartan,Angiotensin receptor antagonist,held_out,300,True
+cpg0004:A549:741,cpg0004,A549,741,755,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,755,BRD-K35007173,,enprofylline,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:743,cpg0004,A549,743,1395,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1395,BRD-K87990216,,piretanide,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:747,cpg0004,A549,747,447,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,447,BRD-K08924299,,palonosetron,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:755,cpg0004,A549,755,1380,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1380,BRD-K86301799,,dipyridamole,Phosphodiesterase inhibitor,held_out,253,True
+cpg0004:A549:756,cpg0004,A549,756,40,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,40,BRD-A10967948,,granisetron,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:759,cpg0004,A549,759,741,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,741,BRD-K34008116,,dolasetron,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:761,cpg0004,A549,761,441,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,441,BRD-K08547377,,irinotecan,Topoisomerase inhibitor,held_out,300,True
+cpg0004:A549:767,cpg0004,A549,767,467,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,467,BRD-K11071038,,ICI-162846,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:768,cpg0004,A549,768,466,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,466,BRD-K10961822,,latanoprost,Prostanoid receptor agonist,held_out,300,True
+cpg0004:A549:775,cpg0004,A549,775,454,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,454,BRD-K09397065,,SR-57227A,Serotonin receptor agonist,held_out,300,True
+cpg0004:A549:780,cpg0004,A549,780,26,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,26,BRD-A07440155,,labetalol,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:783,cpg0004,A549,783,34,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,34,BRD-A09472452,,flecainide,Sodium channel blocker,held_out,300,True
+cpg0004:A549:784,cpg0004,A549,784,35,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,35,BRD-A09533288,,verapamil,Calcium channel blocker,held_out,300,True
+cpg0004:A549:785,cpg0004,A549,785,38,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,38,BRD-A10070317,,propranolol,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:788,cpg0004,A549,788,51,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,51,BRD-A13188892,,doxazosin,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:789,cpg0004,A549,789,53,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,53,BRD-A14798026,,mestranol,Estrogen receptor agonist,held_out,300,True
+cpg0004:A549:793,cpg0004,A549,793,68,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,68,BRD-A17655518,,ibuprofen,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:798,cpg0004,A549,798,87,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,87,BRD-A22032524,,amlodipine,Calcium channel blocker,held_out,300,True
+cpg0004:A549:809,cpg0004,A549,809,121,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,121,BRD-A29734509,,disopyramide,Sodium channel blocker,held_out,300,True
+cpg0004:A549:814,cpg0004,A549,814,134,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,134,BRD-A33168282,,sotalol,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:816,cpg0004,A549,816,139,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,139,BRD-A33711280,,metixene,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:817,cpg0004,A549,817,140,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,140,BRD-A34006693,,suprofen,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:820,cpg0004,A549,820,147,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,147,BRD-A37780065,,triamcinolone,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:823,cpg0004,A549,823,164,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,164,BRD-A43882281,,pinacidil,Potassium channel activator,held_out,300,True
+cpg0004:A549:826,cpg0004,A549,826,167,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,167,BRD-A44863528,,proglumide,CCK receptor antagonist,held_out,300,True
+cpg0004:A549:827,cpg0004,A549,827,172,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,172,BRD-A47598013,,citalopram,Serotonin reuptake inhibitor,held_out,300,True
+cpg0004:A549:828,cpg0004,A549,828,184,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,184,BRD-A50684349,,fenoldopam,Dopamine receptor agonist,held_out,300,True
+cpg0004:A549:829,cpg0004,A549,829,189,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,189,BRD-A51714012,,venlafaxine,Norepinephrine reuptake inhibitor,held_out,300,True
+cpg0004:A549:831,cpg0004,A549,831,195,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,195,BRD-A53176877,,methylprednisolone,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:832,cpg0004,A549,832,203,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,203,BRD-A55962179,,omeprazole,ATPase inhibitor,held_out,300,True
+cpg0004:A549:833,cpg0004,A549,833,208,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,208,BRD-A57382968,,piroxicam,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:834,cpg0004,A549,834,209,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,209,BRD-A58048407,,nimodipine,Calcium channel blocker,held_out,300,True
+cpg0004:A549:835,cpg0004,A549,835,213,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,213,BRD-A59174698,,ritodrine,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:837,cpg0004,A549,837,218,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,218,BRD-A61793559,,metolazone,Carbonic anhydrase inhibitor,held_out,300,True
+cpg0004:A549:839,cpg0004,A549,839,221,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,221,BRD-A62071884,,siguazodan,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:843,cpg0004,A549,843,231,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,231,BRD-A65013509,,oxybutynin,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:847,cpg0004,A549,847,243,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,243,BRD-A68009927,,daunorubicin,Topoisomerase inhibitor,held_out,248,True
+cpg0004:A549:849,cpg0004,A549,849,250,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,250,BRD-A69636825,,diltiazem,Calcium channel blocker,held_out,300,True
+cpg0004:A549:850,cpg0004,A549,850,252,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,252,BRD-A69951442,,dexamethasone,Glucocorticoid receptor agonist,held_out,300,True
+cpg0004:A549:852,cpg0004,A549,852,257,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,257,BRD-A72309220,,metergoline,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:858,cpg0004,A549,858,281,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,281,BRD-A80151636,,bromocriptine,Dopamine receptor agonist,held_out,300,True
+cpg0004:A549:860,cpg0004,A549,860,291,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,291,BRD-A84174393,,meloxicam,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:862,cpg0004,A549,862,309,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,309,BRD-A90799790,,isradipine,Calcium channel blocker,held_out,300,True
+cpg0004:A549:865,cpg0004,A549,865,315,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,315,BRD-A93000692,,ciglitazone,PPAR receptor agonist,held_out,132,True
+cpg0004:A549:870,cpg0004,A549,870,328,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,328,BRD-A96060515,,ipratropium,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:871,cpg0004,A549,871,334,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,334,BRD-A97479839,,piperidolate,Acetylcholine receptor antagonist,held_out,300,True
+cpg0004:A549:872,cpg0004,A549,872,337,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,337,BRD-A97701745,,pindolol,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:877,cpg0004,A549,877,350,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,350,BRD-K00610438,,altanserin,Serotonin receptor antagonist,held_out,300,True
+cpg0004:A549:881,cpg0004,A549,881,374,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,374,BRD-K02404261,,caffeine,Adenosine receptor antagonist,held_out,300,True
+cpg0004:A549:884,cpg0004,A549,884,391,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,391,BRD-K04111260,,raclopride,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:894,cpg0004,A549,894,462,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,462,BRD-K10843433,,phenylbutazone,Prostanoid receptor antagonist,held_out,300,True
+cpg0004:A549:897,cpg0004,A549,897,488,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,488,BRD-K12994359,,valdecoxib,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:898,cpg0004,A549,898,492,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,492,BRD-K13356952,,methazolamide,Carbonic anhydrase inhibitor,held_out,300,True
+cpg0004:A549:900,cpg0004,A549,900,516,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,516,BRD-K15916496,,clotrimazole,Cytochrome P450 inhibitor,held_out,300,True
+cpg0004:A549:910,cpg0004,A549,910,564,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,564,BRD-K19352500,,prochlorperazine,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:915,cpg0004,A549,915,597,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,597,BRD-K21680192,,mitoxantrone,Topoisomerase inhibitor,held_out,152,True
+cpg0004:A549:916,cpg0004,A549,916,602,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,602,BRD-K22031190,,diflunisal,Prostanoid receptor antagonist,held_out,300,True
+cpg0004:A549:920,cpg0004,A549,920,640,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,640,BRD-K25433859,,maprotiline,Norepinephrine reputake inhibitor,held_out,300,True
+cpg0004:A549:921,cpg0004,A549,921,660,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,660,BRD-K28115081,,apafant,Platelet activating factor receptor antagonist,held_out,300,True
+cpg0004:A549:924,cpg0004,A549,924,671,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,671,BRD-K28731095,,calcitriol,Vitamin D receptor agonist,held_out,300,True
+cpg0004:A549:926,cpg0004,A549,926,675,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,675,BRD-K28936863,,ketotifen,Leukotriene receptor antagonist,held_out,300,True
+cpg0004:A549:930,cpg0004,A549,930,702,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,702,BRD-K31135544,,IB-MECA,Adenosine receptor agonist,held_out,300,True
+cpg0004:A549:938,cpg0004,A549,938,735,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,735,BRD-K33453211,,levocabastine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:939,cpg0004,A549,939,740,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,740,BRD-K33882852,,ZK-93423,Benzodiazepine receptor agonist,held_out,300,True
+cpg0004:A549:942,cpg0004,A549,942,744,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,744,BRD-K34157611,,cimetidine,Histamine receptor antagonist,held_out,300,True
+cpg0004:A549:948,cpg0004,A549,948,778,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,778,BRD-K36927236,,glibenclamide,Insulin secretagogue,held_out,300,True
+cpg0004:A549:950,cpg0004,A549,950,785,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,785,BRD-K37561857,,zardaverine,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:960,cpg0004,A549,960,830,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,830,BRD-K42348709,,cyclobenzaprine,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:964,cpg0004,A549,964,846,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,846,BRD-K43797669,,genistein,Tyrosine kinase inhibitor,held_out,300,True
+cpg0004:A549:967,cpg0004,A549,967,865,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,865,BRD-K45117373,,Y-26763,Potassium channel activator,held_out,300,True
+cpg0004:A549:968,cpg0004,A549,968,867,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,867,BRD-K45158365,,valsartan,Angiotensin receptor antagonist,held_out,300,True
+cpg0004:A549:969,cpg0004,A549,969,874,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,874,BRD-K45542189,,diethylcarbamazine,Lipoxygenase inhibitor,held_out,300,True
+cpg0004:A549:970,cpg0004,A549,970,878,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,878,BRD-K46018455,,bezafibrate,PPAR receptor agonist,held_out,300,True
+cpg0004:A549:978,cpg0004,A549,978,920,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,920,BRD-K49685476,,TTNPB,Retinoid receptor agonist,held_out,300,True
+cpg0004:A549:985,cpg0004,A549,985,965,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,965,BRD-K53318339,,vinpocetine,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:986,cpg0004,A549,986,972,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,972,BRD-K53737926,,amitriptyline,Norepinephrine reuptake inhibitor,held_out,300,True
+cpg0004:A549:988,cpg0004,A549,988,986,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,986,BRD-K54759182,,dosulepin,Norepinephrine reuptake inhibitor,held_out,300,True
+cpg0004:A549:990,cpg0004,A549,990,1009,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1009,BRD-K56558538,,ambroxol,Sodium channel blocker,held_out,300,True
+cpg0004:A549:991,cpg0004,A549,991,1020,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1020,BRD-K57222227,,indometacin,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:993,cpg0004,A549,993,1024,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1024,BRD-K57545991,,enalapril,Angiotensin converting enzyme inhibitor,held_out,300,True
+cpg0004:A549:994,cpg0004,A549,994,1025,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1025,BRD-K57569181,,pentoxifylline,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:997,cpg0004,A549,997,1047,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1047,BRD-K59332007,,linopirdine,Potassium channel blocker,held_out,300,True
+cpg0004:A549:1007,cpg0004,A549,1007,1132,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1132,BRD-K66404838,,nalbuphine,Opioid receptor antagonist,held_out,300,True
+cpg0004:A549:1008,cpg0004,A549,1008,1139,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1139,BRD-K67017579,,cilostazol,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:1009,cpg0004,A549,1009,1142,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1142,BRD-K67080878,,milrinone,Phosphodiesterase inhibitor,held_out,300,True
+cpg0004:A549:1011,cpg0004,A549,1011,1149,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1149,BRD-K67783091,,haloperidol,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:1014,cpg0004,A549,1014,1194,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1194,BRD-K70778732,,trazodone,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:1016,cpg0004,A549,1016,1197,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1197,BRD-K70914287,,BIBX-1382,Tyrosine kinase inhibitor,held_out,300,True
+cpg0004:A549:1018,cpg0004,A549,1018,1217,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1217,BRD-K72222507,,quinapril,Angiotensin converting enzyme inhibitor,held_out,300,True
+cpg0004:A549:1020,cpg0004,A549,1020,1225,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1225,BRD-K73196317,,urapidil,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:1021,cpg0004,A549,1021,1228,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1228,BRD-K73381542,,phenylephrine,Adrenergic receptor agonist,held_out,300,True
+cpg0004:A549:1024,cpg0004,A549,1024,1251,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1251,BRD-K75089421,,procainamide,Sodium channel blocker,held_out,300,True
+cpg0004:A549:1026,cpg0004,A549,1026,1266,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1266,BRD-K76775527,,nimesulide,Cyclooxygenase inhibitor,held_out,300,True
+cpg0004:A549:1027,cpg0004,A549,1027,1267,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1267,BRD-K76810206,,nicergoline,Adrenergic receptor antagonist,held_out,300,True
+cpg0004:A549:1033,cpg0004,A549,1033,1418,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1418,BRD-K89732114,,trifluoperazine,Dopamine receptor antagonist,held_out,300,True
+cpg0004:A549:1036,cpg0004,A549,1036,1547,crops/crops_cpg0004_a549x1055.h5,features/l1000_a549_1039.npy,1547,BRD-M39350793,,reboxetine,Adrenergic receptor antagonist,held_out,300,True

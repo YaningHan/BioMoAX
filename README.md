@@ -1,27 +1,31 @@
 # BioMoAX
 
-BioMoAX learns representations of Cell Painting images and L1000 expression profiles using compound correspondence, mechanism-of-action (MOA) annotations, and genetic–chemical image pairs. This package accompanies the current RECOMB manuscript.
+BioMoAX learns representations of Cell Painting images and L1000 expression profiles using compound correspondence, mechanism-of-action (MOA) annotations, and genetic–chemical image pairs.
 
 ## What is included
 
 - The image and expression encoders, four projection heads, contrastive losses, and image normalization extracted from the paper training archive.
-- A portable entry point to the archived five-loss training recipe, including fixed splits and validation random seeds.
+- A training entry point with the paper's fixed data splits and evaluation settings.
 - Checkpoint loading, profile encoding, cosine retrieval, and bidirectional ridge baselines.
 - Summary tables underlying the main retrieval figures, checkpoint configuration, source hashes, and a synthetic runnable example.
-- English and [Chinese documentation](README_zh.md), plus [data specifications](docs/DATA.md) and [reproduction notes](docs/REPRODUCTION.md).
+- [Data specifications](docs/DATA.md), [pipeline instructions](docs/SHELL_WORKFLOW.md), and [reproduction notes](docs/REPRODUCTION.md).
 
-This is a local upload candidate, not an already published repository. Large input data and pretrained weights are not included, and public download locations have not yet been assigned. Full training and complete paper-figure regeneration have not been rerun from this distribution. Current smoke-test results are recorded in `VERIFICATION.json`; earlier verification is preserved in `docs/VERIFICATION_20261017.json`. See [the upload checklist](docs/UPLOAD_CHECKLIST.md) before publishing.
+Repository: https://github.com/YaningHan/BioMoAX. Download source data from the original providers listed in [data sources](docs/DATA_SOURCES.md); raw images and large processed arrays are not redistributed here. See [preprocessing](docs/PREPROCESSING.md) for processing instructions.
 
 ## Repository layout
 
 - `src/biomoax/`: model, encoding, retrieval metrics, ridge baselines, and CLI.
 - `src/biomoax/legacy/`: portable archived training implementation.
 - `configs/` and `splits/`: paper configuration and fixed genetic split.
+- `manifests/`: core drug partitions, processed image/expression row mappings and MOA query/gallery lists.
 - `examples/` and `tests/`: synthetic example and CPU tests.
-- `results/manuscript_20261024/`: current manuscript numerical tables and selected MOA color mappings; see its README for column conventions.
-- `docs/`: input specifications, reproduction scope, and upload checklist.
+- `pipelines/`: [Cellpose, CellProfiler and DeepProfiler commands](pipelines/README.md), with explicit route scope and external dependencies.
+- `results/paper/`: current manuscript numerical tables and selected MOA color mappings; see its README for column conventions.
+- `docs/`: data sources, preprocessing, input specifications, and reproduction notes.
 
 ## Installation
+
+See [environment setup](environments/README.md) for module-specific dependencies.
 
 Use Python 3.10 or newer in a fresh environment. Install a CUDA-compatible PyTorch build for GPU training, then install this package:
 
@@ -30,7 +34,7 @@ python -m pip install -e .
 python -m biomoax.cli --help
 ```
 
-The exact local versions used for verification are in `environment_verified.json`; this is an observed environment, not a claim that every listed version combination was used for the original training.
+Module-specific dependencies are listed under `environments/`.
 
 ## Quick start without research data
 
@@ -40,7 +44,7 @@ biomoax evaluate --input runs/synthetic.npz --output runs/synthetic_metrics.json
 python -m unittest discover -s tests -v
 ```
 
-The example reports 100% Top-1 on two eligible synthetic queries; the third has no positive and is excluded. It tests the software interface and is not a biological result.
+The synthetic example demonstrates the retrieval interface and positive/exclusion masks without downloading research data.
 
 ## Model and objectives
 
@@ -57,25 +61,29 @@ Expression embeddings are detached in the cross-modal MOA term. Genetic and chem
 
 ## Training
 
+For per-module Bash launchers and centralized environment/path configuration, see [the shell workflow](docs/SHELL_WORKFLOW.md).
+
 Prepare the processed files described in `docs/DATA.md`, then run:
 
 ```bash
 biomoax check-data --project-root /path/to/project_inputs
-biomoax train --project-root /path/to/project_inputs --output runs/preflight --seed 43 --preflight
-biomoax train --project-root /path/to/project_inputs --output runs/training --seed 43
+biomoax train --project-root /path/to/project_inputs --output runs/preflight --preflight
+biomoax train --project-root /path/to/project_inputs --output runs/training
 ```
+
+Training uses a reproducible default; pass `--seed` to change the training random seed. Paper-run settings and checkpoint provenance are documented in [reproduction notes](docs/REPRODUCTION.md#randomness-and-paper-runs).
 
 Preflight runs two optimizer updates with reduced crop caches; it still requires the complete metadata and compatible crop files. Training requires a CUDA GPU with BF16 support and at least 100 GiB of host RAM under the archived memory checks. The schedule is 60 epochs of 300 updates. Existing run configurations are protected against overwrite; automatic resume is not provided by this entry point.
 
 ## Inference and retrieval
 
-For a trusted paper checkpoint, encode all crops for **one condition** into one mean profile:
+Specify a model checkpoint to encode all crops for **one condition** into one mean profile:
 
 ```bash
-biomoax encode --checkpoint checkpoints/seed43_ep029.pt --input one_condition_crops.npy --modality image --head moa --device cuda --output runs/profile.npy
+biomoax encode --checkpoint /path/to/model.pt --input one_condition_crops.npy --modality image --head moa --device cuda --output runs/profile.npy
 ```
 
-Crop input has shape `[N,5,128,128]`, in the original uint16 intensity convention. This command does not group crops from different conditions; run it per condition. Expression input has shape `[N,12328]` and produces one embedding per row. Historical checkpoints contain Python/NumPy RNG state and require trusted-source loading.
+Crop input has shape `[N,5,128,128]` with uint16 intensities. For multiple conditions, use the [batch encoding command](docs/SHELL_WORKFLOW.md#condition-features). Expression input has shape `[N,12328]` and produces one embedding per row. Load checkpoints only from trusted sources.
 
 `biomoax evaluate` accepts an NPZ containing `query`, `gallery`, boolean `positive`, and optional boolean `excluded`. Construct positives and same-record exclusions from metadata before calling it. See `docs/DATA.md` for shapes and conventions. This explicit interface also supports CRISPR-to-drug retrieval using the paper's target/MOA positive definitions.
 
@@ -89,11 +97,11 @@ The input has `image` and `expression` matrices containing training pairs only. 
 
 ## Paper results and scope
 
-`results/` contains exported tables, not outputs from the synthetic example. Files directly under `results/` are historical exports; the current manuscript snapshot is in `results/manuscript_20261024/`. Main model summaries cover seed/epoch pairs 43/29, 45/28 and 46/28. The RTK network uses 45/28; the PDE network uses 42/28. Network coordinates are graph layouts of retrieval results. HT29 retrieval includes the 71 annotated drugs with a shared-MOA gallery positive. The current visualization uses an A549 reference map and separately transforms U2OS and HT29 profiles.
+Paper result tables are in `results/paper/`; see its README for column definitions and uncertainty conventions. Run settings and checkpoint mappings are recorded in `configs/paper.json`.
 
 Model error bars describe variation between checkpoint means. Baseline retrieval intervals describe query-bootstrap uncertainty; batch-mixing baseline errors use paired jackknife standard errors. These are different sources of uncertainty.
 
-To visualize the exported cross-cell means and CRISPR curves without raw images:
+To visualize the current paper A549 identity summary and CRISPR curves without raw images:
 
 ```bash
 python scripts/plot_result_tables.py --output runs/table_plots
@@ -103,4 +111,4 @@ These compact plots check the tables and do not regenerate the composed manuscri
 
 ## Distribution and licensing
 
-The original project does not supply a confirmed top-level software license. No new license is assigned in this review package. Confirm code ownership, third-party terms, and the intended license before public release. No public repository URL, DOI, or checkpoint download link has been invented. The Chinese manuscript is an internal language counterpart; this archive contains code and result tables rather than manuscript PDFs.
+A top-level software license has not yet been assigned. Source datasets and third-party models remain subject to their providers' terms; consult the linked sources before downloading or redistributing them.

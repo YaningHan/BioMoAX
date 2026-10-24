@@ -2,7 +2,7 @@
 
 ## Source layers
 
-`src/biomoax/model.py` is extracted from the archived model definitions, preserving parameter names and forward calculations. `metrics.py`, `baselines.py`, `inference.py` and `cli.py` provide focused public interfaces. `legacy/` preserves the original training chain, including its historical file names. `SOURCE_MANIFEST.json` gives hashes and adaptations for each exported source and result table.
+`src/biomoax/model.py` contains the model definitions. `metrics.py`, `baselines.py`, `inference.py` and `cli.py` provide the public interfaces. `legacy/` contains the training implementation used by `biomoax train`.
 
 The training chain is:
 
@@ -12,7 +12,15 @@ CLI → train_rebuilt_five_loss → fixed validation configuration
     → five-loss gate + resident RAM reader → training loop
 ```
 
-The top-level entry overrides historical auxiliary-loss and held-out gene defaults. It installs the 90/40 split for both cells, uses resident uint16 caches, disables CRISPR-to-expression training and external test evaluation inside the training loop, and checks finite gradients. Source transformations used to disable branches are guarded by exact-source assertions inherited from the experiment. This structure is retained for traceability; the public model module can be read independently.
+The training entry applies the 90/40 gene split to both cells, uses resident uint16 caches, disables CRISPR-to-expression training and external test evaluation inside the training loop, and checks finite gradients.
+
+## Randomness and paper runs
+
+The public training command exposes one `--seed` option (default: 43). It controls training randomness, not the fixed data split or the validation sampling streams. Omitting it in the quick-start commands preserves the original default behavior.
+
+`configs/paper.json` records the paper's training seeds, fixed data seed, validation seeds, and checkpoint-to-result mapping. These settings have different purposes; replacing them all with one value would change the experiment. This JSON is a provenance record, not a configuration automatically loaded by the CLI. The archived implementation retains its original constants and file names for compatibility.
+
+For repeated training, choose a seed from the recorded training list and a separate output directory for each run. Main-result and network checkpoints are identified in the configuration.
 
 ## Paper evaluation
 
@@ -30,6 +38,6 @@ Results are aggregated across three recorded checkpoints after averaging crop dr
 
 ## Available and separate artifacts
 
-The source package permits model/loss inspection, synthetic testing, inference with supplied weights, feature-level evaluation, baseline fitting, and execution of the archived training entry with prepared data. It includes numerical figure sources. It does not provide a one-command raw-data download/segmentation pipeline or all historical figure renderers. Pretrained weights, processed inputs, native CP/DP feature generation, full plotting dependencies, and public hosting must be supplied separately for end-to-end paper reproduction.
+The source package permits model/loss inspection, synthetic testing, checkpoint-based inference, feature-level evaluation, baseline fitting, and execution of the archived training entry with prepared data. It includes numerical figure sources. It does not provide a one-command reconstruction of all raw-data inputs or all historical figure renderers. End-to-end paper reproduction additionally requires the processed inputs, native CP/DP profiles, plotting dependencies, and repeated training runs.
 
 The original numerical experiments remain the evidence for paper performance. CPU smoke tests and source parity checks validate the release interfaces; they do not establish independent reproduction of training outcomes.

@@ -1,6 +1,6 @@
 # Input data
 
-Data are external to the source archive. Cell Painting data are obtained through the Cell Painting Gallery; L1000 profiles and compound annotations are separately matched. See the manuscript for dataset citations. Local A375/MCF7/HT29 files use the name `cpg0016`; external accession mapping for these local files still requires confirmation.
+Download original data from the providers in [DATA_SOURCES.md](DATA_SOURCES.md). Raw images and large processed arrays are not redistributed in this repository. Cell Painting images and L1000 profiles are matched through compound metadata. See [PREPROCESSING.md](PREPROCESSING.md) for processing routes. Local A375/MCF7/HT29 files use the name `cpg0016`; external accession mapping for these local files still requires confirmation.
 
 ## Training root
 

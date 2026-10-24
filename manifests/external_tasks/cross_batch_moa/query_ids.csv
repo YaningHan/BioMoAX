@@ -1,0 +1,116 @@
+record_id,name,moa,match_type,n_crops
+cpg0030:U2OS:moa:0,5-METHOXYTRYPTAMINE,Serotonin receptor agonist,moa,3243
+cpg0030:U2OS:moa:1,ALMOTRIPTAN,Serotonin receptor agonist,moa,3300
+cpg0030:U2OS:moa:2,AM-251,Cannabinoid receptor antagonist,moa,3364
+cpg0030:U2OS:moa:3,ANIRACETAM,Glutamate receptor agonist,moa,4110
+cpg0030:U2OS:moa:4,ANPIRTOLINE,Serotonin receptor agonist,moa,2571
+cpg0030:U2OS:moa:5,ARACHIDONAMIDE,Cannabinoid receptor agonist,moa,3634
+cpg0030:U2OS:moa:6,ATENOLOL,Adrenergic receptor antagonist,moa,3775
+cpg0030:U2OS:moa:7,Amperozide,Dopamine receptor antagonist,moa,3842
+cpg0030:U2OS:moa:8,Arvanil,TRPV agonist,moa,2600
+cpg0030:U2OS:moa:9,BAPTA-AM,Potassium channel blocker,moa,3091
+cpg0030:U2OS:moa:10,BENZAMIL,Sodium channel blocker,moa,2389
+cpg0030:U2OS:moa:11,BUSPIRONE,Serotonin receptor agonist,moa,3217
+cpg0030:U2OS:moa:12,Benperidol,Dopamine receptor antagonist,moa,3676
+cpg0030:U2OS:moa:13,Betamethasone,Glucocorticoid receptor agonist,moa,3967
+cpg0030:U2OS:moa:14,Bromperidol,Dopamine receptor antagonist,moa,2821
+cpg0030:U2OS:moa:15,Budesonide,Glucocorticoid receptor agonist,moa,2808
+cpg0030:U2OS:moa:16,CARBACYCLIN,PPAR receptor agonist,moa,3573
+cpg0030:U2OS:moa:17,CDC,Lipoxygenase inhibitor,moa,1803
+cpg0030:U2OS:moa:18,CIMATEROL,Adrenergic receptor agonist,moa,4187
+cpg0030:U2OS:moa:19,CIRAZOLINE,Adrenergic receptor agonist,moa,3669
+cpg0030:U2OS:moa:20,CYANOPINDOLOL,Adrenergic receptor antagonist,moa,3417
+cpg0030:U2OS:moa:21,CYTISINE,Acetylcholine receptor agonist,moa,3393
+cpg0030:U2OS:moa:22,Cabergoline,Dopamine receptor agonist,moa,3196
+cpg0030:U2OS:moa:23,Chlorpropamide,ATP channel blocker,moa,2352
+cpg0030:U2OS:moa:24,Ciprofibrate,PPAR receptor agonist,moa,4221
+cpg0030:U2OS:moa:25,Cycloheximide,Protein synthesis inhibitor,moa,696
+cpg0030:U2OS:moa:26,DANTROLENE,Calcium channel blocker,moa,2846
+cpg0030:U2OS:moa:27,DERACOXIB,Cyclooxygenase inhibitor,moa,3380
+cpg0030:U2OS:moa:28,DIGITOXIN,ATPase inhibitor,moa,87
+cpg0030:U2OS:moa:29,DOMPERIDONE,Dopamine receptor antagonist,moa,3363
+cpg0030:U2OS:moa:30,Deltaline,Acetylcholine receptor antagonist,moa,2290
+cpg0030:U2OS:moa:31,Droperidol,Dopamine receptor antagonist,moa,3744
+cpg0030:U2OS:moa:32,Dydrogesterone,Progesterone receptor agonist,moa,2022
+cpg0030:U2OS:moa:33,EMODIN,11-beta-HSD1 inhibitor,moa,4185
+cpg0030:U2OS:moa:34,ERGOCORNINE,Dopamine receptor agonist,moa,2700
+cpg0030:U2OS:moa:35,ESTRONE,Estrogen receptor agonist,moa,3155
+cpg0030:U2OS:moa:36,ETHOPROP,Acetylcholinesterase inhibitor,moa,2672
+cpg0030:U2OS:moa:37,Ellipticine,Topoisomerase inhibitor,moa,1116
+cpg0030:U2OS:moa:38,Estrone,Estrogen receptor agonist,moa,3955
+cpg0030:U2OS:moa:39,Etofylline,Adenosine receptor antagonist,moa,3305
+cpg0030:U2OS:moa:40,FELBAMATE,Glutamate receptor antagonist,moa,3854
+cpg0030:U2OS:moa:41,FLUMAZENIL,Benzodiazepine receptor antagonist,moa,2938
+cpg0030:U2OS:moa:42,FLUNISOLIDE,Cytochrome P450 inhibitor,moa,3771
+cpg0030:U2OS:moa:43,FLUPHENAZINE,Dopamine receptor antagonist,moa,2327
+cpg0030:U2OS:moa:44,FPL-64176,Calcium channel activator,moa,3611
+cpg0030:U2OS:moa:45,Fenbendazole,Tubulin inhibitor,moa,1714
+cpg0030:U2OS:moa:46,Fenbufen,Cyclooxygenase inhibitor,moa,3575
+cpg0030:U2OS:moa:47,GITOXIGENIN,ATPase inhibitor,moa,2089
+cpg0030:U2OS:moa:48,GW-9662,PPAR receptor antagonist,moa,3459
+cpg0030:U2OS:moa:49,Gabazine,GABA receptor antagonist,moa,7579
+cpg0030:U2OS:moa:50,Gliquidone,Sulfonylurea,moa,2463
+cpg0030:U2OS:moa:51,HYDROCORTISONE,Glucocorticoid receptor agonist,moa,4337
+cpg0030:U2OS:moa:52,Harpagoside,Acetylcholinesterase inhibitor,moa,4246
+cpg0030:U2OS:moa:53,Hydrochlorothiazide,Thiazide diuretic,moa,2400
+cpg0030:U2OS:moa:54,IRBESARTAN,Angiotensin receptor antagonist,moa,2965
+cpg0030:U2OS:moa:55,Isocarboxazid,Monoamine oxidase inhibitor,moa,2418
+cpg0030:U2OS:moa:56,Isoxicam,Cyclooxygenase inhibitor,moa,3338
+cpg0030:U2OS:moa:57,LIOTHYRONINE,Thyroid hormone stimulant,moa,4066
+cpg0030:U2OS:moa:58,LORATADINE,Histamine receptor antagonist,moa,4549
+cpg0030:U2OS:moa:59,LOSARTAN,Angiotensin receptor antagonist,moa,3753
+cpg0030:U2OS:moa:60,Lisinopril,Angiotensin converting enzyme inhibitor,moa,3545
+cpg0030:U2OS:moa:61,MBCQ,Phosphodiesterase inhibitor,moa,2928
+cpg0030:U2OS:moa:62,MESULERGINE,Dopamine receptor agonist,moa,3739
+cpg0030:U2OS:moa:63,METHYSERGIDE,Serotonin receptor antagonist,moa,3964
+cpg0030:U2OS:moa:64,METOCLOPRAMIDE,Serotonin receptor antagonist,moa,2401
+cpg0030:U2OS:moa:65,MY-5445,Platelet aggregation inhibitor,moa,3701
+cpg0030:U2OS:moa:66,Myricetin,Cytochrome P450 inhibitor,moa,3685
+cpg0030:U2OS:moa:67,NIGULDIPINE,Adrenergic receptor antagonist,moa,2060
+cpg0030:U2OS:moa:68,NORETHINDRONE,Progesterone receptor agonist,moa,3174
+cpg0030:U2OS:moa:69,Norethindrone,Progesterone receptor agonist,moa,2559
+cpg0030:U2OS:moa:70,OUABAIN,ATPase inhibitor,moa,147
+cpg0030:U2OS:moa:71,OXIBENDAZOLE,Tubulin inhibitor,moa,2516
+cpg0030:U2OS:moa:72,Ondansetron,Serotonin receptor antagonist,moa,3433
+cpg0030:U2OS:moa:73,PAXILLINE,Potassium channel blocker,moa,2751
+cpg0030:U2OS:moa:74,PCO-400,Potassium channel activator,moa,3858
+cpg0030:U2OS:moa:75,PHENACEMIDE,Sodium channel blocker,moa,2251
+cpg0030:U2OS:moa:76,PHENAMIL,TRPV antagonist,moa,2768
+cpg0030:U2OS:moa:77,PHENTOLAMINE,Adrenergic receptor antagonist,moa,2589
+cpg0030:U2OS:moa:78,PONALRESTAT,Aldose reductase inhibitor,moa,3046
+cpg0030:U2OS:moa:79,PROPOFOL,GABA receptor agonist,moa,3651
+cpg0030:U2OS:moa:80,Piretanide,Glucocorticoid receptor agonist,moa,3811
+cpg0030:U2OS:moa:81,Probenecid,Uricosuric blocker,moa,3382
+cpg0030:U2OS:moa:82,QUINIDINE,Sodium channel blocker,moa,3698
+cpg0030:U2OS:moa:83,RANOLAZINE,Sodium channel blocker,moa,3227
+cpg0030:U2OS:moa:84,RITANSERIN,Serotonin receptor antagonist,moa,3544
+cpg0030:U2OS:moa:85,ROFECOXIB,Cyclooxygenase inhibitor,moa,2713
+cpg0030:U2OS:moa:86,ROSIGLITAZONE,PPAR receptor agonist,moa,2992
+cpg0030:U2OS:moa:87,SB-415286,GSK-3 inhibitor,moa,2440
+cpg0030:U2OS:moa:88,SILDENAFIL,Phosphodiesterase inhibitor,moa,2011
+cpg0030:U2OS:moa:89,SKF-96365,Calcium channel blocker,moa,1754
+cpg0030:U2OS:moa:90,SPIROXATRINE,Serotonin receptor antagonist,moa,2960
+cpg0030:U2OS:moa:91,SR-95639A,Acetylcholine receptor agonist,moa,4058
+cpg0030:U2OS:moa:92,STAUROSPORINE,PKC inhibitor,moa,126
+cpg0030:U2OS:moa:93,SUMATRIPTAN,Serotonin receptor agonist,moa,3842
+cpg0030:U2OS:moa:94,Salbutamol,Adrenergic receptor agonist,moa,2911
+cpg0030:U2OS:moa:95,Spiperone,Dopamine receptor antagonist,moa,3208
+cpg0030:U2OS:moa:96,Spironolactone,Mineralocorticoid receptor antagonist,moa,3654
+cpg0030:U2OS:moa:97,Strophanthidin,ATPase inhibitor,moa,291
+cpg0030:U2OS:moa:98,Succinylsulfathiazole,Dihydrofolate reductase inhibitor,moa,3740
+cpg0030:U2OS:moa:99,TELMISARTAN,Angiotensin receptor antagonist,moa,2895
+cpg0030:U2OS:moa:100,TENIPOSIDE,Topoisomerase inhibitor,moa,244
+cpg0030:U2OS:moa:101,THEOPHYLLINE,Adenosine receptor antagonist,moa,3326
+cpg0030:U2OS:moa:102,THIOTHIXENE,Dopamine receptor antagonist,moa,2025
+cpg0030:U2OS:moa:103,TOLBUTAMIDE,ATP channel blocker,moa,3443
+cpg0030:U2OS:moa:104,TROPISETRON,Serotonin receptor antagonist,moa,4112
+cpg0030:U2OS:moa:105,Triamterene,Sodium channel blocker,moa,4167
+cpg0030:U2OS:moa:106,Tropicamide,Acetylcholine receptor antagonist,moa,4074
+cpg0030:U2OS:moa:107,UMBELLIFERONE,Cyclooxygenase inhibitor,moa,3972
+cpg0030:U2OS:moa:108,camptothecin,Topoisomerase inhibitor,moa,578
+cpg0030:U2OS:moa:109,capsazepine,TRPV agonist,moa,2732
+cpg0030:U2OS:moa:110,clonidine,Adrenergic receptor agonist,moa,3074
+cpg0030:U2OS:moa:111,cycloheximide,Protein synthesis inhibitor,moa,741
+cpg0030:U2OS:moa:112,resveratrol,Cytochrome P450 inhibitor,moa,1991
+cpg0030:U2OS:moa:113,staurosporine,PKC inhibitor,moa,152
+cpg0030:U2OS:moa:114,vinblastine,Microtubule inhibitor,moa,612

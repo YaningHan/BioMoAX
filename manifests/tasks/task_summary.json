@@ -1,0 +1,40 @@
+{
+  "tasks": {
+    "within_u2os": {
+      "eligible_queries": 90,
+      "gallery_records": 690,
+      "positive_pairs": 1176,
+      "excluded_pairs": 90
+    },
+    "within_a549": {
+      "eligible_queries": 301,
+      "gallery_records": 1039,
+      "positive_pairs": 3809,
+      "excluded_pairs": 301
+    },
+    "u2os_to_a549": {
+      "eligible_queries": 90,
+      "gallery_records": 1039,
+      "positive_pairs": 1656,
+      "excluded_pairs": 0
+    },
+    "a549_to_u2os": {
+      "eligible_queries": 257,
+      "gallery_records": 690,
+      "positive_pairs": 2304,
+      "excluded_pairs": 0
+    },
+    "ht29_to_reference": {
+      "eligible_queries": 71,
+      "gallery_records": 1729,
+      "positive_pairs": 759,
+      "excluded_pairs": 0
+    }
+  },
+  "scope": "Core MOA annotation-defined tasks; method-specific missing-feature masks are not applied",
+  "excluded_tasks": [
+    "Crop-split identity retrieval",
+    "Cross-batch",
+    "CRISPR target/MOA expansion"
+  ]
+}

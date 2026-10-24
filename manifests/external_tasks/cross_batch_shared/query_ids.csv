@@ -1,0 +1,33 @@
+record_id,name,moa,match_type,n_crops
+cpg0030:U2OS:name:0,Astemizole,Histamine receptor antagonist,name,2932
+cpg0030:U2OS:name:1,Blebbistatin,ATPase inhibitor,name,3105
+cpg0030:U2OS:name:2,Bromopride,Dopamine receptor antagonist,name,2450
+cpg0030:U2OS:name:3,CAFFEINE,Phosphodiesterase inhibitor,name,3565
+cpg0030:U2OS:name:4,CELECOXIB,Cyclooxygenase inhibitor,name,855
+cpg0030:U2OS:name:5,Digoxin,ATPase inhibitor,name,169
+cpg0030:U2OS:name:6,ESTRADIOL,Estrogen receptor agonist,name,4822
+cpg0030:U2OS:name:7,ESTRIOL,Estrogen receptor agonist,name,3395
+cpg0030:U2OS:name:8,Epirizole,Cyclooxygenase inhibitor,name,3881
+cpg0030:U2OS:name:9,FLUNARIZINE,Calcium channel blocker,name,1838
+cpg0030:U2OS:name:10,Famotidine,Histamine receptor antagonist,name,2754
+cpg0030:U2OS:name:11,Felodipine,Calcium channel blocker,name,3413
+cpg0030:U2OS:name:12,Halcinonide,Glucocorticoid receptor agonist,name,2089
+cpg0030:U2OS:name:13,Isradipine,Calcium channel blocker,name,4496
+cpg0030:U2OS:name:14,Ketoprofen,Cyclooxygenase inhibitor,name,3468
+cpg0030:U2OS:name:15,MESORIDAZINE,Dopamine receptor antagonist,name,2136
+cpg0030:U2OS:name:16,METHYLPREDNISOLONE,Glucocorticoid receptor agonist,name,3357
+cpg0030:U2OS:name:17,NICARDIPINE,Calcium channel blocker,name,2027
+cpg0030:U2OS:name:18,Naproxen,Cyclooxygenase inhibitor,name,3603
+cpg0030:U2OS:name:19,Oxaprozin,Cyclooxygenase inhibitor,name,4240
+cpg0030:U2OS:name:20,PANTOPRAZOLE,ATPase inhibitor,name,3855
+cpg0030:U2OS:name:21,PIMOZIDE,Dopamine receptor antagonist,name,115
+cpg0030:U2OS:name:22,PROCAINAMIDE,Sodium channel blocker,name,4016
+cpg0030:U2OS:name:23,PROPENTOFYLLINE,Phosphodiesterase inhibitor,name,3125
+cpg0030:U2OS:name:24,Perphenazine,Dopamine receptor antagonist,name,2946
+cpg0030:U2OS:name:25,REMOXIPRIDE,Dopamine receptor antagonist,name,3133
+cpg0030:U2OS:name:26,Rimexolone,Glucocorticoid receptor agonist,name,4159
+cpg0030:U2OS:name:27,Sulindac,Cyclooxygenase inhibitor,name,3251
+cpg0030:U2OS:name:28,Terfenadine,Histamine receptor antagonist,name,597
+cpg0030:U2OS:name:29,Triamcinolone,Glucocorticoid receptor agonist,name,4128
+cpg0030:U2OS:name:30,Vinpocetine,Sodium channel blocker,name,3739
+cpg0030:U2OS:name:31,zardaverine,Phosphodiesterase inhibitor,name,3984

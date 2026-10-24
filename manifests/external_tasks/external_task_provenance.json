@@ -1,0 +1,29 @@
+{
+  "tasks": {
+    "cross_batch_moa": {
+      "queries": 115,
+      "gallery": 690,
+      "positive_pairs": 886
+    },
+    "cross_batch_shared": {
+      "queries": 32,
+      "gallery": 690,
+      "positive_pairs": 474
+    },
+    "crispr_a549": {
+      "queries": 29,
+      "gallery": 1038,
+      "positive_pairs": 341
+    }
+  },
+  "source_hashes": {
+    "meta_cpg0030_u2os.csv": "80733e4c340b4aa8ee0a266bd98723e46265fda67747d3cf8ed44862bd0b8c97",
+    "metadata/cpg0030_train_split.csv": "b0c93265c33624d995bbfeac5f49356c79b5d29b2019d90cc26a2f322cbe86db",
+    "metadata/cpg0030_eval_split.csv": "8a073165ede70439aa2756786a675672b2c84d08bba26ee1620107cda74e3fd2",
+    "metadata/compoundinfo_beta.txt": "a71fca6de41dcc46a5063858be7e04155f3c09832c8b3fb35814f03db8d9fdff",
+    "retraining_candidate_v1/cpg0000_crispr/meta_cpg0000_A549.csv": "90d536a291747dff46c11d70e9699c75a8a5d4e3c273d84e6003f5fffd124fb3",
+    "metadata/crispr_gene_split_v8_90_40_seed42.csv": "ca6662d5f42c4520f1b797992bc0b9bb201816a9f4da35d7ac5c4aa553d1627e"
+  },
+  "gallery_keys_sha256": "3f6870f1afaf8c428f4bbf1887107cc9c428f066afaa08cc2d080109f74eab50",
+  "rule": "CRISPR anchors on full gallery, one-hop MOA expansion, then frozen common-gallery filtering"
+}
