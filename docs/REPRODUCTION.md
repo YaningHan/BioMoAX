@@ -18,7 +18,7 @@ The training entry applies the 90/40 gene split to both cells, uses resident uin
 
 The public training command exposes one `--seed` option (default: 43). It controls training randomness, not the fixed data split or the validation sampling streams. Omitting it in the quick-start commands preserves the original default behavior.
 
-`configs/paper.json` records the paper's training seeds, fixed data seed, validation seeds, and checkpoint-to-result mapping. These settings have different purposes; replacing them all with one value would change the experiment. This JSON is a provenance record, not a configuration automatically loaded by the CLI. The archived implementation retains its original constants and file names for compatibility.
+`configs/paper.json` records training seeds, the fixed data seed, validation seeds, and checkpoint-to-result mappings. It is a reference file, not a configuration automatically loaded by the CLI.
 
 For repeated training, choose a seed from the recorded training list and a separate output directory for each run. Main-result and network checkpoints are identified in the configuration.
 
@@ -34,10 +34,5 @@ For repeated training, choose a seed from the recorded training list and a separ
 
 For each condition the original evaluation samples up to 100 crops, projects each crop, averages projected embeddings, and normalizes the mean. `encode` performs this aggregation on the crops supplied by the caller; it does not reproduce the original random draws automatically. Preparing paper-specific query/gallery arrays, baseline native profiles and positive masks remains necessary before `evaluate`.
 
-Results are aggregated across three recorded checkpoints after averaging crop draws within each checkpoint. The exported tables preserve their original column conventions; inspect headers because some archived tables use `mean` or `value`, and MRR columns may remain in historical exports although they are not displayed in the current main figures.
+Results are aggregated across three checkpoints after averaging crop draws within each checkpoint. Table columns and uncertainty conventions are described in `results/paper/README.md`.
 
-## Available and separate artifacts
-
-The source package permits model/loss inspection, synthetic testing, checkpoint-based inference, feature-level evaluation, baseline fitting, and execution of the archived training entry with prepared data. It includes numerical figure sources. It does not provide a one-command reconstruction of all raw-data inputs or all historical figure renderers. End-to-end paper reproduction additionally requires the processed inputs, native CP/DP profiles, plotting dependencies, and repeated training runs.
-
-The original numerical experiments remain the evidence for paper performance. CPU smoke tests and source parity checks validate the release interfaces; they do not establish independent reproduction of training outcomes.

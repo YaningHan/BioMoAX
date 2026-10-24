@@ -4,7 +4,7 @@ BioMoAX learns representations of Cell Painting images and L1000 expression prof
 
 ## What is included
 
-- The image and expression encoders, four projection heads, contrastive losses, and image normalization extracted from the paper training archive.
+- Image and expression encoders, four projection heads, contrastive losses, and image normalization.
 - A training entry point with the paper's fixed data splits and evaluation settings.
 - Checkpoint loading, profile encoding, cosine retrieval, and bidirectional ridge baselines.
 - Summary tables underlying the main retrieval figures, checkpoint configuration, source hashes, and a synthetic runnable example.
@@ -15,7 +15,7 @@ Repository: https://github.com/YaningHan/BioMoAX. Download source data from the 
 ## Repository layout
 
 - `src/biomoax/`: model, encoding, retrieval metrics, ridge baselines, and CLI.
-- `src/biomoax/legacy/`: portable archived training implementation.
+- `src/biomoax/legacy/`: training implementation used by the CLI.
 - `configs/` and `splits/`: paper configuration and fixed genetic split.
 - `manifests/`: core drug partitions, processed image/expression row mappings and MOA query/gallery lists.
 - `examples/` and `tests/`: synthetic example and CPU tests.
@@ -73,7 +73,7 @@ biomoax train --project-root /path/to/project_inputs --output runs/training
 
 Training uses a reproducible default; pass `--seed` to change the training random seed. Paper-run settings and checkpoint provenance are documented in [reproduction notes](docs/REPRODUCTION.md#randomness-and-paper-runs).
 
-Preflight runs two optimizer updates with reduced crop caches; it still requires the complete metadata and compatible crop files. Training requires a CUDA GPU with BF16 support and at least 100 GiB of host RAM under the archived memory checks. The schedule is 60 epochs of 300 updates. Existing run configurations are protected against overwrite; automatic resume is not provided by this entry point.
+Preflight runs two optimizer updates with reduced crop caches and requires the complete metadata and compatible crop files. Training requires a CUDA GPU with BF16 support and at least 100 GiB of host RAM. The schedule is 60 epochs of 300 updates. Use a new output directory for each run; automatic resume is not provided by this entry point.
 
 ## Inference and retrieval
 
@@ -111,4 +111,4 @@ These compact plots check the tables and do not regenerate the composed manuscri
 
 ## Distribution and licensing
 
-A top-level software license has not yet been assigned. Source datasets and third-party models remain subject to their providers' terms; consult the linked sources before downloading or redistributing them.
+BioMoAX code is licensed under the [MIT License](LICENSE). Third-party code, assets, datasets, and models remain subject to their respective licenses and terms.

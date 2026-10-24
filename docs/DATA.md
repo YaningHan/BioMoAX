@@ -1,6 +1,6 @@
 # Input data
 
-Download original data from the providers in [DATA_SOURCES.md](DATA_SOURCES.md). Raw images and large processed arrays are not redistributed in this repository. Cell Painting images and L1000 profiles are matched through compound metadata. See [PREPROCESSING.md](PREPROCESSING.md) for processing routes. Local A375/MCF7/HT29 files use the name `cpg0016`; external accession mapping for these local files still requires confirmation.
+Download original data from the providers in [DATA_SOURCES.md](DATA_SOURCES.md). Raw images and large processed arrays are not redistributed in this repository. Cell Painting images and L1000 profiles are matched through compound metadata. See [PREPROCESSING.md](PREPROCESSING.md) for processing routes. Public plate directories corresponding to the local `cpg0016` processing inputs are listed in [image_plate_sources.csv](../manifests/image_plate_sources.csv); per-well/crop selections remain separate metadata.
 
 ## Training root
 
