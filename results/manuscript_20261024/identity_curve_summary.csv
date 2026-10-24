@@ -1,0 +1,41 @@
+cell,method,k,mean,sd,uncertainty
+A549,CellProfiler,1,28.970099667774083,1.8705233568450832,SD across 5 crop splits (one fixed baseline)
+A549,CellProfiler,2,37.27574750830565,2.3538856589924744,SD across 5 crop splits (one fixed baseline)
+A549,CellProfiler,3,44.584717607973424,2.342133784985324,SD across 5 crop splits (one fixed baseline)
+A549,CellProfiler,4,48.837209302325576,1.8044485865781104,SD across 5 crop splits (one fixed baseline)
+A549,CellProfiler,5,52.358803986710974,1.637708643703157,SD across 5 crop splits (one fixed baseline)
+A549,DeepProfiler,1,20.265780730897013,0.7791388305354532,SD across 5 crop splits (one fixed baseline)
+A549,DeepProfiler,2,27.57475083056479,1.3079747299022941,SD across 5 crop splits (one fixed baseline)
+A549,DeepProfiler,3,32.89036544850499,1.3079747299022928,SD across 5 crop splits (one fixed baseline)
+A549,DeepProfiler,4,36.34551495016611,1.6207722149701642,SD across 5 crop splits (one fixed baseline)
+A549,DeepProfiler,5,38.87043189368771,2.0614075823905074,SD across 5 crop splits (one fixed baseline)
+A549,compound,1,92.00442967884828,0.3778233025300498,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,compound,2,97.25359911406423,0.15344857652880622,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,compound,3,98.53820598006644,0.17579742930661493,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,compound,4,99.20265780730898,0.1328903654485103,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,compound,5,99.66777408637874,0.0664451827242516,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,moa,1,91.29568106312293,0.3322259136212651,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,moa,2,96.3233665559247,0.5728689770266916,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,moa,3,98.1173864894795,0.37782330253004986,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,moa,4,98.84828349944628,0.2996179237756109,"SD across 3 checkpoint means, each averaged over 5 splits"
+A549,moa,5,99.26910299003322,0.2657807308970135,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,CellProfiler,1,25.77777777777778,7.000881778677051,SD across 5 crop splits (one fixed baseline)
+U2OS,CellProfiler,2,35.333333333333336,5.235208439728777,SD across 5 crop splits (one fixed baseline)
+U2OS,CellProfiler,3,42.0,2.876039801232173,SD across 5 crop splits (one fixed baseline)
+U2OS,CellProfiler,4,47.777777777777786,6.034878050666786,SD across 5 crop splits (one fixed baseline)
+U2OS,CellProfiler,5,52.44444444444444,6.15639785653114,SD across 5 crop splits (one fixed baseline)
+U2OS,DeepProfiler,1,31.555555555555554,4.881307252553066,SD across 5 crop splits (one fixed baseline)
+U2OS,DeepProfiler,2,38.22222222222222,6.3634760281228235,SD across 5 crop splits (one fixed baseline)
+U2OS,DeepProfiler,3,44.0,6.5073557619317,SD across 5 crop splits (one fixed baseline)
+U2OS,DeepProfiler,4,48.88888888888889,6.8493488921877494,SD across 5 crop splits (one fixed baseline)
+U2OS,DeepProfiler,5,54.222222222222214,5.8478654964181205,SD across 5 crop splits (one fixed baseline)
+U2OS,compound,1,99.18518518518518,0.3394500514782123,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,compound,2,99.92592592592592,0.12830005981991227,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,compound,3,100.0,0.0,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,compound,4,100.0,0.0,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,compound,5,100.0,0.0,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,moa,1,98.8888888888889,0.5879447357921346,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,moa,2,99.85185185185185,0.12830005981991227,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,moa,3,99.85185185185185,0.12830005981991227,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,moa,4,99.85185185185185,0.12830005981991227,"SD across 3 checkpoint means, each averaged over 5 splits"
+U2OS,moa,5,99.85185185185185,0.12830005981991227,"SD across 3 checkpoint means, each averaged over 5 splits"

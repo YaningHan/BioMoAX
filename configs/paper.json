@@ -1,0 +1,49 @@
+{
+  "checkpoints": [
+    {
+      "id": "seed43_ep029",
+      "seed": 43,
+      "epoch": 29,
+      "filename": "seed43_ep029.pt"
+    },
+    {
+      "id": "seed45_ep028",
+      "seed": 45,
+      "epoch": 28,
+      "filename": "seed45_ep028.pt"
+    },
+    {
+      "id": "seed46_ep028",
+      "seed": 46,
+      "epoch": 28,
+      "filename": "seed46_ep028.pt"
+    }
+  ],
+  "summary_scope": "Three checkpoints retained from five training seeds following validation and downstream comparisons",
+  "network_checkpoints": {
+    "RTK": "seed45_ep028",
+    "PDE": "seed42_ep028"
+  },
+  "loss_weights": {
+    "compound": 2.0,
+    "image_moa": 1.7,
+    "expression_moa": 3.0,
+    "cross_modal_moa": 2.0,
+    "gene_image": 1.0
+  },
+  "crispr_expression_loss": false,
+  "training_seed_choices": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "data_seed": 42,
+  "validation_seeds": {
+    "i2i": 42001,
+    "e2e": 42002,
+    "i2e": 42003,
+    "e2i": 42004
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "source": "logs/rebuilt_five_loss_multiseed_ram_20260920/formal_k1_seed46/train_rebuilt_five_loss.py",
+    "destination": "src/biomoax/legacy/train_rebuilt_five_loss.py",
+    "source_sha256": "aa88d3856104a4af62758da48a00970ca841d30fb75785aae681659c7b120ad9",
+    "output_sha256": "ba8e7efe8333e0d9849fac4294f5c0cabcd90a13d5c2123502b2b70e8a46bfe9",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/rebuilt_five_loss_multiseed_ram_20260920/formal_k1_seed46/crispr_i2e_policy.py",
+    "destination": "src/biomoax/legacy/crispr_i2e_policy.py",
+    "source_sha256": "3e4c39655e14972e03211491958340d159ac8a661a577b438e90ff8732d55c11",
+    "output_sha256": "3e4c39655e14972e03211491958340d159ac8a661a577b438e90ff8732d55c11",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/rebuilt_five_loss_multiseed_ram_20260920/formal_k1_seed46/ram_crop_reader.py",
+    "destination": "src/biomoax/legacy/ram_crop_reader.py",
+    "source_sha256": "664b3cf24f27a4d10224bc61fe9cdb9271889aab3a53990e16942b5c0ecb0bcb",
+    "output_sha256": "664b3cf24f27a4d10224bc61fe9cdb9271889aab3a53990e16942b5c0ecb0bcb",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/rebuilt_five_loss_multiseed_ram_20260920/formal_k1_seed46/train_moax_v7.py",
+    "destination": "src/biomoax/legacy/train_moax_v7.py",
+    "source_sha256": "7495362e2ab99696b6546d4ab9283ad6494f18258f2f0f737ef0a4f05cce9028",
+    "output_sha256": "8627a6ce379fa479e8cf0296d3f519a5328f037b3433d8162e9dd64ab08dbecd",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/k1_multiseed_fixedval_20260911/formal_k1_seed46/train_k1_multiseed_fixedval_20260911.py",
+    "destination": "src/biomoax/legacy/train_k1_multiseed_fixedval_20260911.py",
+    "source_sha256": "98389f4024b8e98c6bb17bdfd8ea3145f0a700dfbe8ef9578c5012e00270c477",
+    "output_sha256": "98389f4024b8e98c6bb17bdfd8ea3145f0a700dfbe8ef9578c5012e00270c477",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/k1_multiseed_fixedval_20260911/formal_k1_seed46/train_crop_ablation_20260909.py",
+    "destination": "src/biomoax/legacy/train_crop_ablation_20260909.py",
+    "source_sha256": "80e45acff130826dc5854d6bd23d04619703d2f9e1a90585207f01d33ccda6c2",
+    "output_sha256": "10a05e6b507ebbbfec770349c79929b6b71d096df5e80f8b184127f8f0cc0308",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/k1_multiseed_fixedval_20260911/formal_k1_seed46/train_moax_v8_crispr130.py",
+    "destination": "src/biomoax/legacy/train_moax_v8_crispr130.py",
+    "source_sha256": "c771bba9a05d340c2c0b3f1cbced3e15047cf6f74ba54f6c6be0e38f338923d6",
+    "output_sha256": "f4812f04fe35b01468d1963606539fb70a40003f97c5877abbbdf7575c2ca3ff",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/k1_multiseed_fixedval_20260911/formal_k1_seed46/train_moax_v12_a549_crispr_only.py",
+    "destination": "src/biomoax/legacy/train_moax_v12_a549_crispr_only.py",
+    "source_sha256": "d6b9ff55f443f7f3c30d7c357c759818a2a56c0a329150339102d578b29539f3",
+    "output_sha256": "e1bab7e3615821db30d41c02d13d5f784ac26bf20d0685fe8666df7b6fd30ce9",
+    "adaptation": "portable paths and explicit training output"
+  },
+  {
+    "source": "logs/rebuilt_five_loss_multiseed_ram_20260920/formal_k1_seed46/train_moax_v7.py",
+    "destination": "src/biomoax/model.py",
+    "source_sha256": "7495362e2ab99696b6546d4ab9283ad6494f18258f2f0f737ef0a4f05cce9028",
+    "output_sha256": "4b3ee8f9e9ab62c679a9d7ec092f9ac909aa2f5ae9b216fe9c7ee2172150125b",
+    "adaptation": "AST extraction of unchanged model, loss and normalization definitions"
+  },
+  {
+    "source": "figures/rebuilt_fig2_three_selected_seeds_20260927/three_seed_summary.csv",
+    "destination": "results/within_cell_summary.csv",
+    "source_sha256": "ac62b876ff3f6807451c0cceacec629fbaaf95648dfb5f5f7d061c5ffdc363ff",
+    "output_sha256": "ac62b876ff3f6807451c0cceacec629fbaaf95648dfb5f5f7d061c5ffdc363ff",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "figures/latest_five_20261015_v8/fig3_sources/retrieval_plotted_values.csv",
+    "destination": "results/cross_batch_retrieval.csv",
+    "source_sha256": "cd3f97f36c43e2e6c725ded44efbd2986bfd6fb9d7ce7b27155756848a717185",
+    "output_sha256": "cd3f97f36c43e2e6c725ded44efbd2986bfd6fb9d7ce7b27155756848a717185",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "figures/latest_five_20261015_v8/fig3_sources/mixing_three_seed_summary.csv",
+    "destination": "results/batch_mixing_summary.csv",
+    "source_sha256": "434040ad356fc36b590553cb749424620336f365efa01154150d2c99a149f1db",
+    "output_sha256": "434040ad356fc36b590553cb749424620336f365efa01154150d2c99a149f1db",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "figures/latest_five_20261015_v8/fig4_sources/fig3_three_seed_summary.csv",
+    "destination": "results/cross_cell_summary.csv",
+    "source_sha256": "662980426e70f5ca562754fc30bb63617f32d869269d8e921d351645e53d3ae5",
+    "output_sha256": "662980426e70f5ca562754fc30bb63617f32d869269d8e921d351645e53d3ae5",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "figures/latest_five_20261015_v8/fig4_sources/fig3_per_seed.csv",
+    "destination": "results/cross_cell_per_checkpoint.csv",
+    "source_sha256": "8ea2face73ca2cf2234bc8b3c5f831885fa29481221e97551bba3eeac82b295d",
+    "output_sha256": "8ea2face73ca2cf2234bc8b3c5f831885fa29481221e97551bba3eeac82b295d",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "figures/latest_five_20261015_v8/fig5_sources/curve_values.csv",
+    "destination": "results/crispr_curves.csv",
+    "source_sha256": "b943c0e23dce366e0aeab1c3bc2e2398804bef5645f8e5e4bd6d5e803bae9676",
+    "output_sha256": "b943c0e23dce366e0aeab1c3bc2e2398804bef5645f8e5e4bd6d5e803bae9676",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "figures/fig5_retrieval_network_20261013/edges.csv",
+    "destination": "results/retrieval_network_edges.csv",
+    "source_sha256": "df3861333d130af2425f6c64d6114f72fd116db0472f7618200f8237ceb8f364",
+    "output_sha256": "df3861333d130af2425f6c64d6114f72fd116db0472f7618200f8237ceb8f364",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "results/original_full_offline_20260916_v1/native_baselines/metrics_summary.csv",
+    "destination": "results/native_baselines.csv",
+    "source_sha256": "00e3043c4b6b4d7c337ec045d379b3db9a2b6c20fef72c94a7db01da535685b5",
+    "output_sha256": "00e3043c4b6b4d7c337ec045d379b3db9a2b6c20fef72c94a7db01da535685b5",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "results/ridge_cp_crosscell_seed48_20260918_v1/metrics_repeats.csv",
+    "destination": "results/cellprofiler_ridge.csv",
+    "source_sha256": "a89781e91fa97c2a8b6a31283a07e578f88010070434065494799567604d22d3",
+    "output_sha256": "a89781e91fa97c2a8b6a31283a07e578f88010070434065494799567604d22d3",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "results/ridge_crosscell_seed48_20260918_v1/metrics_repeats.csv",
+    "destination": "results/deepprofiler_ridge.csv",
+    "source_sha256": "178f560577481be8514b1b4be610f2d526cc84fba7949f66840656cedf73ddb4",
+    "output_sha256": "178f560577481be8514b1b4be610f2d526cc84fba7949f66840656cedf73ddb4",
+    "adaptation": "byte-identical copy"
+  },
+  {
+    "source": "data/processed/metadata/crispr_gene_split_v8_90_40_seed42.csv",
+    "destination": "splits/crispr_gene_split.csv",
+    "source_sha256": "ca6662d5f42c4520f1b797992bc0b9bb201816a9f4da35d7ac5c4aa553d1627e",
+    "output_sha256": "ca6662d5f42c4520f1b797992bc0b9bb201816a9f4da35d7ac5c4aa553d1627e",
+    "adaptation": "byte-identical copy"
+  }
+]

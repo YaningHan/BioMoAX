@@ -1,0 +1,131 @@
+gene,split,seed,moa_mapped,mapped_moa,preserved_ep28_test
+ABL1,train,42,True,Abl kinase inhibitor,False
+ADA,test,42,True,Adenosine deaminase inhibitor,True
+ADH1C,train,42,True,Alcohol dehydrogenase inhibitor,False
+ADORA2A,train,42,True,Adenosine receptor antagonist,False
+ADRA2B,train,42,True,Adrenergic receptor antagonist,False
+AGER,test,42,True,Antioxidant,False
+AKR1B1,test,42,True,Aldose reductase inhibitor,False
+AKR1C1,train,42,False,,False
+ALDH2,test,42,True,Aldehyde dehydrogenase activator,True
+ALK,train,42,True,ALK inhibitor,False
+ANXA1,train,42,False,,False
+ASIC1,train,42,True,Sodium channel blocker,False
+ATM,test,42,True,ATM kinase inhibitor,False
+ATP5F1D,train,42,False,,False
+AVPR1A,train,42,True,Vasopressin receptor antagonist,False
+BAX,train,42,False,,False
+BTK,test,42,True,BTK inhibitor,True
+CA14,train,42,True,HCV inhibitor,False
+CA5A,train,42,False,,False
+CACNA2D3,train,42,False,,False
+CACNB4,train,42,False,,False
+CACNG1,train,42,False,,False
+CASP3,test,42,True,Caspase inhibitor,False
+CATSPER4,train,42,False,,False
+CCND1,train,42,True,CDK inhibitor,False
+CCR1,train,42,False,,False
+CDC25A,test,42,True,CDC inhibitor,False
+CDK4,train,42,True,CDK inhibitor,False
+CDK9,train,42,True,CDK inhibitor,False
+CHRM2,train,42,True,Acetylcholine receptor antagonist,False
+CHRM3,train,42,True,Acetylcholine receptor antagonist,False
+COMT,train,42,True,Catechol O methyltransferase inhibitor,False
+CSF1R,train,42,True,PDGFR inhibitor,False
+CSK,train,42,False,,False
+CTSG,train,42,False,,False
+CYP1A2,train,42,True,HIV protease inhibitor,False
+CYP2A6,train,42,True,DNA alkylating agent,False
+CYP3A4,train,42,True,HIV protease inhibitor,False
+DCK,train,42,False,,False
+DDR2,test,42,True,KIT inhibitor,False
+DHH,train,42,True,Smoothened receptor antagonist,False
+EDNRB,train,42,True,Endothelin receptor antagonist,False
+ELANE,test,42,True,Leukocyte elastase inhibitor,False
+F10,train,42,True,Coagulation factor inhibitor,False
+FFAR2,train,42,False,,False
+FFAR4,train,42,True,Free fatty acid receptor agonist,False
+FGF1,train,42,False,,False
+FOXM1,train,42,True,FOXM1 inhibitor,False
+FPR1,train,42,False,,False
+GAA,test,42,True,Glucosidase inhibitor,False
+GHSR,test,42,True,Growth hormone secretagogue receptor agonist,False
+GJB4,train,42,False,,False
+GLRA3,test,42,True,GABA receptor antagonist,False
+GPR119,train,42,True,Glucose dependent insulinotropic receptor agonist,False
+GPR55,test,42,True,Cannabinoid receptor agonist,False
+GRIN2A,test,42,True,Glutamate receptor antagonist,False
+GUCY1B1,test,42,True,Guanylate cyclase stimulant,True
+HBB,train,42,False,,False
+HCK,train,42,True,Src inhibitor,False
+HDAC6,train,42,True,HDAC inhibitor,False
+HIF1A,train,42,True,HIF modulator,False
+HPGDS,train,42,False,,False
+HRH4,train,42,True,Histamine receptor antagonist,False
+HSD11B1,test,42,True,11-beta-HSD1 inhibitor,False
+HSP90AB1,train,42,True,HSP inhibitor,False
+HTR2C,train,42,True,Serotonin receptor antagonist,False
+HTR3A,test,42,True,Serotonin receptor antagonist,False
+ICAM1,train,42,True,ICAM-1 expression inhibitor,False
+IL1B,test,42,True,Interleukin inhibitor,True
+ITGB2,train,42,False,,False
+KCNH7,train,42,False,,False
+KCNJ1,train,42,False,,False
+KCNK1,train,42,False,,False
+KCNMA1,train,42,True,Potassium channel blocker,False
+KCNN1,train,42,False,,False
+KCNN4,test,42,True,Hemozoin biocrystallization inhibitor,False
+KCNQ2,train,42,True,Potassium channel blocker,False
+KCTD16,train,42,False,,False
+KDR,test,42,True,VEGFR inhibitor,True
+LCK,test,42,True,Src inhibitor,False
+LPAR1,train,42,True,Lysophosphatidic acid receptor antagonist,False
+LYN,train,42,True,Src inhibitor,False
+MAPK8,test,42,True,JNK inhibitor,False
+MME,train,42,True,Neprilysin inhibitor,False
+MMP2,test,42,True,Metalloproteinase inhibitor,True
+NTRK1,train,42,True,Growth factor receptor inhibitor,False
+OPRL1,test,42,True,Opioid receptor agonist,False
+OPRM1,train,42,True,Opioid receptor antagonist,False
+P2RY12,test,42,True,Purinergic receptor antagonist,False
+P3H1,train,42,False,,False
+PARP3,train,42,False,,False
+PDE3A,test,42,True,Phosphodiesterase inhibitor,False
+PDE4D,test,42,True,Phosphodiesterase inhibitor,False
+PDE7A,train,42,False,,False
+PDPK1,train,42,True,Pyruvate dehydrogenase kinase inhibitor,False
+PLA2G1B,test,42,True,Phospholipase inhibitor,False
+PLD1,train,42,False,,False
+PNLIP,train,42,True,Lipase inhibitor,False
+PORCN,train,42,True,Porcupine inhibitor,False
+PPARD,test,42,True,PPAR receptor agonist,False
+PPAT,test,42,True,Dehydrogenase inhibitor,False
+PRKCB,test,42,True,PKC inhibitor,True
+PRKCE,train,42,True,PKC activator,False
+PTGIR,test,42,True,Platelet aggregation inhibitor,False
+PTGIS,train,42,False,,False
+PTK2B,test,42,True,Focal adhesion kinase inhibitor,True
+PTPN2,train,42,True,Tyrosine phosphatase inhibitor,False
+RGS4,train,42,False,,False
+RNASE1,train,42,False,,False
+RPL23A,train,42,False,,False
+RPL3,test,42,True,Protein synthesis inhibitor,False
+S100B,train,42,False,,False
+S1PR1,train,42,True,Immunosuppressant,False
+S1PR2,train,42,True,Lysophospholipid receptor antagonist,False
+S1PR4,train,42,True,Immunosuppressant,False
+SCNN1G,train,42,True,Sodium channel blocker,False
+SIRT2,test,42,True,SIRT inhibitor,False
+SLC29A1,train,42,True,Phosphodiesterase inhibitor,False
+SLC7A11,train,42,False,,False
+SLCO2B1,train,42,False,,False
+SSTR2,test,42,True,Somatostatin receptor agonist,False
+TBXAS1,train,42,True,Thromboxane synthase inhibitor,False
+TGFBR1,test,42,True,TGF beta receptor inhibitor,False
+TGM2,train,42,False,,False
+TNF,test,42,True,Interleukin inhibitor,True
+TNNC1,train,42,True,Calcium sensitizer,False
+TUBB3,test,42,True,Microtubule stabilizing agent,False
+TUBB4B,train,42,False,,False
+UGT1A9,train,42,False,,False
+VEGFA,train,42,False,,False
