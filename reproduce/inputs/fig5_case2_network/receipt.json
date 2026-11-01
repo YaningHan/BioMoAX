@@ -1,0 +1,63 @@
+{
+  "genes": [
+    "ALDH2",
+    "AKR1B1"
+  ],
+  "drug": "disulfiram",
+  "gallery_size": 1038,
+  "direct_reference_targets": [
+    "ALDH2"
+  ],
+  "reference_pair": {
+    "ALDH2": true,
+    "AKR1B1": false
+  },
+  "heldout_genes": true,
+  "chosen_checkpoint": "seed43_ep029",
+  "chosen_crop_draw": 1,
+  "references": [
+    {
+      "id": 1,
+      "title": "Activation of aldehyde dehydrogenase-2 reduces ischemic damage to the heart",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18787169/",
+      "claim": "ALDH2 metabolism of cytotoxic lipid-derived aldehydes, including 4-HNE."
+    },
+    {
+      "id": 2,
+      "title": "Identification of cardiac oxidoreductase(s) involved in the metabolism of the lipid peroxidation-derived aldehyde-4-hydroxynonenal",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1219066/",
+      "claim": "Aldose reductase reduces 4-HNE; functional overlap concerns aldehyde handling, not identical enzyme reactions."
+    }
+  ],
+  "limitations": [
+    "Shown case appears in Top-10 for both genes in all five draws of seed43, but not in the other two checkpoints.",
+    "For seed43 disulfiram occurs in Top-10 for all 29 evaluated genes: co-retrieval does not demonstrate gene specificity.",
+    "Missing direct annotation is relative to the current reference, not proof that the interaction is unknown in all literature.",
+    "No new biochemical binding or inhibition claim."
+  ],
+  "source_sha256": {
+    "paper_revisions/wilcoxon_20261031/inputs/fig5_query_results/A549_seed43_ep029_ranks.csv": "ebb5697771f791170ad871713240a4652e455272609fdfea74fadd2cbf801eb4",
+    "runs/evaluation/crispr_moa/seed43_ep029/A549_seed43_ep029_ranks.csv": "ebb5697771f791170ad871713240a4652e455272609fdfea74fadd2cbf801eb4",
+    "paper_revisions/wilcoxon_20261031/inputs/fig5_query_results/A549_seed45_ep028_ranks.csv": "497828154ca8944b8d0ef44047965f06b96429bac7a1c59a4142198f4bf74627",
+    "runs/evaluation/crispr_moa/seed45_ep028/A549_seed45_ep028_ranks.csv": "497828154ca8944b8d0ef44047965f06b96429bac7a1c59a4142198f4bf74627",
+    "paper_revisions/wilcoxon_20261031/inputs/fig5_query_results/A549_seed46_ep028_ranks.csv": "00fc7ddb4f95f2f9a6eed901346191ec549b5c05761bc4c7c5967370298b306d",
+    "runs/evaluation/crispr_moa/seed46_ep028/A549_seed46_ep028_ranks.csv": "00fc7ddb4f95f2f9a6eed901346191ec549b5c05761bc4c7c5967370298b306d"
+  },
+  "canonical_fig5_sha256": "7b0c74df3154dbc047e7932ef9328156077660357bc610df576eb6297121cef8",
+  "paper_modified": false,
+  "visual_review_passed": true,
+  "canonical_figure_unchanged": true,
+  "style": "Same as canonical Fig5: full retrieval network, focus rectangle, connected local inset, numbered real crop examples and matching legends",
+  "network": {
+    "checkpoint": "seed43_ep029",
+    "genes": 29,
+    "retrieved_drugs": 15,
+    "nodes": 44,
+    "edges": 304,
+    "all_top10_draws_used": 5,
+    "layout": "NetworkX spring layout, display-only; distances are not embedding similarity",
+    "layout_seed": 2,
+    "layout_seed_selection": "Fixed candidate; choose graph display seed giving a compact inset. No ranks, nodes or edges selected by layout."
+  },
+  "network_inset_vector_verified": true
+}

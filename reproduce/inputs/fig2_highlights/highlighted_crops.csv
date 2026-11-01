@@ -1,0 +1,241 @@
+row,moa,compound,marker,source_row
+13852,Adenosine receptor antagonist,DPCPX,o,40865
+26199,Adenosine receptor antagonist,DPCPX,o,82713
+26218,Adenosine receptor antagonist,DPCPX,o,82768
+74560,Adenosine receptor antagonist,caffeine,^,238813
+74575,Adenosine receptor antagonist,caffeine,^,238861
+80096,Adenosine receptor antagonist,caffeine,^,257296
+41767,Adenosine receptor antagonist,preladenant,s,132926
+41801,Adenosine receptor antagonist,preladenant,s,133017
+41819,Adenosine receptor antagonist,preladenant,s,133105
+58049,Adenosine receptor antagonist,theophylline,D,185063
+58083,Adenosine receptor antagonist,theophylline,D,185180
+58105,Adenosine receptor antagonist,theophylline,D,185229
+1937,Adrenergic receptor agonist,ZD-7114,o,980
+14413,Adrenergic receptor agonist,ZD-7114,o,42919
+14431,Adrenergic receptor agonist,ZD-7114,o,42966
+81247,Adrenergic receptor agonist,cyclobenzaprine,^,261058
+81257,Adrenergic receptor agonist,cyclobenzaprine,^,261087
+81284,Adrenergic receptor agonist,cyclobenzaprine,^,261172
+34478,Adrenergic receptor agonist,formoterol,s,109349
+34485,Adrenergic receptor agonist,formoterol,s,109365
+34495,Adrenergic receptor agonist,formoterol,s,109390
+45697,Adrenergic receptor agonist,methyldopa,D,146030
+45725,Adrenergic receptor agonist,methyldopa,D,146126
+45731,Adrenergic receptor agonist,methyldopa,D,146155
+27346,Androgen receptor modulator,MK-0773,o,86379
+27352,Androgen receptor modulator,MK-0773,o,86401
+27410,Androgen receptor modulator,MK-0773,o,86588
+18949,Androgen receptor modulator,andarine,^,58463
+18969,Androgen receptor modulator,andarine,^,58516
+18970,Androgen receptor modulator,andarine,^,58518
+9696,Androgen receptor modulator,galeterone,s,27172
+17376,Androgen receptor modulator,galeterone,s,53114
+17385,Androgen receptor modulator,galeterone,s,53133
+2110,Androgen receptor modulator,ostarine,D,1579
+14607,Androgen receptor modulator,ostarine,D,43596
+14614,Androgen receptor modulator,ostarine,D,43619
+51300,Aurora kinase inhibitor,ENMD-2076,o,163598
+51324,Aurora kinase inhibitor,ENMD-2076,o,163625
+51332,Aurora kinase inhibitor,ENMD-2076,o,163634
+4767,Aurora kinase inhibitor,KW-2449,^,10395
+9470,Aurora kinase inhibitor,KW-2449,^,26434
+9471,Aurora kinase inhibitor,KW-2449,^,26449
+55927,Aurora kinase inhibitor,alisertib,s,178236
+55946,Aurora kinase inhibitor,alisertib,s,178287
+55959,Aurora kinase inhibitor,alisertib,s,178331
+32490,Aurora kinase inhibitor,tozasertib,D,102765
+32492,Aurora kinase inhibitor,tozasertib,D,102769
+32498,Aurora kinase inhibitor,tozasertib,D,102791
+36650,EGFR inhibitor,ARRY-334543,o,116089
+36663,EGFR inhibitor,ARRY-334543,o,116144
+36684,EGFR inhibitor,ARRY-334543,o,116204
+46332,EGFR inhibitor,TAK-285,^,148184
+46355,EGFR inhibitor,TAK-285,^,148264
+46373,EGFR inhibitor,TAK-285,^,148316
+49063,EGFR inhibitor,neratinib,s,156828
+49064,EGFR inhibitor,neratinib,s,156830
+49099,EGFR inhibitor,neratinib,s,156935
+8316,EGFR inhibitor,rociletinib,D,22475
+8322,EGFR inhibitor,rociletinib,D,22486
+8337,EGFR inhibitor,rociletinib,D,22526
+72093,HMGCR inhibitor,pravastatin,o,230391
+72124,HMGCR inhibitor,pravastatin,o,230488
+77768,HMGCR inhibitor,pravastatin,o,249292
+70625,HMGCR inhibitor,procaine,^,225657
+72821,HMGCR inhibitor,procaine,^,232871
+72826,HMGCR inhibitor,procaine,^,232891
+48050,HMGCR inhibitor,rosuvastatin,s,153685
+48051,HMGCR inhibitor,rosuvastatin,s,153693
+48055,HMGCR inhibitor,rosuvastatin,s,153707
+70642,HMGCR inhibitor,simvastatin,D,225709
+70645,HMGCR inhibitor,simvastatin,D,225726
+72833,HMGCR inhibitor,simvastatin,D,232911
+72210,Histamine receptor antagonist,cimetidine,o,230739
+77835,Histamine receptor antagonist,cimetidine,o,249544
+77851,Histamine receptor antagonist,cimetidine,o,249596
+62674,Histamine receptor antagonist,epinastine,^,199662
+62699,Histamine receptor antagonist,epinastine,^,199764
+62702,Histamine receptor antagonist,epinastine,^,199778
+4901,Histamine receptor antagonist,levocetirizine,s,10886
+9617,Histamine receptor antagonist,levocetirizine,s,26913
+22090,Histamine receptor antagonist,levocetirizine,s,68837
+64436,Histamine receptor antagonist,mepyramine,D,205453
+64482,Histamine receptor antagonist,mepyramine,D,205600
+64485,Histamine receptor antagonist,mepyramine,D,205609
+40647,JAK inhibitor,AZD-1480,o,129174
+40669,JAK inhibitor,AZD-1480,o,129257
+40671,JAK inhibitor,AZD-1480,o,129266
+6017,JAK inhibitor,baricitinib,^,14853
+10737,JAK inhibitor,baricitinib,^,30636
+18455,JAK inhibitor,baricitinib,^,56668
+2442,JAK inhibitor,filgotinib,s,2735
+14938,JAK inhibitor,filgotinib,s,44735
+14939,JAK inhibitor,filgotinib,s,44737
+4309,JAK inhibitor,tofacitinib,D,8851
+4322,JAK inhibitor,tofacitinib,D,8887
+16679,JAK inhibitor,tofacitinib,D,50762
+85716,Leukotriene receptor antagonist,SR-2640,o,276081
+85729,Leukotriene receptor antagonist,SR-2640,o,276127
+85774,Leukotriene receptor antagonist,SR-2640,o,276231
+69928,Leukotriene receptor antagonist,ibudilast,^,223198
+69937,Leukotriene receptor antagonist,ibudilast,^,223235
+75033,Leukotriene receptor antagonist,ibudilast,^,240318
+68511,Leukotriene receptor antagonist,pranlukast,s,218410
+68522,Leukotriene receptor antagonist,pranlukast,s,218442
+68534,Leukotriene receptor antagonist,pranlukast,s,218512
+50895,Leukotriene receptor antagonist,zafirlukast,D,162444
+50896,Leukotriene receptor antagonist,zafirlukast,D,162447
+50925,Leukotriene receptor antagonist,zafirlukast,D,162544
+74494,Norepinephrine reputake inhibitor,amoxapine,o,238580
+80004,Norepinephrine reputake inhibitor,amoxapine,o,257003
+80007,Norepinephrine reputake inhibitor,amoxapine,o,257013
+80586,Norepinephrine reputake inhibitor,imipramine,^,258873
+80606,Norepinephrine reputake inhibitor,imipramine,^,258947
+80640,Norepinephrine reputake inhibitor,imipramine,^,259062
+70660,Norepinephrine reputake inhibitor,maprotiline,s,225764
+72855,Norepinephrine reputake inhibitor,maprotiline,s,233004
+72868,Norepinephrine reputake inhibitor,maprotiline,s,233043
+4428,Norepinephrine reputake inhibitor,trimipramine,D,9227
+16776,Norepinephrine reputake inhibitor,trimipramine,D,51102
+21552,Norepinephrine reputake inhibitor,trimipramine,D,66934
+40040,PLK inhibitor,BI-2536,o,127361
+40063,PLK inhibitor,BI-2536,o,127388
+40068,PLK inhibitor,BI-2536,o,127393
+66010,PLK inhibitor,GSK-461364,^,210359
+66022,PLK inhibitor,GSK-461364,^,210374
+66045,PLK inhibitor,GSK-461364,^,210402
+48189,PLK inhibitor,NMS-1286937,s,154114
+48224,PLK inhibitor,NMS-1286937,s,154157
+48227,PLK inhibitor,NMS-1286937,s,154160
+53678,PLK inhibitor,volasertib,D,170782
+53685,PLK inhibitor,volasertib,D,170789
+53704,PLK inhibitor,volasertib,D,170811
+2967,Platelet activating factor receptor antagonist,PCA-4248,o,4415
+14443,Platelet activating factor receptor antagonist,PCA-4248,o,42997
+14444,Platelet activating factor receptor antagonist,PCA-4248,o,43001
+72052,Platelet activating factor receptor antagonist,apafant,^,230254
+77729,Platelet activating factor receptor antagonist,apafant,^,249161
+77733,Platelet activating factor receptor antagonist,apafant,^,249176
+47447,Platelet activating factor receptor antagonist,ginkgolide-b,s,151713
+47470,Platelet activating factor receptor antagonist,ginkgolide-b,s,151795
+47490,Platelet activating factor receptor antagonist,ginkgolide-b,s,151872
+65563,Platelet activating factor receptor antagonist,rupatadine,D,208957
+65632,Platelet activating factor receptor antagonist,rupatadine,D,209185
+65640,Platelet activating factor receptor antagonist,rupatadine,D,209219
+37581,Progesterone receptor agonist,dienogest,o,119309
+37607,Progesterone receptor agonist,dienogest,o,119385
+37650,Progesterone receptor agonist,dienogest,o,119545
+9973,Progesterone receptor agonist,norethindrone,^,28051
+9976,Progesterone receptor agonist,norethindrone,^,28063
+22398,Progesterone receptor agonist,norethindrone,^,69969
+86278,Progesterone receptor agonist,progesterone,s,277903
+86288,Progesterone receptor agonist,progesterone,s,277936
+86321,Progesterone receptor agonist,progesterone,s,278045
+59819,Progesterone receptor agonist,tibolone,D,190702
+59837,Progesterone receptor agonist,tibolone,D,190774
+59896,Progesterone receptor agonist,tibolone,D,190956
+86897,Retinoid receptor agonist,TTNPB,o,279932
+86957,Retinoid receptor agonist,TTNPB,o,280122
+86971,Retinoid receptor agonist,TTNPB,o,280179
+65942,Retinoid receptor agonist,bexarotene,^,210134
+65984,Retinoid receptor agonist,bexarotene,^,210275
+66003,Retinoid receptor agonist,bexarotene,^,210344
+48265,Retinoid receptor agonist,palovarotene,s,154300
+48270,Retinoid receptor agonist,palovarotene,s,154332
+48271,Retinoid receptor agonist,palovarotene,s,154335
+4367,Retinoid receptor agonist,tamibarotene,D,9034
+4381,Retinoid receptor agonist,tamibarotene,D,9067
+4386,Retinoid receptor agonist,tamibarotene,D,9083
+61481,Selective estrogen receptor modulator,bazedoxifene,o,195724
+61488,Selective estrogen receptor modulator,bazedoxifene,o,195743
+61502,Selective estrogen receptor modulator,bazedoxifene,o,195819
+85995,Selective estrogen receptor modulator,raloxifene,^,276993
+86053,Selective estrogen receptor modulator,raloxifene,^,277174
+86058,Selective estrogen receptor modulator,raloxifene,^,277184
+91850,Selective estrogen receptor modulator,tamoxifen,s,296493
+91906,Selective estrogen receptor modulator,tamoxifen,s,296702
+91914,Selective estrogen receptor modulator,tamoxifen,s,296721
+5884,Selective estrogen receptor modulator,toremifene,D,14409
+18317,Selective estrogen receptor modulator,toremifene,D,56227
+23032,Selective estrogen receptor modulator,toremifene,D,72047
+53732,Selective serotonin reuptake inhibitor,escitalopram,o,170908
+53751,Selective serotonin reuptake inhibitor,escitalopram,o,170975
+53789,Selective serotonin reuptake inhibitor,escitalopram,o,171103
+70096,Selective serotonin reuptake inhibitor,fluoxetine,^,223754
+75751,Selective serotonin reuptake inhibitor,fluoxetine,^,242576
+77872,Selective serotonin reuptake inhibitor,fluoxetine,^,249672
+34160,Selective serotonin reuptake inhibitor,fluvoxamine,s,108298
+34202,Selective serotonin reuptake inhibitor,fluvoxamine,s,108448
+34221,Selective serotonin reuptake inhibitor,fluvoxamine,s,108508
+80477,Selective serotonin reuptake inhibitor,paroxetine,D,258525
+80503,Selective serotonin reuptake inhibitor,paroxetine,D,258622
+80533,Selective serotonin reuptake inhibitor,paroxetine,D,258716
+84514,Serotonin reuptake inhibitor,citalopram,o,271767
+84530,Serotonin reuptake inhibitor,citalopram,o,271808
+84544,Serotonin reuptake inhibitor,citalopram,o,271849
+62731,Serotonin reuptake inhibitor,desvenlafaxine,^,199881
+62746,Serotonin reuptake inhibitor,desvenlafaxine,^,199928
+62777,Serotonin reuptake inhibitor,desvenlafaxine,^,200016
+52782,Serotonin reuptake inhibitor,mazindol,s,168082
+52802,Serotonin reuptake inhibitor,mazindol,s,168136
+52831,Serotonin reuptake inhibitor,mazindol,s,168244
+31974,Serotonin reuptake inhibitor,vilazodone,D,101099
+31989,Serotonin reuptake inhibitor,vilazodone,D,101145
+32006,Serotonin reuptake inhibitor,vilazodone,D,101217
+62327,Thymidylate synthase inhibitor,capecitabine,o,198569
+62354,Thymidylate synthase inhibitor,capecitabine,o,198651
+62374,Thymidylate synthase inhibitor,capecitabine,o,198734
+48109,Thymidylate synthase inhibitor,doxifluridine,^,153883
+48126,Thymidylate synthase inhibitor,doxifluridine,^,153945
+48134,Thymidylate synthase inhibitor,doxifluridine,^,153973
+9437,Thymidylate synthase inhibitor,fluorouracil,s,26314
+21914,Thymidylate synthase inhibitor,fluorouracil,s,68197
+21935,Thymidylate synthase inhibitor,fluorouracil,s,68261
+62983,Thymidylate synthase inhibitor,ftorafur,D,200626
+63048,Thymidylate synthase inhibitor,ftorafur,D,200849
+63052,Thymidylate synthase inhibitor,ftorafur,D,200864
+30969,Topoisomerase inhibitor,amonafide,o,97944
+31023,Topoisomerase inhibitor,amonafide,o,98109
+31024,Topoisomerase inhibitor,amonafide,o,98112
+27079,Topoisomerase inhibitor,camptothecin,^,85665
+27080,Topoisomerase inhibitor,camptothecin,^,85666
+27090,Topoisomerase inhibitor,camptothecin,^,85676
+31472,Topoisomerase inhibitor,epirubicin,s,99641
+31498,Topoisomerase inhibitor,epirubicin,s,99676
+31505,Topoisomerase inhibitor,epirubicin,s,99689
+4744,Topoisomerase inhibitor,voreloxin,D,10265
+9406,Topoisomerase inhibitor,voreloxin,D,26197
+9408,Topoisomerase inhibitor,voreloxin,D,26207
+48514,Vitamin D receptor agonist,ercalcitriol,o,155042
+48531,Vitamin D receptor agonist,ercalcitriol,o,155127
+48572,Vitamin D receptor agonist,ercalcitriol,o,155235
+47034,Vitamin D receptor agonist,maxacalcitol,^,150362
+47055,Vitamin D receptor agonist,maxacalcitol,^,150440
+47061,Vitamin D receptor agonist,maxacalcitol,^,150464
+7646,Vitamin D receptor agonist,seocalcitol,s,20291
+7651,Vitamin D receptor agonist,seocalcitol,s,20300
+20094,Vitamin D receptor agonist,seocalcitol,s,62213
+51164,Vitamin D receptor agonist,tacalcitol,D,163155
+51170,Vitamin D receptor agonist,tacalcitol,D,163185
+51200,Vitamin D receptor agonist,tacalcitol,D,163278

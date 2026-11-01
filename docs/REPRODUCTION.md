@@ -1,57 +1,33 @@
-# Reproduction and source mapping
+# Reproduction and protocols
 
-## Model and objectives
+## Model and training
 
-The image backbone is a 12-block ViT with width 384, six attention heads and 16-pixel patches. Inputs are five-channel 128×128 crops. The expression backbone maps 12,328 features through widths 1,024 and 512. Each modality has compound and MOA projection heads producing normalized 256-dimensional vectors.
+The image encoder is a 12-block ViT with width 384, six attention heads and 16-pixel patches, taking five-channel 128×128 crops. The expression encoder maps 12,328 features through widths 1,024 and 512. Independent compound and MOA heads produce normalized 256-dimensional embeddings for each modality.
 
-The training objective is:
+The joint objective is `2 L_compound + 1.7 L_image_MOA + 3 L_expression_MOA + 2 L_cross_modal_MOA + L_gene_image`. Expression embeddings are detached for cross-modal MOA alignment. Genetic and chemical images share the image encoder and MOA head; CRISPR-to-expression loss is disabled.
 
-```
-L = 2 L_compound + 1.7 L_image_MOA + 3 L_expression_MOA
-    + 2 L_cross_modal_MOA + L_gene_image
-```
+The public CLI launches `biomoax.training.entry`. Static modules in `src/biomoax/training/` implement configuration, fixed validation, site splits, data readers, loss policy and the training loop. No historical script directory is required at runtime. Full training uses 60 epochs and 300 updates per epoch; the preflight executes two updates with capped resident crop caches. It requires CUDA BF16 support and checks available host memory.
 
-Expression embeddings are detached in the cross-modal MOA term. Genetic and chemical images share the image backbone and image MOA head. CRISPR-to-expression training is disabled. Use `biomoax train` to apply these settings.
+## Data splits
 
-Model error bars describe variation between checkpoint means. Baseline retrieval intervals describe query-bootstrap uncertainty; batch-mixing baseline errors use paired jackknife standard errors. See [result table conventions](../results/paper/README.md) for task-specific details.
+Training expects the processed contract described in [DATA.md](DATA.md), rooted at `data/processed/training_inputs/`. The committed split CSVs identify cpg0030 training/evaluation records and the shared 90/40 training/evaluation gene split used in both cells.
 
-## Source layers
+cpg0030 contributes 154 training records. Cross-source MOA retrieval uses 115 queries whose compounds are excluded from training, against cpg0012 references; it is not an entirely unseen source. A separate 32-query shared-compound setting is used for mixing analysis. Keep these two evaluation groups distinct.
 
-`src/biomoax/model.py` contains the model definitions. `metrics.py`, `baselines.py`, `inference.py` and `cli.py` provide the public interfaces. `legacy/` contains the training implementation used by `biomoax train`.
+Within-cell drug-identity retrieval uses disjoint crop query/gallery sets. MOA retrieval excludes same-compound matches where specified. Cross-cell tasks use U2OS/A549 in both directions; HT29 supplies the unseen-cell queries. Genetic-to-chemical retrieval evaluates 29 eligible held-out A549 genes against 1,038 drugs using target anchors and one-hop MOA positives. Source-specific eligibility masks remain necessary.
 
-The training chain is:
+## Checkpoint and query summaries
 
-```
-CLI → train_rebuilt_five_loss → fixed validation configuration
-    → crop configuration → base model and data loaders
-    → five-loss gate + resident RAM reader → training loop
-```
+The three retained checkpoints were selected from five training seeds after validation and downstream comparisons. Their variation is not an estimate over unselected independent training runs. `configs/paper.json` records assignments and fixed sampling seeds; the CLI does not automatically load this reference configuration.
 
-The training entry applies the 90/40 gene split to both cells, uses resident uint16 caches, disables CRISPR-to-expression training and external test evaluation inside the training loop, and checks finite gradients.
+Figure 2B uses seed46. Figures 3A, 4 retrieval and 5A summarize the retained checkpoints with their recorded crop draws. Figure 3B uses seed46 crop draw 9, selected by the highest mean of four mixing scores among ten draws; the display is not a mean over those draws. Figures 5B/C are selected illustrative cases from seed45/seed43 respectively.
 
-## Randomness and paper runs
+The current statistical verification uses paired per-query observations for Wilcoxon tests. Multiple-comparison adjustment and the comparison families are recorded in the exported test tables and verification code. Query-bootstrap intervals condition on the evaluated representations and query population; they do not include retraining uncertainty. Preserve each panel's actual interval and aggregation convention rather than assigning one uncertainty model to every figure.
 
-The public training command exposes one `--seed` option (default: 43). It controls training randomness, not the fixed data split or the validation sampling streams. Omitting it in the quick-start commands preserves the original default behavior.
-
-`configs/paper.json` records training seeds, the fixed data seed, validation seeds, and checkpoint-to-result mappings. It is a reference file, not a configuration automatically loaded by the CLI.
-
-For repeated training, choose a seed from the recorded training list and a separate output directory for each run. Main-result and network checkpoints are identified in the configuration.
-
-## Paper evaluation
-
-| Task | Query/gallery | Positive rule |
-|---|---|---|
-| Within cell | Held-out record queries, same-cell gallery | Shared MOA, query record excluded |
-| Cross cell | U2OS → A549 and A549 → U2OS | Shared MOA |
-| Cross batch | 32 shared-compound and 115 MOA-only cpg0030 queries → 690 cpg0012 drugs | Shared MOA in both groups |
-| Unseen cell | 71 eligible HT29 queries → pooled U2OS/A549 | Shared MOA |
-| Genetic to chemical | 29 eligible held-out A549 genes → 1,038 drugs | Target anchors plus one MOA expansion |
-
-For each condition the original evaluation samples up to 100 crops, projects each crop, averages projected embeddings, and normalizes the mean. `encode` performs this aggregation on the crops supplied by the caller; it does not reproduce the original random draws automatically. Preparing paper-specific query/gallery arrays, baseline native profiles and positive masks remains necessary before `evaluate`.
-
-Results are aggregated across three checkpoints after averaging crop draws within each checkpoint. Table columns and uncertainty conventions are described in `results/paper/README.md`.
+Encoding averages projected crop embeddings and normalizes the mean. The CLI processes the supplied crops; it does not automatically recover the original paper-specific crop sampling, native baseline profiles or positive masks. The bundled [fixed-input package](../reproduce/README.md) reproduces the statistical calculations and figures from their retained observations and coordinates.
 
 ## Baseline feature units
+
 
 Crop-level features and native condition profiles serve different tasks. A shared method name does not imply identical input crops or aggregation across panels.
 
@@ -68,4 +44,3 @@ For native U2OS CP profiles, compute per-well medians from cell measurements, th
 Auxiliary-cell native CP profiles use finite single-cell vectors averaged within each compound and plate, followed by an equal-weight average across available plates. This is not a crop-level median or a cell-count-weighted average across plates. Native DP profiles use source-specific mean aggregation; the generic crop extractor and aggregator should not be treated as an interchangeable replacement for those inputs.
 
 Use crop-level CP/DP commands for matched-crop comparisons and spatial displays. Native-profile evaluations require their condition-level inputs and identifier mappings. Preserve explicit missing-feature masks rather than treating placeholder rows as measured profiles.
-

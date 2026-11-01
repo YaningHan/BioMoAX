@@ -1,6 +1,5 @@
 """Export fixed core drug partitions and processed image/expression row mappings."""
 import argparse
-import ast
 import hashlib
 import json
 from pathlib import Path
@@ -16,14 +15,8 @@ CELLS = {
     'HT29': ('local_cpg0016', 'cpg0016_HT29_meta.csv', 'crops_cpg0016_HT29.h5', 78),
 }
 
-def split_function():
-    # Execute only the pure split function from the shipped training source.
-    path = Path(__file__).resolve().parents[1]/'src/biomoax/legacy/train_moax_v7.py'
-    tree = ast.parse(path.read_text())
-    fn = next(n for n in ast.walk(tree) if isinstance(n, ast.FunctionDef) and n.name=='moa_split')
-    scope = {'np':np}
-    exec(compile(ast.Module(body=[fn], type_ignores=[]), str(path), 'exec'), scope)
-    return scope['moa_split']
+from biomoax.splits import moa_split
+
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
@@ -38,7 +31,7 @@ def main():
     prof = pd.read_csv(prof_path, usecols=['Metadata_source_name','Metadata_cpd_name'])
     tocris = set(prof.loc[prof.Metadata_source_name.eq('Tocris Bioscience'),'Metadata_cpd_name'].str.lower())
     source_files.append(prof_path)
-    split = split_function()
+    split = moa_split
     records, counts = [], {}
     for cell,(source,meta_name,crop_name,n) in CELLS.items():
         path = proc/'metadata'/meta_name

@@ -1,0 +1,12 @@
+{
+  "bootstrap_draws": 20000,
+  "seed": 42,
+  "unit": "paired query drug",
+  "interval": "pointwise percentile 95% CI",
+  "model": "Per-query mean across crop draws within each checkpoint, then equal mean of three fixed checkpoints; same point estimates as original",
+  "tests": "Two-sided Wilcoxon signed-rank; wilcox zero convention, average ties; exact conditional sign-randomization p-values",
+  "holm_family": 52,
+  "scope": "Existing 36 comparisons across both heads plus available CLOOME comparisons; display MOA head only",
+  "caveat": "Conditional on fixed checkpoints and reference libraries; not uncertainty over training runs. Query exchangeability assumed.",
+  "sensitivity": "Pratt and original paired sign-flip results retained in provenance/wilcoxon_revision"
+}

@@ -1,0 +1,7 @@
+name,source,h5_row,label,crop_draw
+ALDH2,data/processed/training_inputs/cpg0000_crispr/crops_cpg0000_A549.h5,19142,6,1
+ALDH2,data/processed/training_inputs/cpg0000_crispr/crops_cpg0000_A549.h5,19144,6,1
+AKR1B1,data/processed/training_inputs/cpg0000_crispr/crops_cpg0000_A549.h5,15932,5,1
+AKR1B1,data/processed/training_inputs/cpg0000_crispr/crops_cpg0000_A549.h5,15966,5,1
+disulfiram,data/processed/crops/crops_cpg0004_a549x1055.h5,224164,725,1
+disulfiram,data/processed/crops/crops_cpg0004_a549x1055.h5,224165,725,1

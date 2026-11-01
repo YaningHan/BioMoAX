@@ -9,7 +9,7 @@ H5_FILES = [
     "crops/crops_cpg0012_690.h5", "crops/crops_cpg0004_a549x1055.h5",
     "crops/crops_cpg0016_A375.h5", "crops/crops_cpg0016_MCF7.h5",
     "crops/crops_cpg0016_HT29.h5", "crops_cpg0030_u2os.h5",
-] + [f"retraining_candidate_v1/cpg0000_{kind}/crops_cpg0000_{'cpd_' if kind=='compound' else ''}{cell}.h5"
+] + [f"training_inputs/cpg0000_{kind}/crops_cpg0000_{'cpd_' if kind=='compound' else ''}{cell}.h5"
      for kind in ["crispr","compound"] for cell in ["A549","U2OS"]]
 METADATA = [
     "metadata/L1000_JumpCP_meta.csv", "metadata/l1000_a549_1039_meta.csv",
@@ -19,9 +19,9 @@ METADATA = [
     "metadata/crispr_gene_split_v8_90_40_seed42.csv",
     "metadata/u2os_cpg0012_train473_site_split_seed42.csv",
     "metadata/SingleCell_Manifest_JumpCP_690.csv", "meta_cpg0030_u2os.csv",
-    "retraining_candidate_v1/complete.json",
+    "training_inputs/complete.json",
 ] + [f"{prefix}cpg0000_{kind}/meta_cpg0000_{'cpd_' if kind=='compound' else ''}{cell}.csv"
-     for prefix in ["","retraining_candidate_v1/"]
+     for prefix in ["training_inputs/"]
      for kind in ["crispr","compound"] for cell in ["A549","U2OS"]]
 
 

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite BioMoAX when using this software or its fixed paper reproduction inputs."
+type: software
+title: "BioMoAX: Unified Multimodal Representation Learning for Cellular Perturbation Retrieval"
+version: 0.2.0
+authors:
+  - family-names: Han
+    given-names: Yaning
+  - family-names: Wang
+    given-names: Xuesong
+  - family-names: Li
+    given-names: Yu
+  - family-names: Fan
+    given-names: Yimin
+repository-code: "https://github.com/YaningHan/BioMoAX"
+license: MIT

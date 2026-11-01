@@ -1,0 +1,13 @@
+checkpoint,name,source,h5_row,tile,query_repeat,gallery_key
+seed45_ep028,KDR,crispr,130026,1,0.0,
+seed45_ep028,KDR,crispr,130992,2,0.0,
+seed45_ep028,DDR2,crispr,69967,1,0.0,
+seed45_ep028,DDR2,crispr,71005,2,0.0,
+seed45_ep028,linifanib,drug,200144,1,,full:128
+seed45_ep028,linifanib,drug,200195,2,,full:128
+seed42_ep028,PDE4D,crispr,161946,1,0.0,
+seed42_ep028,PDE4D,crispr,163070,2,0.0,
+seed42_ep028,PDE3A,crispr,158793,1,0.0,
+seed42_ep028,PDE3A,crispr,159814,2,0.0,
+seed42_ep028,doxofylline,drug,171839,1,,full:193
+seed42_ep028,doxofylline,drug,171947,2,,full:193

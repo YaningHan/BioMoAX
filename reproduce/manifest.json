@@ -1,0 +1,470 @@
+{
+  "version": "2026-11-01",
+  "scope": "Current fixed-query observations, coordinate and image examples; not model training inputs.",
+  "files": [
+    {
+      "path": "inputs/baselines/cellclip/query_ranks.csv",
+      "sha256": "5d8ecb61bb4ebfbaf657af27c6208236ce71095fb78e8c128fad847572bafff9"
+    },
+    {
+      "path": "inputs/baselines/cloome/query_ranks.csv",
+      "sha256": "254a3ab2c4b1b5e7a99123bd199d77151672d001b93ebc7b7a31502dbd90d88e"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/CellCLIP_projection_points.csv",
+      "sha256": "dde5d9f7c7b1ce195cb9bdea83117b3f992f7584efd6c1a5a50513a1642fd2d8"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig2_coordinates.npy",
+      "sha256": "5a5eafc674d124d4633432ff7b5005cdda22e72f2197f4b888843918c0255c6c"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/Fig3_CellCLIP_umap_points.csv",
+      "sha256": "7881fe0761f524c1f5d599d44a42e5525837cf9f7b243b746051fbb8a25ed609"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_0_0.pdf",
+      "sha256": "f9ec6a1184528e44ebac9d34e50f05499c0cf87c31cbc8f8078243522b50139c"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_0_1.pdf",
+      "sha256": "db42f2aa7946a63ccd6cf9df3fc53e304e9f5d6a1e4d806a5c30f672641ef05d"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_1_0.pdf",
+      "sha256": "d1e5c93316ad1cd3fdc641d134b67bd88fabaff2784ff98f9e4120737ce2d222"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_1_1.pdf",
+      "sha256": "82d903c8f119f5369f5d66858eaf3bacb96c4a3de68a75719d1480fa43af2505"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_2_0.pdf",
+      "sha256": "80c344a4247dc499905067e8ec14e1e0b6f8e0bcee8a40ec176b9155ca11dac1"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_2_1.pdf",
+      "sha256": "c16d0f3d0bd57220669013f9287abde328648119a8c46026b667cadb4ab159d7"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_3_0.pdf",
+      "sha256": "6705c6806f10fef45acbf20cb84a463754987b3c8d14f851821e205fe4f46321"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_3_1.pdf",
+      "sha256": "2192570fe1a1449a64c96db3e70787acb3a87b5bb98d3ce994ef88c5d89b2d29"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_4_0.pdf",
+      "sha256": "8a64dea7fc7e58cfd2bbac2802834fc3d29d10d145ee293ad1857792f0461987"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/fig3_merged_4_1.pdf",
+      "sha256": "2a24029a240aa836c592d001bb6e75189a72eb334b183e13b190723af0d5641f"
+    },
+    {
+      "path": "inputs/current/cellclip_spatial/mixing.json",
+      "sha256": "eb50b15aefb09878d72fc67a422c531ed8dc83a99e8291c1fa82126366d66f9e"
+    },
+    {
+      "path": "inputs/current/Fig2_new_preview_values.csv",
+      "sha256": "2ef2aa8305670f43fec67deea6ef2a4d279dc420a48f8a7afef86d2764b26bde"
+    },
+    {
+      "path": "inputs/current/Fig2A_cellclip_aligned_summary.csv",
+      "sha256": "098dbaf28890df0921c88f256db39f39609fb1b251fdcb6da49800ffad8e8b4b"
+    },
+    {
+      "path": "inputs/current/Fig2A_cloome_aligned_summary.csv",
+      "sha256": "77fb2214321f972864623851b5a0b1b4e498e1f042d19336e25535202bf6878c"
+    },
+    {
+      "path": "inputs/current/Fig2B_ns_comparisons.csv",
+      "sha256": "9d6b5f8c39e72ac77ec19576f6c76a5ba02485eb7e6849bb1ce80121854dbeb8"
+    },
+    {
+      "path": "inputs/current/Fig2B_reused_pvalues.csv",
+      "sha256": "44ffaf10c14138e08ce5c35fbb6cfba75010bddac3384f5502ffdefd845f5516"
+    },
+    {
+      "path": "inputs/current/Fig2B_reused_query_values.csv",
+      "sha256": "7f1f855af46902f1cb019ce14b07fde4a65d4085c5ea62eeb6f3e8f253b18075"
+    },
+    {
+      "path": "inputs/current/Fig2B_reused_repeat_values.csv",
+      "sha256": "fb74093722dc2c33ef128ce4c48acccce4a67e89a97460939e60450535158ba8"
+    },
+    {
+      "path": "inputs/current/Fig2B_reused_statistics.csv",
+      "sha256": "cee54a058c713da53ea9f70307a2be0dc79892e7a74cf1a1b8f1171c1db3611e"
+    },
+    {
+      "path": "inputs/current/Fig3.pdf",
+      "sha256": "e5f34491e8a2ee5bedbbf2108e68ff8c5b399c5d1e6c3bc27bd755c6bef3e21f"
+    },
+    {
+      "path": "inputs/current/Fig3_best_sampling_candidates.csv",
+      "sha256": "62dc08ad1558008fa9e65ee9bdbf1b44491d38e1a013c55463e63d975a9ceec9"
+    },
+    {
+      "path": "inputs/current/Fig3_best_sampling_selection.csv",
+      "sha256": "5c85f24bdc9acbcd337a78dccf5512de72e97fe85bca5775596ae9a7b66c7d67"
+    },
+    {
+      "path": "inputs/current/Fig3_cellclip_retrieval_audit.csv",
+      "sha256": "b428b488ff35a8e1aa1789cb5ab65611baf21f8109d066d80c6031e5a181ce9d"
+    },
+    {
+      "path": "inputs/current/fig3_cloome_current_c/row0.pdf",
+      "sha256": "6705c6806f10fef45acbf20cb84a463754987b3c8d14f851821e205fe4f46321"
+    },
+    {
+      "path": "inputs/current/fig3_cloome_current_c/row1.pdf",
+      "sha256": "2192570fe1a1449a64c96db3e70787acb3a87b5bb98d3ce994ef88c5d89b2d29"
+    },
+    {
+      "path": "inputs/current/fig3_cloome_current_c/umap_points.csv",
+      "sha256": "3bdbe7ac6866045de55aa29033891ff867fdd8e74c9840612e66e29907252bb5"
+    },
+    {
+      "path": "inputs/current/fig3_cloome_matched/mixing.json",
+      "sha256": "29fa1c49baad6e2b566bda9a846414dd3dc1d705947d92f83067deef8075a881"
+    },
+    {
+      "path": "inputs/current/Fig3_cloome_retrieval_audit.csv",
+      "sha256": "c259be495017e3b5ec709b0277289457dfa529979c123e1e43bb7fc9553766c7"
+    },
+    {
+      "path": "inputs/current/fig3_mixing_unified/summary.csv",
+      "sha256": "5d0ce2910424cdb076126a4a97998431e49f2414445300ff5d9bc091f4cbce5e"
+    },
+    {
+      "path": "inputs/current/Fig3_print_bar_audit.csv",
+      "sha256": "d5dd5162e7e771eb2c2a124c4eba289ca5dd8bc0a6539336e3a3524c695f63aa"
+    },
+    {
+      "path": "inputs/current/fig3_query_tests/paired_query_values.csv",
+      "sha256": "97805b6d9055c04e5cb1bca69ba225ebeacd83eb3b5cc56c3d7748ff90758db8"
+    },
+    {
+      "path": "inputs/current/fig3_query_tests/protocol.json",
+      "sha256": "5583ac2084c34a8510ddfb54e973f3548efcb4ca11b0ce33582ce4c1f2bfb380"
+    },
+    {
+      "path": "inputs/current/fig3_query_tests/tests.csv",
+      "sha256": "75803e58a7fcacfb7c9b04b9586f69078808a626543d0b8efec5b54a81cccb0d"
+    },
+    {
+      "path": "inputs/current/fig4_cloome_spatial/CLOOME_projection_points.csv",
+      "sha256": "3bd8c504beef48531fd1b71ccc1bda91b8d3c323cb93299a8f8c8b04e94296ba"
+    },
+    {
+      "path": "inputs/current/fig4_query_ci/paired_query_values.csv",
+      "sha256": "92d4c9281a432c002e7c99374f2c43a8a1f3d349650a8398b3a753e66d0eee71"
+    },
+    {
+      "path": "inputs/current/fig4_query_ci/protocol.json",
+      "sha256": "de9522144218b4974419ceef7a2010b32b5f067745ba031fe4bdccc9e755a747"
+    },
+    {
+      "path": "inputs/current/fig4_query_ci/summary.csv",
+      "sha256": "61a87ba7f3287cb9dde90ab737cd7207b1e2152e96554dc80e191b147f04fe4f"
+    },
+    {
+      "path": "inputs/current/fig4_query_ci/tests.csv",
+      "sha256": "62b7a85324f8ac5d78dfb52c96f355a58a0e0a51b8355a2890d710ab40492f63"
+    },
+    {
+      "path": "inputs/current/Fig5_compact_preview_curve_audit.csv",
+      "sha256": "234cc0dbbf37f15ddfafa31166ee1d23ac1e7deb5cd22f7adf3b68656e196083"
+    },
+    {
+      "path": "inputs/current/Fig5_single_case_curve_audit.csv",
+      "sha256": "44088ac60c51dc9169cf6188d636fb156e84a02fa1e9ffac3a3d7934643eb1bc"
+    },
+    {
+      "path": "inputs/fig1_panels/Fig1_panel_A.pdf",
+      "sha256": "0b6cd1042aa3e5a92895ca5a9f2a5f66f39bc37fae9ba774d330dcaaa0bcf58b"
+    },
+    {
+      "path": "inputs/fig1_panels/Fig1_panel_B_common_inputs.pdf",
+      "sha256": "00c5a44566434b8a511b39e7706e607ac9e7313bac71a8bea7dd6f12f2d6cbb8"
+    },
+    {
+      "path": "inputs/fig2_coordinates/biomoax_coordinates.npy",
+      "sha256": "992278508ebb2c517abd9a6a8975d4aef34f31fee4041b21ad9e725c4b3b51e6"
+    },
+    {
+      "path": "inputs/fig2_coordinates/cp_coordinates.npy",
+      "sha256": "ba53f75277e7f5589766e0b9058a6334ccc347a2ebcee3ff0c08541dad89c837"
+    },
+    {
+      "path": "inputs/fig2_coordinates/dp_coordinates.npy",
+      "sha256": "ff526e93cbeb8bb201f77de0e3d9ed6bbd950b4eb7fdcf6e3a8ff9c62a219c02"
+    },
+    {
+      "path": "inputs/fig2_highlights/cloome_coordinates.npy",
+      "sha256": "7dff7e0e97012109d650942dc5355b78ba376d7d188b32f7e4963535776c7ea4"
+    },
+    {
+      "path": "inputs/fig2_highlights/highlighted_crops.csv",
+      "sha256": "63e361e2bd7e3103581501ef92ce43f88b4b62f22c5127b9f484a65754e5d45f"
+    },
+    {
+      "path": "inputs/fig2_identity/curve_summary.csv",
+      "sha256": "4192e5ed404a3b680aeadcd8d095a82512baa1b4ab54b5419b2b246aa3c81d54"
+    },
+    {
+      "path": "inputs/fig2_identity/U2OS_five_splits.npz",
+      "sha256": "0f9793a3c9cb6350454f0e4a85936e25ff7c26637825e256180a35c9fe0e7959"
+    },
+    {
+      "path": "inputs/fig3_coordinates/biomoax_umap_points.csv",
+      "sha256": "70a188df255609a172b550ba74464facf6ddfbd2f9dae12dff3f84e7278261c4"
+    },
+    {
+      "path": "inputs/fig3_coordinates/cp_crop_umap_points.csv",
+      "sha256": "34812a423ad31fbc58dc66e25d935c5fbd45a8ffa08ca01204194df170d249a8"
+    },
+    {
+      "path": "inputs/fig3_coordinates/dp_umap_points.csv",
+      "sha256": "6fc66dc5adacb554ac48464f23564f899cddd06be60b412dee81118dbf847ace"
+    },
+    {
+      "path": "inputs/fig3_mixing_repeats/batch_mixing.csv",
+      "sha256": "7a9d89a732a0be8f2ab79d08f42fa5121fb3cfae4595695d29454c048441e85a"
+    },
+    {
+      "path": "inputs/fig3_retrieval/retrieval_plotted_values.csv",
+      "sha256": "cd3f97f36c43e2e6c725ded44efbd2986bfd6fb9d7ce7b27155756848a717185"
+    },
+    {
+      "path": "inputs/fig4_coordinates/BioMoAX_projection_points.csv",
+      "sha256": "897901f10d50a8d566bd4059df83e1f6bd2c630ccbb674bac9126395eba78bd8"
+    },
+    {
+      "path": "inputs/fig4_coordinates/CellProfiler_projection_points.csv",
+      "sha256": "75f7ca52a31c22fec5d435d67cffaae71c529eca0e533fd25da7e5725f47a038"
+    },
+    {
+      "path": "inputs/fig4_coordinates/DeepProfiler_projection_points.csv",
+      "sha256": "9a9b584ad056283f0dd6c7649443d5f4fc7445197946e60ed644707c74dd59e7"
+    },
+    {
+      "path": "inputs/fig4_highlights/highlighted_drug_profiles.csv",
+      "sha256": "4ccb8f90328d6c6e1eded23e2c92c7df32c41234e9d45ce62fe6296e53eb2d9a"
+    },
+    {
+      "path": "inputs/fig4_highlights/viewport_audit.json",
+      "sha256": "0b82297630ef7e0aa8703a552f5d19186bfbaf3e1cdb275a6aa8ac3dbfd60eb4"
+    },
+    {
+      "path": "inputs/fig5_case2_network/candidate_query_ranks.csv",
+      "sha256": "208c958079296a422c8210e11d3288711eee4e15a967eba392b0de883fe6ecf4"
+    },
+    {
+      "path": "inputs/fig5_case2_network/displayed_crop_sources.csv",
+      "sha256": "a4a670d9455d8313bde3e53d15c8b660374d4d3e108d49507df9e7d831ec3f02"
+    },
+    {
+      "path": "inputs/fig5_case2_network/network_edges.csv",
+      "sha256": "a64410df40785d0a498d4e22dd42b75fefb7a6139781d61cde3b30a92ba37ad3"
+    },
+    {
+      "path": "inputs/fig5_case2_network/network_nodes.csv",
+      "sha256": "eccbf30ec6c762cd915440b69cac75bb7d1a9db9f2f58cea6da69d8fa4d08353"
+    },
+    {
+      "path": "inputs/fig5_case2_network/receipt.json",
+      "sha256": "e3b0270a063a78d55340178ebdcee3eff7513f9d6d6dcc488ac88f8099370e64"
+    },
+    {
+      "path": "inputs/fig5_case2_network/reference_annotation.csv",
+      "sha256": "fd0f8023209d3d16ba0eefab08a78e407317cd226a857f963446a843c77120d1"
+    },
+    {
+      "path": "inputs/fig5_network/displayed_crop_sources.csv",
+      "sha256": "f0d465e7dd757c7d04027c953828455341aaaeea9f5f5f21fd7b128b6067849f"
+    },
+    {
+      "path": "inputs/fig5_network/edges.csv",
+      "sha256": "df3861333d130af2425f6c64d6114f72fd116db0472f7618200f8237ceb8f364"
+    },
+    {
+      "path": "inputs/fig5_network/nodes_case1.csv",
+      "sha256": "b2d7bac6271ea5b3d7c2e7421535ddcc9b50b6a065b0e41c7bd254bcb53680ab"
+    },
+    {
+      "path": "inputs/fig5_query_results/A549_seed43_ep029_ranks.csv",
+      "sha256": "ebb5697771f791170ad871713240a4652e455272609fdfea74fadd2cbf801eb4"
+    },
+    {
+      "path": "inputs/fig5_query_results/A549_seed45_ep028_ranks.csv",
+      "sha256": "497828154ca8944b8d0ef44047965f06b96429bac7a1c59a4142198f4bf74627"
+    },
+    {
+      "path": "inputs/fig5_query_results/A549_seed46_ep028_ranks.csv",
+      "sha256": "00fc7ddb4f95f2f9a6eed901346191ec549b5c05761bc4c7c5967370298b306d"
+    },
+    {
+      "path": "inputs/fig5_query_results/baseline_query_ranks.csv",
+      "sha256": "81d1283fd87c5aac1a035fb4f34f09be76d8232eb06bb24ba1bb9d874c53f508"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_130026.npy",
+      "sha256": "f020897609816677a634b6ffa83ad8c07d985bedc0dda26876b0b21fe18feca5"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_130992.npy",
+      "sha256": "b223c96be6fd42d698d6da15931e1e66d6080aae5d54aa54525ff75bb3f60781"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_15932.npy",
+      "sha256": "4ee9c296090d180bc561b7d18bb3b876f770004af5ed72775d41d98c2c22de94"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_15966.npy",
+      "sha256": "e8dbf3309ae0cb589f1763cdcc0451dab3214a11df95400b07d676ea1d2604e5"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_19142.npy",
+      "sha256": "f41bf4dc258eaa2fdefc157498f4ebda1ad2c079a11c321080f9503ef3e7d14e"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_19144.npy",
+      "sha256": "d6ab36c035ba924708a44c5f337b347e5a3bba962a305cf09a3497c3c330cccf"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_69967.npy",
+      "sha256": "e040d915caf5608b70d03f6aecc78229f7f2c6cf9e37c198545ff60804cf0c0b"
+    },
+    {
+      "path": "assets/crops/crops_cpg0000_A549_71005.npy",
+      "sha256": "4e8f5e80caf1a1f4267ff0821945205bfcd3d2aa482f1363dc63591ab2fb7c43"
+    },
+    {
+      "path": "assets/crops/crops_cpg0004_a549x1055_200144.npy",
+      "sha256": "3b0873a9d3da59cdbef9a93528b8cdd7e5cd3096dbab343c5e333592624b1554"
+    },
+    {
+      "path": "assets/crops/crops_cpg0004_a549x1055_200195.npy",
+      "sha256": "64abc2789f2eb98e1f880e33858d2aea1594efe5d1dea45ea39dc5c69cc44353"
+    },
+    {
+      "path": "assets/crops/crops_cpg0004_a549x1055_224164.npy",
+      "sha256": "4f321f8e4f321751de3e4ae58c6b50ff5ef97c7d3168402fb9e0c6c6d7c85673"
+    },
+    {
+      "path": "assets/crops/crops_cpg0004_a549x1055_224165.npy",
+      "sha256": "7ec032f75d78dc124cbfb614718c5eadb8b4c14009ddd55b03e728f7d9ae3678"
+    },
+    {
+      "path": "assets/crops/crops_cpg0004_a549x1055_810.npy",
+      "sha256": "4a17dbbf5c5c8201dd49e164b7072ff79c6bb02c79911de55597c433170c39ec"
+    },
+    {
+      "path": "assets/crops/crops_cpg0012_690_190863.npy",
+      "sha256": "243e7ee4395facaa1bce780400df7a402ff5b8e9062e89822748a6ff0c5ac8ab"
+    },
+    {
+      "path": "assets/crops/crops_cpg0012_690_190865.npy",
+      "sha256": "5ec8d68c4107096f6384d6bbe4becca90c26d0cc20d647ab94658603aeb451a5"
+    },
+    {
+      "path": "assets/crops/crops_cpg0012_690_190873.npy",
+      "sha256": "cd5ba205d26ec37e76848734571e3d43c2051a196630f63593bd081229551be7"
+    },
+    {
+      "path": "assets/crops/crops_cpg0012_690_210.npy",
+      "sha256": "cfaf1d7d26866b1e5583abceb7f695e45837adcc963897ae4a06e06b8b76ffe0"
+    },
+    {
+      "path": "assets/crops/crops_cpg0012_690_310.npy",
+      "sha256": "7c50c470a844e006617f148b8f3bc8c5a818f493d8089d4d89556b0c39df3c5d"
+    },
+    {
+      "path": "assets/crops/crops_cpg0012_690_410.npy",
+      "sha256": "bb4ae9427df127721b9592d764dbe0a03bdf169f1b0b90be8c2baed9e385f40b"
+    },
+    {
+      "path": "assets/fig4/frozen_bars.csv",
+      "sha256": "439dc161c6605f635c0ebaebbc918e25cb664ebfb7f1aeb8f04ef3a16f74ee67"
+    },
+    {
+      "path": "assets/fig4/random_references.csv",
+      "sha256": "8202402391265cf7a3330c44325ed22755dc9dba85ee81f325fbee0259dfb1fd"
+    },
+    {
+      "path": "assets/fig5/random_curve.csv",
+      "sha256": "29be08d24717c604edf0ee0d18cae8f663ba8b6063b4ab4d70272c53d044d624"
+    },
+    {
+      "path": "assets/microscope_21.png",
+      "sha256": "22c26badab4e0ece24b5b17a6e70cd0bf072a0969cd3b9304b87f8fe9845d1c5"
+    },
+    {
+      "path": "assets/microscope_23.png",
+      "sha256": "c9fbcd9a9114ce571de5f5893e604d9e7a27a70d6474d4c3ff57091a8a4ce2de"
+    },
+    {
+      "path": "scripts/bar_style.py",
+      "sha256": "21389897c6592670be447be8c81161bde8839a9307e2646a615c63be3fb75742"
+    },
+    {
+      "path": "scripts/crop_assets.py",
+      "sha256": "d6b381d42382c60f99ae21775479fd3418813133243e0e70f7605017bf3911cf"
+    },
+    {
+      "path": "scripts/fig2_layout.py",
+      "sha256": "f5b04c1fd91c72782c7a2bd662c7a8fe243765d0054491337d3f244c6f50bbe6"
+    },
+    {
+      "path": "scripts/fig4_cloome_spatial.py",
+      "sha256": "fc285dfb45a3e5397fe3f56d2806e9b3bbebc939505d20f16986a403b14fffe8"
+    },
+    {
+      "path": "scripts/fig5_cases.py",
+      "sha256": "2a7bfd84986b63e49114e7970c797e2c28cf293f63e5d9a97e5bd8194da06c68"
+    },
+    {
+      "path": "scripts/figure_fonts.py",
+      "sha256": "0d337d99c847308030ffc60726709e62440b573782de5fc003c1d4db74980b61"
+    },
+    {
+      "path": "scripts/figure_style_common.py",
+      "sha256": "183d103c19f9b1872f81a6853522dca82a2a93d3ea045a24dbeb385222b32ea5"
+    },
+    {
+      "path": "scripts/isolated_run.py",
+      "sha256": "ed5d47f8baf7701d35018485a79571500b0d3a9fc6ee525f20f1029bd8899ec8"
+    },
+    {
+      "path": "scripts/render_fig1.py",
+      "sha256": "c73eb923975a68cc758f1184afbd3837073038aad90d47cb4eb488012ecf0369"
+    },
+    {
+      "path": "scripts/render_fig2.py",
+      "sha256": "71d07bdd822570da833fc189bfbf450c74c08f8cfad7f03578dcb01a9c0eed20"
+    },
+    {
+      "path": "scripts/render_fig3.py",
+      "sha256": "d1935a9d3012213cb1e6e5213cbf70ce686e009dbdbfcf9692c36c8d697e3215"
+    },
+    {
+      "path": "scripts/render_fig4.py",
+      "sha256": "05eadd45740c11970f795bb4465f3e3641c47ccc9c0995101d3e6029ad49a994"
+    },
+    {
+      "path": "scripts/render_fig5.py",
+      "sha256": "73327517b4881513079ed918bf744479debac3f0f6f6c6377b0d39ba38ab7d61"
+    },
+    {
+      "path": "scripts/verify_statistics.py",
+      "sha256": "b6db2dc04b9ae71f22d810829f240ca298787c7b393902e81edfe445a6a4ed6b"
+    },
+    {
+      "path": "scripts/wilcoxon_statistics.py",
+      "sha256": "40a676009f7d47753313ce96eefe9d8dba998242a37b9e6639a5e82bc01b47e6"
+    }
+  ]
+}

@@ -20,3 +20,21 @@ dist/
 .pytest_cache/
 *.pem
 *.key
+
+# Paper release: fixed, small reproduction inputs are intentionally versioned.
+!reproduce/inputs/**/*.npy
+!reproduce/inputs/**/*.npz
+!reproduce/assets/**/*.npy
+!reproduce/assets/**/*.npz
+reproduce/build/
+reproduce/validation/
+paper/*.pdf
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.xdv
+reproduce/assets/fonts/

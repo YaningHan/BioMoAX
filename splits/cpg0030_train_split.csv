@@ -1,0 +1,156 @@
+int_label,cpd_name,moa,match_type
+2316,LOPERAMIDE,Opioid receptor agonist,name
+2311,LIDOCAINE,Histamine receptor agonist,name
+2236,GLIPIZIDE,Sulfonylurea,name
+2235,Glimepiride,Insulin secretagogue,name
+2216,FLECAINIDE,Sodium channel blocker,name
+-1,E-4031,Potassium channel blocker,moa
+2344,Methocarbamol,Muscle relaxant,name
+2224,Flutamide,Androgen receptor antagonist,name
+2325,LY-294002,PLK inhibitor,name
+15,Aceclofenac,Prostanoid receptor antagonist,name
+2146,DIAZOXIDE,Potassium channel activator,name
+2496,Racecadotril,Enkephalinase inhibitor,name
+2089,CGP-37157,L-type calcium channel blocker,name
+2244,HA-1004,,name
+2428,Paclitaxel,Tubulin inhibitor,name
+2202,FCCP,,name
+2197,etoposide,Topoisomerase inhibitor,name
+2065,bumetanide,Solute carrier family member inhibitor,name
+2143,dexamethasone,Glucocorticoid receptor agonist,name
+2130,CYCLOTHIAZIDE,Glutamate receptor modulator,name
+2515,Rolipram,Phosphodiesterase inhibitor,name
+2550,siguazodan,Phosphodiesterase inhibitor,name
+2643,zaprinast,Phosphodiesterase inhibitor,name
+76,bezafibrate,PPAR receptor agonist,name
+2426,OXYMETAZOLINE,Adrenergic receptor agonist,name
+2352,Metolazone,Carbonic anhydrase inhibitor,name
+17,Acenocoumarol,Vitamin K antagonist,name
+2221,FLUOXETINE,Selective serotonin reuptake inhibitor,name
+2134,Danazol,Estrogen receptor antagonist,name
+2234,Gliclazide,ATP channel blocker,name
+2618,TTNPB,Retinoid receptor agonist,name
+2506,REV-5901,Lipoxygenase inhibitor,name
+40,Amoxapine,Norepinephrine reputake inhibitor,name
+2164,Disulfiram,TRPV agonist,name
+57,Azathioprine,Dehydrogenase inhibitor,name
+2373,Molsidomine,Guanylyl cyclase activator,name
+2441,Phenacetin,Cyclooxygenase inhibitor,name
+2458,Pirenperone,Serotonin receptor antagonist,name
+2131,CYPROHEPTADINE,Histamine receptor antagonist,name
+2471,Prednisone,Glucocorticoid receptor agonist,name
+2462,PIZOTIFEN,Serotonin receptor antagonist,name
+2580,Tenoxicam,Cyclooxygenase inhibitor,name
+2567,Sulfasalazine,Anti-rheumatic drug,name
+2295,KETANSERIN,Serotonin receptor antagonist,name
+2079,Carbamazepine,Carboxamide antiepileptic,name
+83,BML-259,CDK inhibitor,name
+82,BML-257,Akt inhibitor,name
+2388,NAN-190,Serotonin receptor agonist,name
+2463,PK-11195,Benzodiazepine receptor antagonist,name
+2343,Methazolamide,Carbonic anhydrase inhibitor,name
+2211,FGIN-1-27,IMPase inhibitor,name
+2095,CHLORMEZANONE,GABA receptor modulator,name
+2538,SB-431542,TGF beta receptor inhibitor,name
+16,Acemetacin,Cyclooxygenase inhibitor,name
+2568,Sulfinpyrazone,Uricosuric blocker,name
+68,Bendroflumethiazide,Sodium/potassium/chloride transporter inhibitor,name
+2473,PRIMIDONE,GABA receptor antagonist,name
+2117,CLOMIPRAMINE,SERT inhibitor,name
+2104,Cinnarizine,Calcium channel blocker,name
+2121,CLOZAPINE,Dopamine receptor antagonist,name
+2207,Fenofibrate,PPAR receptor agonist,name
+2508,RILUZOLE,Glutamate inhibitor,name
+2163,Disopyramide,Sodium channel blocker,name
+2336,Medrysone,Glucocorticoid receptor agonist,name
+2459,PIRIBEDIL,Dopamine receptor agonist,name
+2208,FENOLDOPAM,Dopamine receptor agonist,name
+2635,Wiskostatin,Neural Wiskott-Aldrich syndrome protein inhibitor,name
+2310,LFM-A13,BTK inhibitor,name
+2480,Proglumide,CCK receptor antagonist,name
+2246,HALOPERIDOL,Dopamine receptor antagonist,name
+2511,RISPERIDONE,Dopamine receptor antagonist,name
+2213,Finasteride,5 alpha reductase inhibitor,name
+2087,Cerulenin,Fatty acid synthase inhibitor,name
+2196,Etodolac,Cyclooxygenase inhibitor,name
+2615,Triptolide,,name
+2250,Hexestrol,Estrogen receptor agonist,name
+2274,Indapamide,Thiazide diuretic,name
+2333,Mebendazole,,name
+2611,TRIFLUOPERAZINE,Dopamine receptor antagonist,name
+2230,Gemfibrozil,Lipoprotein lipase activator,name
+2126,Curcumin,Lipoxygenase inhibitor,name
+2627,VERAPAMIL,Calcium channel blocker,name
+8,5-iodotubercidin,Adenosine kinase inhibitor,name
+2436,Pentoxifylline,Phosphodiesterase inhibitor,name
+2482,PROPAFENONE,Antiarrhythmic,name
+2453,PINACIDIL,ATP channel activator,name
+2447,PHENYTOIN,Hydantoin antiepileptic,name
+2413,NS-1619,Calcium channel activator,name
+2229,Gelsemine,Glycine receptor antagonist,name
+2401,NIMODIPINE,Calcium channel blocker,name
+2419,Omeprazole,ATPase inhibitor,name
+2431,Parbendazole,Tubulin inhibitor,name
+2485,Propylthiouracil,Thyroid peroxidase inhibitor,name
+2338,Mephenytoin,Hydantoin antiepileptic,name
+2500,Ramipril,Angiotensin converting enzyme inhibitor,name
+2097,CIGLITAZONE,PPAR receptor agonist,name
+2479,Progesterone,Progesterone receptor agonist,name
+31,AM-580,Retinoid receptor agonist,name
+2256,Hydroflumethiazide,Sodium/potassium/chloride transporter inhibitor,name
+2175,Dubinidine,,name
+2077,Captopril,Angiotensin converting enzyme inhibitor,name
+2103,Cimetidine,Histamine receptor antagonist,name
+2302,Lansoprazole,ATPase inhibitor,name
+2135,Dapsone,Bacterial antifolate,name
+2152,Diflunisal,Prostanoid receptor antagonist,name
+2612,Trifluridine,Thymidylate synthase inhibitor,name
+2398,Niclosamide,STAT inhibitor,name
+2157,DILTIAZEM,Calcium channel blocker,name
+2261,IB-MECA,Adenosine receptor agonist,name
+2106,Cisapride,Serotonin receptor agonist,name
+2493,Quinethazone,Thiazide diuretic,name
+2504,Repaglinide,Insulin secretagogue,name
+2470,Prednicarbate,Phospholipase activator,name
+21,Albendazole,,name
+2365,MINOXIDIL,Vasodilator,name
+2457,Piperlongumine,,name
+2454,Pindolol,Adrenergic receptor antagonist,name
+2376,Moxonidine,Imidazoline receptor agonist,name
+2397,Nicergoline,Adrenergic receptor antagonist,name
+2058,Brinzolamide,Carbonic anhydrase inhibitor,name
+2123,Colchicine,Microtubule inhibitor,name
+2183,Enilconazole,Sterol demethylase inhibitor,name
+2403,NITRENDIPINE,Calcium channel blocker,name
+2227,Furosemide,Diuretic,name
+2588,THAPSIGARGIN,ATPase inhibitor,name
+2059,BROMOCRIPTINE,Dopamine receptor agonist,name
+2466,Practolol,Adrenergic receptor antagonist,name
+2263,IBUPROFEN,Cyclooxygenase inhibitor,name
+2634,WARFARIN,Vitamin K antagonist,name
+2337,MELOXICAM,Cyclooxygenase inhibitor,name
+2237,Gossypol,BCL inhibitor,name
+2296,Ketoconazole,Sterol demethylase inhibitor,name
+2547,SECURININE,TP53 activator,name
+2546,Scoulerine,GABA receptor antagonist,name
+2150,Dienestrol,Estrogen receptor agonist,name
+2210,FEXOFENADINE,Histamine receptor antagonist,name
+2198,EZETIMIBE,Cholesterol inhibitor,name
+2360,Mifepristone,Progesterone receptor antagonist,name
+2623,VALDECOXIB,Cyclooxygenase inhibitor,name
+2626,VENLAFAXINE,Adrenergic inhibitor,name
+2624,VALSARTAN,Angiotensin receptor antagonist,name
+2145,DIAZEPAM,Benzodiazepine receptor agonist,name
+2570,SULPIRIDE,Dopamine receptor antagonist,name
+2606,TRANDOLAPRIL,Angiotensin converting enzyme inhibitor,name
+73,BERGENIN,Interleukin inhibitor,name
+2584,TESTOSTERONE,,name
+2619,TULOBUTEROL,Adrenergic receptor agonist,name
+2371,MODAFINIL,Adrenergic receptor agonist,name
+2649,ZOLPIDEM,Benzodiazepine receptor agonist,name
+2499,RAMELTEON,Melatonin receptor agonist,name
+2217,FLUCONAZOLE,Sterol demethylase inhibitor,name
+2231,GENISTEIN,Tyrosine kinase inhibitor,name
+2258,HYDROXYPROGESTERONE,Progesterone receptor agonist,name
+34,AMCINONIDE,Glucocorticoid receptor agonist,name
+2391,NARINGENIN,TRPV antagonist,name

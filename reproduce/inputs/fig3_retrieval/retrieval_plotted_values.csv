@@ -1,0 +1,21 @@
+group,n,metric,method,mean,seed_sd,seed_count,technical_repeat_count,sd_unit
+heldout32,32,top5,BioMoAX moa,7.5,2.724311839712921,3,5,training checkpoints
+heldout32,32,top5,BioMoAX compound,7.5,1.0825317547305484,3,5,training checkpoints
+heldout32,32,top5,CellProfiler,0.0,,0,0,fixed baseline
+heldout32,32,top5,DeepProfiler,9.375,,0,0,fixed baseline
+heldout32,32,top5,Random,10.234313825790723,,0,0,analytic / fixed reference
+heldout32,32,mrr,BioMoAX moa,7.5023627963216795,1.203521546798305,3,5,training checkpoints
+heldout32,32,mrr,BioMoAX compound,6.570581698815356,1.522042316847062,3,5,training checkpoints
+heldout32,32,mrr,CellProfiler,2.0187728848548594,,0,0,fixed baseline
+heldout32,32,mrr,DeepProfiler,13.046561085439906,,0,0,fixed baseline
+heldout32,32,mrr,Random,8.18879897163989,,0,0,analytic / fixed reference
+moaonly115,115,top5,BioMoAX moa,7.594202898550724,1.915676712099514,3,5,training checkpoints
+moaonly115,115,top5,BioMoAX compound,11.768115942028986,2.66225217465624,3,5,training checkpoints
+moaonly115,115,top5,CellProfiler,4.3478260869565215,,0,0,fixed baseline
+moaonly115,115,top5,DeepProfiler,1.391304347826087,,0,0,fixed baseline
+moaonly115,115,top5,Random,5.367744308624363,,0,0,analytic / fixed reference
+moaonly115,115,mrr,BioMoAX moa,6.531449937089021,0.45317832393572854,3,5,training checkpoints
+moaonly115,115,mrr,BioMoAX compound,8.595901350585214,1.1305837032782056,3,5,training checkpoints
+moaonly115,115,mrr,CellProfiler,4.6625271212415775,,0,0,fixed baseline
+moaonly115,115,mrr,DeepProfiler,3.0851854278478568,,0,0,fixed baseline
+moaonly115,115,mrr,Random,4.765440870758212,,0,0,analytic / fixed reference

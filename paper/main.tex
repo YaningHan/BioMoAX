@@ -1,0 +1,58 @@
+\documentclass[runningheads]{llncs}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,graphicx,xcolor,placeins,float,needspace}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=black,urlcolor=blue]{hyperref}
+% RECOMB text-size floor: keep abstract, captions, tables and notes at 10pt.
+\let\small\normalsize
+\let\footnotesize\normalsize
+\DeclareRobustCommand{\moakey}[2]{\textcolor[HTML]{#1}{\rule{0.65em}{0.65em}}\,#2}
+\raggedbottom
+\setlength{\emergencystretch}{1em}
+\renewcommand{\topfraction}{.95}
+\renewcommand{\bottomfraction}{.95}
+\renewcommand{\textfraction}{.04}
+\renewcommand{\floatpagefraction}{.9}
+\setcounter{topnumber}{2}
+% Compact whole-figure placement; preserve the original composite PDFs.
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{3}
+\input{sections/figure_captions}
+\newcommand{\resultfigure}[1]{%
+\begin{figure}[!htb]\centering
+\includegraphics[width=\linewidth]{figures/fig#1.pdf}
+\caption{\csname captionFigure#1\endcsname}\label{fig:#1}
+\end{figure}}
+\title{BioMoAX: Unified Multimodal Representation Learning for Cellular Perturbation Retrieval}
+\titlerunning{BioMoAX}
+\input{sections/authors}
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{sections/abstract}
+\par\medskip
+\par\smallskip
+\noindent\textbf{Code availability.} BioMoAX code is available at \url{https://github.com/YaningHan/BioMoAX}.
+\end{abstract}
+\clearpage
+\section{Introduction}
+\input{sections/introduction}
+\resultfigure{1}
+\section{Methods}
+\input{sections/methods}
+\section{Results}
+\input{sections/results}
+\FloatBarrier
+\section{Discussion}
+\input{sections/discussion}
+
+\clearpage
+\bibliographystyle{splncs04}
+\bibliography{references}
+\clearpage
+\appendix
+\input{sections/appendix}
+\end{document}

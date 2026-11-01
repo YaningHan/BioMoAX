@@ -69,7 +69,7 @@ def main():
     for row in beta.itertuples():
         annotations=set() if pd.isna(row.target) else {x.strip() for x in str(row.target).upper().split('|') if x.strip()}
         targets.setdefault(str(row.cmap_name).lower().strip(),set()).update(annotations)
-    gene_path=proc/'retraining_candidate_v1/cpg0000_crispr/meta_cpg0000_A549.csv'
+    gene_path=proc/'training_inputs/cpg0000_crispr/meta_cpg0000_A549.csv'
     split_path=proc/'metadata/crispr_gene_split_v8_90_40_seed42.csv'
     genes=pd.read_csv(gene_path).sort_values('int_label')
     splits=pd.read_csv(split_path)

@@ -1,0 +1,15 @@
+{
+  "test": "Two-sided exact query-paired Wilcoxon signed-rank",
+  "zero_method": "wilcox",
+  "ties": "average ranks",
+  "correction": "Holm across four displayed MOA-head baseline comparisons",
+  "n_queries": 115,
+  "checkpoints": [
+    "seed43_ep029",
+    "seed45_ep028",
+    "seed46_ep028"
+  ],
+  "crop_draws_per_checkpoint": 5,
+  "averaging": "Within checkpoint, then equally over checkpoints within each query",
+  "audit": "runs/statistics/fig3a_wilcoxon_audit_20261031"
+}

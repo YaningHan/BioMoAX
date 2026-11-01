@@ -1,0 +1,10 @@
+*.sh text eol=lf
+*.env text eol=lf
+*.example text eol=lf
+reproduce/inputs/** -text
+reproduce/assets/** -text
+*.pdf binary
+*.npy binary
+*.npz binary
+*.png binary
+*.jpg binary

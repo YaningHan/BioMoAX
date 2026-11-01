@@ -52,7 +52,7 @@ def main():
         env = os.environ.copy()
         env["BIOMOAX_PROJECT_ROOT"] = str(args.project_root.resolve())
         env["BIOMOAX_TRAIN_OUT"] = str(args.output.resolve())
-        command = [sys.executable, str(Path(__file__).parent/"legacy/train_rebuilt_five_loss.py"), "--seed", str(args.seed)]
+        command = [sys.executable, "-m", "biomoax.training.entry", "--seed", str(args.seed)]
         if args.preflight: command.append("--preflight")
         raise SystemExit(subprocess.call(command, env=env))
     if args.output.exists():

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "Download URLs require a checkpoint asset release; weights are not Git source files.",
+  "checkpoints": [
+    {
+      "id": "seed43_ep029",
+      "path": "checkpoints/seed43_ep029.pt",
+      "bytes": 145000536,
+      "sha256": "ab1e0c0497ba63265a3c1c709c75fa6fc139cfcd8b56d7f25bfd54a1f061887f",
+      "url": null
+    },
+    {
+      "id": "seed45_ep028",
+      "path": "checkpoints/seed45_ep028.pt",
+      "bytes": 145000600,
+      "sha256": "c40374b2534965ff9ff29ba0c7b93e24a7a4d73307c8a47bfd15d6b96bf66d82",
+      "url": null
+    },
+    {
+      "id": "seed46_ep028",
+      "path": "checkpoints/seed46_ep028.pt",
+      "bytes": 145000600,
+      "sha256": "28e6984f61ed8ee5ea39c157334be742908edfff51f137b159e58efe8433b6b6",
+      "url": null
+    }
+  ]
+}

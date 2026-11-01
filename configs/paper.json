@@ -21,8 +21,8 @@
   ],
   "summary_scope": "Three checkpoints retained from five training seeds following validation and downstream comparisons",
   "network_checkpoints": {
-    "RTK": "seed45_ep028",
-    "PDE": "seed42_ep028"
+    "receptor_kinases": "seed45_ep028",
+    "aldehyde_metabolism": "seed43_ep029"
   },
   "loss_weights": {
     "compound": 2.0,
@@ -45,5 +45,41 @@
     "e2e": 42002,
     "i2e": 42003,
     "e2i": 42004
+  },
+  "panel_checkpoints": {
+    "Fig2A": [
+      "seed43_ep029",
+      "seed45_ep028",
+      "seed46_ep028"
+    ],
+    "Fig2B": [
+      "seed46_ep028"
+    ],
+    "Fig3A": [
+      "seed43_ep029",
+      "seed45_ep028",
+      "seed46_ep028"
+    ],
+    "Fig3B": {
+      "checkpoint": "seed46_ep028",
+      "crop_repeat": 9,
+      "selection": "highest mean of four mixing scores among ten crop draws"
+    },
+    "Fig4A_B": [
+      "seed43_ep029",
+      "seed45_ep028",
+      "seed46_ep028"
+    ],
+    "Fig5A": [
+      "seed43_ep029",
+      "seed45_ep028",
+      "seed46_ep028"
+    ],
+    "Fig5B": [
+      "seed45_ep028"
+    ],
+    "Fig5C": [
+      "seed43_ep029"
+    ]
   }
 }

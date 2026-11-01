@@ -1,0 +1,131 @@
+\subsection{Data and splits}
+We used Cell Painting Gallery data~\cite{weisbart2024}: cpg0012 (U2OS) and cpg0004 (A549) for drug image--expression learning, cpg0016 (A375/MCF7) for additional training, and cpg0000 for chemical--genetic alignment. Additional cpg0030 images from 154 training records were used for image-based supervision; the 115 cpg0030 retrieval queries were excluded from training. Drug records were partitioned separately by source and cell line, giving 473 training/90 query records in U2OS and 738/301 in A549. The cpg0000 data contain 130 genes and 260 compound records per cell line; a shared gene-level split assigns 90 genes to training and 40 to evaluation.
+
+\subsection{Model architecture}
+\noindent\textbf{Image encoder.} A shared ViT~\cite{dosovitskiy2021} encodes drug and CRISPR images (Fig.~1A). Each five-channel $128\times128$ Cell Painting crop is divided into $16\times16$ patches and embedded as 384-dimensional tokens. The encoder has 12 Transformer blocks, each with six attention heads. Two independent two-layer MLP projection heads~\cite{chen2020simclr} map the final 384-dimensional CLS token to normalized 256-dimensional embeddings. The compound head is used for drug identity matching and the MOA head for functional retrieval. CRISPR images use the MOA head.
+
+\noindent\textbf{Expression encoder.} An MLP with hidden dimensions of 1,024 and 512 encodes each 12,328-dimensional L1000 profile. Both layers use layer normalization, GELU activation, and dropout. Separate two-layer compound and MOA projection heads map the 512-dimensional representation to normalized 256-dimensional embeddings. These heads do not share parameters with the image heads.
+
+\Needspace{30\baselineskip}
+\subsection{Supervision and training objectives}
+\begingroup
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+Let $Z^{I,c}$ and $Z^{E,c}$ denote image and expression embeddings in the compound space, and $Z^{I,m}$ and $Z^{E,m}$ those in the MOA space. For normalized embeddings $A=\{a_i\}$ and $B=\{b_j\}$ and a positive mask $P$, the directed contrastive loss is
+
+\begin{equation}
+\begin{aligned}
+\ell(A\!\to\!B;P)
+&=-\frac{1}{|\mathcal V|}
+\sum_{i\in\mathcal V}\frac{1}{\max(1,\sum_jP_{ij})}\\[3pt]
+&\qquad{}\times\sum_j P_{ij}
+\log\frac{\exp(a_i^\top b_j/\tau)}
+{\sum_{k\in\mathcal B(i)}\exp(a_i^\top b_k/\tau)}.
+\end{aligned}
+\label{eq:contrastive}
+\end{equation}
+
+Here $\tau$ is a learned temperature, $\mathcal B(i)$ is the candidate set, and $\mathcal V$ is the anchor set. Cross-group alignment uses the bidirectional form~\cite{radford2021}:
+
+\begin{equation}
+\mathcal C(A,B;P)=\frac12
+\bigl[\ell(A\to B;P)+\ell(B\to A;P^\top)\bigr].
+\label{eq:bidirectional}
+\end{equation}
+Within-modality supervised contrastive learning~\cite{khosla2020}, denoted $\mathcal S(Z;P)$, excludes self-comparisons. The following five objectives correspond to Fig.~1A.
+
+\Needspace{8\baselineskip}
+\textbf{Compound-paired supervision ($L_1$).}
+Paired image and expression records of the same drug are positives. This objective learns identity correspondence in the compound space:
+
+\begin{equation}
+P^c_{ij}=\mathbf1[i=j],
+\qquad L_1=\mathcal C(Z^{I,c},Z^{E,c};P^c).
+\label{eq:compound-pair}
+\end{equation}
+\Needspace{12\baselineskip}
+\textbf{Within-modality MOA supervision ($L_2$ and $L_3$).}
+Let $\mathcal M_i$ be the MOA annotation set of drug $i$. Different records sharing at least one MOA are positives, allowing multiple positives per anchor. Image and expression objectives organize functional relationships within their respective modalities:
+
+\begin{equation}
+\begin{aligned}
+P^m_{ij}&=\mathbf1[i\ne j]\,
+          \mathbf1[\mathcal M_i\cap\mathcal M_j\ne\varnothing],\\[3pt]
+L_2&=\mathcal S(Z^{I,m};P^{m,I}),\\[3pt]
+L_3&=\mathcal S(Z^{E,m};P^{m,E}).
+\end{aligned}
+\label{eq:within-moa}
+\end{equation}
+\Needspace{10\baselineskip}
+\textbf{Cross-modal MOA supervision ($L_4$).}
+Shared MOA annotations connect image and expression records, including records of different drugs:
+
+\begin{equation}
+\begin{aligned}
+P^\times_{ij}&=\mathbf1[\mathcal M_i\cap\mathcal M_j\ne\varnothing],\\[3pt]
+L_4&=\mathcal C(Z^{I,m},\operatorname{sg}(Z^{E,m});P^\times).
+\end{aligned}
+\label{eq:cross-moa}
+\end{equation}
+Here $\operatorname{sg}$ stops gradients to the expression branch for this term.
+
+\Needspace{9\baselineskip}
+\textbf{Gene--drug supervision ($L_5$).}
+For each sampled training gene, a CRISPR image is paired with an associated drug image from the same cell line. Their embeddings $Z^{G,m}$ and $Z^{D,m}$ share the image encoder and MOA head. A sampled-pair mask connects genetic and chemical perturbations:
+
+\begin{equation}
+P^g_{ij}=\mathbf1[i=j],
+\qquad L_5=\mathcal C(Z^{G,m},Z^{D,m};P^g).
+\label{eq:gene-drug}
+\end{equation}
+\Needspace{6\baselineskip}
+The five objectives are jointly optimized with fixed weights:
+
+\begin{equation}
+\mathcal L=2L_1+1.7L_2+3L_3+2L_4+L_5.
+\label{eq:five-losses}
+\end{equation}
+
+Image crops are normalized channel-wise. We use AdamW~\cite{loshchilov2019}, a learning rate of $10^{-4}$, weight decay of $10^{-2}$, and cosine decay after warm-up.
+\endgroup
+
+\subsection{Baselines and retrieval evaluation}
+We compare CellProfiler~\cite{stirling2021}, which extracts morphological features; DeepProfiler~\cite{moshkov2024}, which learns image features; CLOOME~\cite{sanchez2023}, trained on image--chemical structure pairs; and CellCLIP~\cite{lu2025}, trained to align images with perturbation-related text. CLOOME and CellCLIP use pretrained representations; raw L1000 profiles provide the expression baseline.
+
+Table~\ref{tab:model-size} summarizes the image feature extractors and their parameter counts.
+
+\begin{table}[!htb]
+\caption{Image feature extractors and parameter counts.}
+\label{tab:model-size}
+\centering
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.22}
+\begin{tabular*}{\linewidth}{@{}l@{\hspace{1.5em}}l@{\extracolsep{\fill}}r@{}}
+\hline
+Method & Image feature extractor & Parameters (M) \\
+\hline
+BioMoAX & ViT + one projection head & 22.04 \\
+CellProfiler & Handcrafted morphological features & -- \\
+DeepProfiler & EfficientNet-B0 & 4.01 \\
+CLOOME & Five-channel ResNet-50 & 24.56 \\
+CellCLIP & DINOv2-G + channel Transformer & 1,477.26 \\
+\hline
+\end{tabular*}
+\par\vspace{4pt}
+\raggedright
+Image inference parameters, including frozen weights; --, no neural encoder.
+\end{table}
+
+
+We denote image and expression modalities by I and E. Retrieval directions are I2I (image-to-image), E2E (expression-to-expression), I2E (image-to-expression), and E2I (expression-to-image), with the first modality specifying the query and the second the reference library. For image retrieval, we average up to 100 normalized crop embeddings per condition~\cite{ljosa2013} and renormalize. References are ranked by cosine similarity to the query. Top-$K$ hit rate is the percentage of queries with at least one positive among their first $K$ results. In MOA retrieval, positives share an MOA with the query; the query drug is excluded in within-cell-line MOA searches.
+
+For image baselines not aligned with L1000, we fit ridge regression on paired profiles from the pooled U2OS/A549 training set. Both input and target features are standardized using their training means and standard deviations. The mapping is learned by
+
+\begin{equation}
+(W^*,b^*)=\arg\min_{W,b}
+\left\|XW+\mathbf1 b^\top-Y\right\|_F^2
++\alpha\|W\|_F^2,\qquad \alpha=1.
+\label{eq:ridge}
+\end{equation}
+
+Here $X$ and $Y$ contain paired standardized training profiles in the source and target modalities, $W$ is the mapping matrix, $b$ is the intercept, and $\mathbf1$ is a vector of ones. The first term measures mapping error; the second penalizes large coefficients. I2E and E2I mappings are fitted independently. Standardization and mappings remain fixed during evaluation; mapped queries are ranked against standardized target-modality references by cosine similarity.

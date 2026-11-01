@@ -1,0 +1,4 @@
+cell,direction,baseline
+U2OS,i2i,CellCLIP
+A549,i2i,CellCLIP
+U2OS,e2i,CellCLIP

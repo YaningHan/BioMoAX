@@ -35,13 +35,7 @@ data/processed/
     crispr_gene_split_v8_90_40_seed42.csv
     u2os_cpg0012_train473_site_split_seed42.csv
     SingleCell_Manifest_JumpCP_690.csv
-  cpg0000_crispr/
-    meta_cpg0000_A549.csv
-    meta_cpg0000_U2OS.csv
-  cpg0000_compound/
-    meta_cpg0000_cpd_A549.csv
-    meta_cpg0000_cpd_U2OS.csv
-  retraining_candidate_v1/
+  training_inputs/
     complete.json
     cpg0000_crispr/
       crops_cpg0000_A549.h5

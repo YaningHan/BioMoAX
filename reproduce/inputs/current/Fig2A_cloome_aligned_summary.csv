@@ -1,0 +1,11 @@
+cell,method,k,mean,sd,uncertainty
+A549,CLOOME,1,72.22591362126245,2.5905101248661713,SD across original five crop partitions
+A549,CLOOME,2,81.86046511627907,1.8881424901505404,SD across original five crop partitions
+A549,CLOOME,3,85.38205980066445,1.9371933205466092,SD across original five crop partitions
+A549,CLOOME,4,88.77076411960134,1.295255062433086,SD across original five crop partitions
+A549,CLOOME,5,90.76411960132891,2.066754952158913,SD across original five crop partitions
+U2OS,CLOOME,1,88.44444444444443,1.4907119849998642,SD across original five crop partitions
+U2OS,CLOOME,2,94.66666666666667,1.64804410824348,SD across original five crop partitions
+U2OS,CLOOME,3,96.22222222222223,2.557969874049182,SD across original five crop partitions
+U2OS,CLOOME,4,97.11111111111111,2.304049039258636,SD across original five crop partitions
+U2OS,CLOOME,5,97.55555555555554,1.9876159799998117,SD across original five crop partitions

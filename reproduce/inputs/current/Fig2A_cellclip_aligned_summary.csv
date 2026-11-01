@@ -1,0 +1,11 @@
+cell,method,k,mean,sd,uncertainty
+A549,CellCLIP,1,61.79401993355481,2.240986306184724,SD across original five crop partitions
+A549,CellCLIP,2,69.96677740863787,2.536692248348315,SD across original five crop partitions
+A549,CellCLIP,3,75.88039867109634,1.568866306062143,SD across original five crop partitions
+A549,CellCLIP,4,78.80398671096346,2.066754952158908,SD across original five crop partitions
+A549,CellCLIP,5,81.92691029900331,1.8437789934234687,SD across original five crop partitions
+U2OS,CellCLIP,1,96.22222222222223,1.685083432011454,SD across original five crop partitions
+U2OS,CellCLIP,2,98.66666666666666,0.929622251704531,SD across original five crop partitions
+U2OS,CellCLIP,3,99.33333333333333,0.9938079899999094,SD across original five crop partitions
+U2OS,CellCLIP,4,99.77777777777779,0.4969039949999547,SD across original five crop partitions
+U2OS,CellCLIP,5,99.77777777777779,0.4969039949999547,SD across original five crop partitions
