@@ -408,63 +408,63 @@
     },
     {
       "path": "scripts/bar_style.py",
-      "sha256": "21389897c6592670be447be8c81161bde8839a9307e2646a615c63be3fb75742"
+      "sha256": "fa58a513f1660ab9d95711ee8ee5563576d18d88fdfabc4030e344179865cbf3"
     },
     {
       "path": "scripts/crop_assets.py",
-      "sha256": "d6b381d42382c60f99ae21775479fd3418813133243e0e70f7605017bf3911cf"
+      "sha256": "c26f8534ae455ab603fe124eb68a1a5ed5aa5dfdcf7a00c02b4f97bb522bfcf2"
     },
     {
       "path": "scripts/fig2_layout.py",
-      "sha256": "f5b04c1fd91c72782c7a2bd662c7a8fe243765d0054491337d3f244c6f50bbe6"
+      "sha256": "a23ee81f8922fa397a774d47263b36af89376dfd3f26194aaaad81671a7ba5dc"
     },
     {
       "path": "scripts/fig4_cloome_spatial.py",
-      "sha256": "fc285dfb45a3e5397fe3f56d2806e9b3bbebc939505d20f16986a403b14fffe8"
+      "sha256": "2d876324ad35f46713cc871f04d61bbe48d6252d45b007616e280add330f8291"
     },
     {
       "path": "scripts/fig5_cases.py",
-      "sha256": "2a7bfd84986b63e49114e7970c797e2c28cf293f63e5d9a97e5bd8194da06c68"
+      "sha256": "8e0c7a587d1ee7257480f2fe74f73d142c4f6897090899e22deab3d219a7c947"
     },
     {
       "path": "scripts/figure_fonts.py",
-      "sha256": "0d337d99c847308030ffc60726709e62440b573782de5fc003c1d4db74980b61"
+      "sha256": "07b636cd3c19b3ff0d653297444cf5f95264924fe0e5b4de42a96d1d86022b0b"
     },
     {
       "path": "scripts/figure_style_common.py",
-      "sha256": "183d103c19f9b1872f81a6853522dca82a2a93d3ea045a24dbeb385222b32ea5"
+      "sha256": "7dc968171746eb1aa3aa888545f7874ae523fa71ad611ff0c960c4a10009960d"
     },
     {
       "path": "scripts/isolated_run.py",
-      "sha256": "ed5d47f8baf7701d35018485a79571500b0d3a9fc6ee525f20f1029bd8899ec8"
+      "sha256": "2c75af15c427f695887d3ac7bbf2fb1e0118c0c348059af3817f2874d0fe0828"
     },
     {
       "path": "scripts/render_fig1.py",
-      "sha256": "c73eb923975a68cc758f1184afbd3837073038aad90d47cb4eb488012ecf0369"
+      "sha256": "2d01c72cc71d9e47c1987d3dc14480f4341ec77e008c0caaa3e4993274985602"
     },
     {
       "path": "scripts/render_fig2.py",
-      "sha256": "71d07bdd822570da833fc189bfbf450c74c08f8cfad7f03578dcb01a9c0eed20"
+      "sha256": "557480aa20306053bb11e389348c2c4cc8f82070bd96fdaeb8c47bc67ee5e656"
     },
     {
       "path": "scripts/render_fig3.py",
-      "sha256": "d1935a9d3012213cb1e6e5213cbf70ce686e009dbdbfcf9692c36c8d697e3215"
+      "sha256": "9558e3a1fa8dd1f7e4f9b89f3d7bc1d4be9949a28aae8873144585eccd29fa84"
     },
     {
       "path": "scripts/render_fig4.py",
-      "sha256": "05eadd45740c11970f795bb4465f3e3641c47ccc9c0995101d3e6029ad49a994"
+      "sha256": "28660ca116c208cbd6b5589278aed0819ab2f24247024f80cdd38550bfa405b6"
     },
     {
       "path": "scripts/render_fig5.py",
-      "sha256": "73327517b4881513079ed918bf744479debac3f0f6f6c6377b0d39ba38ab7d61"
+      "sha256": "29b775fe5b199e6b7515b612df9b1d74cf147651c4e4cf10c3dd573bc8032ed3"
     },
     {
       "path": "scripts/verify_statistics.py",
-      "sha256": "b6db2dc04b9ae71f22d810829f240ca298787c7b393902e81edfe445a6a4ed6b"
+      "sha256": "64b8ba17b497565c552eadba8de1fe1a5c73cfc3eb3ca5c02e82222381d74ab1"
     },
     {
       "path": "scripts/wilcoxon_statistics.py",
-      "sha256": "40a676009f7d47753313ce96eefe9d8dba998242a37b9e6639a5e82bc01b47e6"
+      "sha256": "bb883fd8d0298c15b7be576fb2f7ebb733086e1eebeabcea2c033efdb699a73e"
     }
   ]
 }
