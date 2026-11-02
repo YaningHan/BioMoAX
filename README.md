@@ -30,7 +30,14 @@ The bundled observations, UMAP coordinates and small image examples reproduce th
 
 ## Models and data
 
-[Checkpoint checksums](manifests/checkpoints.json) identify the three retained paper checkpoints. Download URLs are not yet configured; this source release does not include the weights. [Checkpoint notes](docs/CHECKPOINTS.md) explain panel assignments and integrity checks.
+The pretrained **seed46_ep028** model is available from [GitHub Releases](https://github.com/YaningHan/BioMoAX/releases/tag/weights-v1.0) (145,000,600 bytes; approximately 138.3 MiB). It includes both encoders and both compound/MOA projection-head pairs.
+
+```bash
+python scripts/download_checkpoint.py --project-root .
+python scripts/check_checkpoints.py --project-root . --id seed46_ep028
+```
+
+The downloader verifies the file size and SHA-256 in the [checkpoint manifest](manifests/checkpoints.json). This is a single pretrained model for inference. Several paper summaries aggregate three retained checkpoints; the public checkpoint alone does not reproduce those model-averaged results or the other checkpoints' case networks. The bundled figure/statistics reproduction remains available without weights. [Checkpoint notes](docs/CHECKPOINTS.md) explain panel assignments and integrity checks.
 
 ```bash
 biomoax check-data --project-root /path/to/data-root

@@ -7,10 +7,15 @@ from pathlib import Path
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--project-root', type=Path, required=True)
+    parser.add_argument('--id', help='Verify one checkpoint instead of all retained checkpoints')
     args = parser.parse_args()
     manifest = json.loads((Path(__file__).resolve().parents[1] / 'manifests/checkpoints.json').read_text())
     failed = []
+    if args.id and args.id not in {item['id'] for item in manifest['checkpoints']}:
+        parser.error('Unknown checkpoint: ' + args.id)
     for item in manifest['checkpoints']:
+        if args.id and item['id'] != args.id:
+            continue
         path = args.project_root / item['path']
         digest = hashlib.sha256()
         if path.is_file():
