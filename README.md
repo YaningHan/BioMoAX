@@ -6,7 +6,11 @@ This repository contains training and inference code, ridge baselines, the curre
 
 ## Installation and checks
 
+Use Python 3.10 or newer. From a fresh checkout:
+
 ```bash
+git clone https://github.com/YaningHan/BioMoAX.git
+cd BioMoAX
 python -m pip install -e '.[reproduce]'
 python -m unittest discover -s tests -v
 python examples/synthetic_retrieval.py
@@ -37,7 +41,7 @@ python scripts/download_checkpoint.py
 biomoax encode --input crops.npy --modality image --output embeddings.npy
 ```
 
-The download is verified automatically using its file size and SHA-256. Encoding uses the pretrained model and MOA head by default. Image input is a uint16 array of shape `[N, 5, 128, 128]`; the output is a normalized 256-dimensional condition embedding. The model also encodes expression profiles. See [model usage](docs/CHECKPOINTS.md) for input details and [evaluation protocols](docs/REPRODUCTION.md) for the paper settings.
+The download is verified automatically using its file size and SHA-256. Encoding uses the pretrained model and MOA head by default. Image input contains crops from one condition as a uint16 array of shape `[N, 5, 128, 128]`, ordered as DNA, ER, RNA, AGP, Mito; the output is a normalized 256-dimensional condition embedding. The model also encodes expression profiles. See [model usage](docs/CHECKPOINTS.md) for input details and [evaluation protocols](docs/REPRODUCTION.md) for the paper settings.
 
 ## Training data
 

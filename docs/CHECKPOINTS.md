@@ -10,7 +10,7 @@ biomoax encode --input crops.npy --modality image --output image_embedding.npy
 biomoax encode --input expression.npy --modality expression --output expression_embeddings.npy
 ```
 
-Image input is a uint16 NumPy array with shape `[N, 5, 128, 128]`. Crops from one condition are averaged to produce a normalized `[1, 256]` embedding. Expression input has shape `[N, 12328]` and produces `[N, 256]` embeddings. Both commands use the same pretrained model and default MOA head. Add `--device cuda` for GPU inference. Use `--head compound` for compound-identity representations.
+Image input is a uint16 NumPy array with shape `[N, 5, 128, 128]`, with channels ordered as DNA, ER, RNA, AGP, Mito. Each image call takes crops from one condition and averages them to produce a normalized `[1, 256]` embedding. Use separate calls for different conditions, or the [condition-feature workflow](SHELL_WORKFLOW.md#condition-features). Expression input has shape `[N, 12328]` and produces `[N, 256]` embeddings. Both commands use the same pretrained model and default MOA head. Add `--device cuda` for GPU inference. Use `--head compound` for compound-identity representations.
 
 The Python interface also uses the pretrained model by default:
 
