@@ -152,7 +152,8 @@ def main():
         p.add_argument('--crop-labels', type=Path,
                        help='CSV with source_row,label for every crop; required when HDF5 has no labels')
         if mode == 'image':
-            p.add_argument('--checkpoint', type=Path, required=True)
+            from biomoax.defaults import DEFAULT_CHECKPOINT
+            p.add_argument('--checkpoint', type=Path, default=DEFAULT_CHECKPOINT)
             p.add_argument('--head', choices=['moa', 'compound'], default='moa')
             p.add_argument('--device', default='cpu')
             p.add_argument('--batch-size', type=int, default=16)

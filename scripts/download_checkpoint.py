@@ -46,16 +46,15 @@ def main():
     manifest = json.loads((Path(__file__).resolve().parents[1] / 'manifests/checkpoints.json').read_text())
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--project-root', type=Path, default=Path('.'))
-    parser.add_argument('--id', default=manifest['default_checkpoint'])
     args = parser.parse_args()
-    item = next((x for x in manifest['checkpoints'] if x['id'] == args.id), None)
+    item = next((x for x in manifest['checkpoints'] if x['id'] == manifest['default_checkpoint']), None)
     if item is None:
-        parser.error(f'Unknown checkpoint: {args.id}')
+        parser.error('The pretrained model is missing from the download manifest')
     try:
         path = download(item, args.project_root)
     except ValueError as error:
         parser.exit(1, str(error) + '\n')
-    print(f'Verified checkpoint: {path}')
+    print(f'BioMoAX model ready: {path}')
 
 
 if __name__ == '__main__':

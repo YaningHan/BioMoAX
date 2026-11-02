@@ -18,7 +18,7 @@ Within-cell drug-identity retrieval uses disjoint crop query/gallery sets. MOA r
 
 ## Checkpoint and query summaries
 
-The three retained checkpoints were selected from five training seeds after validation and downstream comparisons. Their variation is not an estimate over unselected independent training runs. `configs/paper.json` records assignments and fixed sampling seeds; the CLI does not automatically load this reference configuration.
+The three retained checkpoints were selected from five training seeds after validation and downstream comparisons. Their variation is not an estimate over unselected independent training runs. `configs/paper.json` records assignments and fixed sampling seeds, and `manifests/paper_checkpoints.json` records the corresponding weight hashes; the CLI does not automatically load this reference configuration.
 
 Figure 2B uses seed46. Figures 3A, 4 retrieval and 5A summarize the retained checkpoints with their recorded crop draws. Figure 3B uses seed46 crop draw 9, selected by the highest mean of four mixing scores among ten draws; the display is not a mean over those draws. Figures 5B/C are selected illustrative cases from seed45/seed43 respectively.
 

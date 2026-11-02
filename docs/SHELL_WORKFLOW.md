@@ -47,9 +47,9 @@ Create a CSV with unique `record_id,label` pairs for one crop HDF5 collection. L
 For collections without an HDF5 `labels` dataset, pass `--crop-labels crop_labels.csv` to either mode. This CSV must contain `source_row,label`, with each zero-based crop row appearing exactly once. For cpg0030, use the row-aligned `int_label` values from `meta_cpg0030_u2os.csv` as labels. Rows may be listed in any order; duplicate, missing or conflicting mappings are rejected. If HDF5 labels are also present, both sources must agree.
 
 ```bash
-# BioMoAX: specify a model checkpoint and encode each condition.
+# BioMoAX: encode each condition using the pretrained model.
 bash scripts/09_condition_features.sh image --crops runs/cellpose/crops.h5 \
-  --records conditions.csv --checkpoint /path/to/model.pt --head moa \
+  --records conditions.csv --head moa \
   --device cuda --max-crops 100 --output runs/image_conditions
 
 # CellProfiler: aggregate crop features using their explicit source-row mapping.
@@ -87,7 +87,7 @@ For `e2i`, supply expression queries and an image gallery. Both inputs are raw c
 For BioMoAX, export one normalized embedding per crop with the compound head:
 
 ```bash
-biomoax encode --checkpoint /path/to/model.pt --input selected_crops.npy \
+biomoax encode --input selected_crops.npy \
   --modality image --head compound --per-crop --device cuda \
   --output runs/biomoax_crop_features.npy
 bash scripts/14_identity_retrieval.sh --features runs/biomoax_crop_features.npy \
@@ -105,7 +105,7 @@ The metadata CSV has one `record_id,label,source_row` row per feature vector, in
 
 CellProfiler uses feature-wise medians on each side. Nonfinite aggregate entries use gallery medians, or zero for an entirely missing gallery feature. `--method mean` instead averages finite crop features (DP vectors or BioMoAX normalized crop embeddings). It does not encode raw images. Both modes normalize profiles and rank by cosine similarity, retaining a drug's other crops as its positive gallery entry. Ties use ascending drug-label order. Zero aggregate profiles remain zero under normalization, following the identity calculation.
 
-Outputs are per-split `metrics.csv`, per-drug `ranks.csv`, explicit `splits.csv`, and `summary.csv` (mean and sample SD over splits). Run each BioMoAX checkpoint separately; the paper's model uncertainty is across checkpoint means, not this single-run split SD. Exact paper values also require the same crop feature pool and labels. This command is separate from MOA retrieval and does not use MOA-positive masks.
+Outputs are per-split `metrics.csv`, per-drug `ranks.csv`, explicit `splits.csv`, and `summary.csv` (mean and sample SD over splits). This summary reports variation across crop splits; the paper's model aggregation is documented in [REPRODUCTION.md](REPRODUCTION.md). Exact paper values also require the same crop feature pool and labels. This command is separate from MOA retrieval and does not use MOA-positive masks.
 
 ### MOA and genetic retrieval
 
@@ -121,7 +121,7 @@ Set `QUERY_FEATURES` and `GALLERY_FEATURES` to finite, nonzero condition-level e
 
 `POSITIVE_PAIRS` is a CSV with `query_id,gallery_id` columns specifying the task's positive links. `EXCLUDED_PAIRS`, when supplied, has the same format. Empty exclusion configuration means **no exclusions**; for same-cell MOA retrieval, explicitly include the same-record pairs. The runner does not infer MOA overlap, chemical identity or target annotations from names. CRISPR target anchors/one-hop MOA expansion must be resolved upstream. Unknown IDs fail, rather than being silently dropped.
 
-The stage writes `retrieval.npz` and `metrics.json`. Queries without eligible positives are handled by the existing evaluator. ID arrays are preserved in the NPZ for traceability. Run condition-feature preparation above before evaluation. Ridge mappings and checkpoint choice remain explicit; the core `encode` and `ridge-fit` commands are also available separately.
+The stage writes `retrieval.npz` and `metrics.json`. Queries without eligible positives are handled by the existing evaluator. ID arrays are preserved in the NPZ for traceability. Run condition-feature preparation above before evaluation. Image encoding uses the pretrained model by default; the core `encode` and `ridge-fit` commands are also available separately.
 
 ## Logs and failure behavior
 

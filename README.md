@@ -28,20 +28,22 @@ The bundled observations, UMAP coordinates and small image examples reproduce th
 
 `paper/main.tex` is the current English manuscript, using the supplied LNCS class, one-inch margins and splncs04 bibliography. Its five approved PDF figures are included. Redrawing uses installed Liberation Sans or DejaVu Sans; font glyphs can differ from the approved figures, which contain embedded Arial subsets.
 
-## Models and data
+## Pretrained model
 
-The pretrained **seed46_ep028** model is available from [GitHub Releases](https://github.com/YaningHan/BioMoAX/releases/tag/weights-v1.0) (145,000,600 bytes; approximately 138.3 MiB). It includes both encoders and both compound/MOA projection-head pairs.
+Download the [BioMoAX pretrained model](https://github.com/YaningHan/BioMoAX/releases/tag/weights-v1.0) and encode your image crops:
 
 ```bash
-python scripts/download_checkpoint.py --project-root .
-python scripts/check_checkpoints.py --project-root . --id seed46_ep028
+python scripts/download_checkpoint.py
+biomoax encode --input crops.npy --modality image --output embeddings.npy
 ```
 
-The downloader verifies the file size and SHA-256 in the [checkpoint manifest](manifests/checkpoints.json). This is a single pretrained model for inference. Several paper summaries aggregate three retained checkpoints; the public checkpoint alone does not reproduce those model-averaged results or the other checkpoints' case networks. The bundled figure/statistics reproduction remains available without weights. [Checkpoint notes](docs/CHECKPOINTS.md) explain panel assignments and integrity checks.
+The download is verified automatically using its file size and SHA-256. Encoding uses the pretrained model and MOA head by default. Image input is a uint16 array of shape `[N, 5, 128, 128]`; the output is a normalized 256-dimensional condition embedding. The model also encodes expression profiles. See [model usage](docs/CHECKPOINTS.md) for input details and [evaluation protocols](docs/REPRODUCTION.md) for the paper settings.
+
+## Training data
 
 ```bash
 biomoax check-data --project-root /path/to/data-root
-biomoax train --project-root /path/to/data-root --output /path/to/run --seed 43 --preflight
+biomoax train --project-root /path/to/data-root --output /path/to/run --preflight
 ```
 
 Training uses the static modules in `src/biomoax/training/`. It requires the processed input contract, CUDA with BF16 support and sufficient host memory. Preflight performs two updates; it is not a full training run. See the CLI help for exact arguments and [protocol notes](docs/REPRODUCTION.md) for data splits, checkpoint selection, uncertainties and baseline feature units.

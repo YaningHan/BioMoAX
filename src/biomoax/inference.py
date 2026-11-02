@@ -1,11 +1,12 @@
-"""Load historical state dictionaries and encode one condition at a time."""
+"""Load the pretrained BioMoAX model and encode one condition at a time."""
 import numpy as np
 import torch
 from torch.nn import functional as F
 from .model import ImageBackbone, ExprBackbone, ProjHead, gpu_normalize
+from .defaults import DEFAULT_CHECKPOINT
 
 
-def load_models(path, device="cpu", head="moa"):
+def load_models(path=DEFAULT_CHECKPOINT, device="cpu", head="moa"):
     if head not in {"moa", "compound"}:
         raise ValueError("head must be moa or compound")
     # Historical checkpoints include RNG tuples. Load only checkpoints from trusted sources.

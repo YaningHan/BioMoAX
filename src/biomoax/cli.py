@@ -6,6 +6,7 @@ from pathlib import Path
 import subprocess
 import sys
 import numpy as np
+from .defaults import DEFAULT_CHECKPOINT
 
 
 def main():
@@ -27,7 +28,7 @@ def main():
     rp.add_argument("--direction", choices=["i2e", "e2i"], required=True)
     rp.add_argument("--output", type=Path, required=True, help="New directory for mapped .npy files")
     en = sub.add_parser("encode", help="Encode crops of one condition, or expression rows")
-    en.add_argument("--checkpoint", type=Path, required=True)
+    en.add_argument("--checkpoint", type=Path, default=DEFAULT_CHECKPOINT, help="Pretrained model path (download with scripts/download_checkpoint.py)")
     en.add_argument("--input", type=Path, required=True)
     en.add_argument("--output", type=Path, required=True)
     en.add_argument("--modality", choices=["image","expression"], required=True)
